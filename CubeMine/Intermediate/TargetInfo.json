@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CubeMine",
+			"Path": "C:\\Users\\ES58\\Documents\\GitHub\\cubeMine\\CubeMine\\Source\\CubeMine.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CubeMineEditor",
+			"Path": "C:\\Users\\ES58\\Documents\\GitHub\\cubeMine\\CubeMine\\Source\\CubeMineEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

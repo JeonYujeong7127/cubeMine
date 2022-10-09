@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CubeMine.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CubeMine.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CubeMineEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CubeMine">
+      <UniqueIdentifier>{F4C84B4B-B777-361A-A784-F9429CB8FEF1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CubeMine\CubeMine.Build.cs">
+      <Filter>Source\CubeMine</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CubeMine\CubeMine.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\CubeMine.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\CubeMineCharacter.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\CubeMineCharacter.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\CubeMineGameMode.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\CubeMineGameMode.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
