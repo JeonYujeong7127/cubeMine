@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\CubeMine.uproject" />
     <Filter Include="Source">
@@ -32,6 +32,12 @@
     <Filter Include="Source\CubeMine">
       <UniqueIdentifier>{F4C84B4B-B777-361A-A784-F9429CB8FEF1}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\CubeMine\CM_MineUI.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\CM_MineUI.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
     <None Include="..\..\Source\CubeMine\CubeMine.Build.cs">
       <Filter>Source\CubeMine</Filter>
     </None>
