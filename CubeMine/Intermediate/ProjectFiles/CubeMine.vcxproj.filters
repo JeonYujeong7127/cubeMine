@@ -29,6 +29,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\CubeMine">
       <UniqueIdentifier>{F4C84B4B-B777-361A-A784-F9429CB8FEF1}</UniqueIdentifier>
     </Filter>
@@ -62,6 +68,12 @@
     <ClCompile Include="..\..\Source\CubeMine\Private\AAI_Character.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\AIWaypoint.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BotMovementCharacter.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\CubeMine\Public">
       <UniqueIdentifier>{EF00EF52-17F6-3088-8620-928D56C4674F}</UniqueIdentifier>
     </Filter>
@@ -69,6 +81,12 @@
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CubeMine\Public\AAI_Character.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\AIWaypoint.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BotMovementCharacter.h">
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
   </ItemGroup>

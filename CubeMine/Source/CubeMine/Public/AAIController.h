@@ -26,6 +26,23 @@ public:
 	UFUNCTION()
 		void OnPawnDetected(const TArray<AActor*> &DetectedPawns);
 
+	UFUNCTION()
+		void BeginOverlap();
+
+	UFUNCTION()
+		void LoopAttackAction();
+
+	UFUNCTION()
+		void AttackPlayer();
+
+	UFUNCTION()
+		void EndOverlap();
+
+	UFUNCTION()
+		void AttackPlayerAction();
+
+public:
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
 		float AISightRadius = 500.0f;
 
@@ -40,4 +57,22 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
 		class UAISenseConfig_Sight* SightConfig;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
+		bool bIsPlayerDetected = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
+		float DistanceToPlayer = 0.0f;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bIsAttack = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bIsRunning = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bIsOverlap = false;
+
+	FTimerHandle CountdownTimerHandle;
+
 };

@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\aiwaypoint.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\source\\cubemine\\public\\aiwaypoint.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\boxcomponent.generated.h",
+            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\aiwaypoint.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -17,11 +17,21 @@ class AActor;
 #define FID_CubeMine_Source_CubeMine_Public_AAIController_h_12_SPARSE_DATA
 #define FID_CubeMine_Source_CubeMine_Public_AAIController_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAttackPlayerAction); \
+	DECLARE_FUNCTION(execEndOverlap); \
+	DECLARE_FUNCTION(execAttackPlayer); \
+	DECLARE_FUNCTION(execLoopAttackAction); \
+	DECLARE_FUNCTION(execBeginOverlap); \
 	DECLARE_FUNCTION(execOnPawnDetected);
 
 
 #define FID_CubeMine_Source_CubeMine_Public_AAIController_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execAttackPlayerAction); \
+	DECLARE_FUNCTION(execEndOverlap); \
+	DECLARE_FUNCTION(execAttackPlayer); \
+	DECLARE_FUNCTION(execLoopAttackAction); \
+	DECLARE_FUNCTION(execBeginOverlap); \
 	DECLARE_FUNCTION(execOnPawnDetected);
 
 
