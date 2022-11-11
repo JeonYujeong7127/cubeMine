@@ -831,3 +831,9 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.11-14.43.44:018][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.11.11-14.43.44:027][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2022.11.11-14.43.44:056][422]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.11.11-14.52.16:506][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.11.11-14.52.16:521][803]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.004978 seconds
+[2022.11.11-14.52.16:806][803]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto1
+[2022.11.11-14.52.16:807][803]LogSavePackage: Moving '../../../../../../Users/hyunsu/Documents/Unreal Projects/CubeMine/Saved/ThirdPersonMap_Auto124BB5E69440F54C214B02EA8D7691DED.tmp' to '../../../../../../Users/hyunsu/Documents/Unreal Projects/CubeMine/Saved/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto1.umap'
+[2022.11.11-14.52.16:821][803]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.322
+[2022.11.11-14.52.16:821][803]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.322
