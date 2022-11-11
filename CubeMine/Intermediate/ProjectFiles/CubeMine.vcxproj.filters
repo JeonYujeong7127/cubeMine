@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\CubeMine.uproject" />
     <Filter Include="Source">
@@ -29,6 +29,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\CubeMine">
       <UniqueIdentifier>{F4C84B4B-B777-361A-A784-F9429CB8FEF1}</UniqueIdentifier>
     </Filter>
@@ -51,6 +57,54 @@
       <Filter>Source\CubeMine</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CubeMine\CubeMineGameMode.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\Explosive.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\Explosive.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\Item.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\Item.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainAnimInstance.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainAnimInstance.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainCharacter.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainCharacter.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainGameMode.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainGameMode.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainPlayerController.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainPlayerController.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\PickUp.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\PickUp.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\Weapon.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\Weapon.h">
       <Filter>Source\CubeMine</Filter>
     </ClInclude>
   </ItemGroup>
