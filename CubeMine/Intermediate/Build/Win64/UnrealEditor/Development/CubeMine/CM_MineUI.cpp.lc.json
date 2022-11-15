@@ -146,7 +146,16 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\panelslot.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\panelwidget.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\contentwidget.generated.h",
-            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\button.generated.h"
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\button.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\umg\\public\\components\\textblock.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\umg\\public\\components\\textwidgettypes.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\textwidgettypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\textblock.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\umg\\public\\components\\image.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\public\\slate\\slatetextureatlasinterface.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\slatetextureatlasinterface.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\image.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeCubeMineCharacter() {}
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeMineCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_CameraBoom_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeMineCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeCubeMineCharacter() {}
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeMineCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeMineCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_FollowCamera_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubeMineCharacter_Statics::NewProp_TurnRateGamepad_MetaData[] = {
 		{ "Category", "Input" },
@@ -129,9 +129,9 @@ void EmptyLinkFunctionForGeneratedCodeCubeMineCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CubeMineCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACubeMineCharacter, ACubeMineCharacter::StaticClass, TEXT("ACubeMineCharacter"), &Z_Registration_Info_UClass_ACubeMineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACubeMineCharacter), 297706708U) },
+		{ Z_Construct_UClass_ACubeMineCharacter, ACubeMineCharacter::StaticClass, TEXT("ACubeMineCharacter"), &Z_Registration_Info_UClass_ACubeMineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACubeMineCharacter), 4038565991U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CubeMineCharacter_h_455156550(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CubeMineCharacter_h_3425442002(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CubeMineCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CubeMineCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
