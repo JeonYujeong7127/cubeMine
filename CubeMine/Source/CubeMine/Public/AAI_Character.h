@@ -9,6 +9,8 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "AAI_Character.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
+
 UCLASS()
 class CUBEMINE_API AAAI_Character : public ACharacter
 {
@@ -29,9 +31,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 		class UBehaviorTree* TreeAsset;
 
+	void Attack();
+	FOnAttackEndDelegate OnAttackEnd;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool IsAttack = false;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 

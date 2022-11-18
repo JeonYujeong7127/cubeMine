@@ -37,17 +37,6 @@ AAAIController::AAAIController()
 void AAAIController::BeginPlay()
 {
 	Super::BeginPlay();
-
-	//DistanceToPlayer = GetPawn()->GetDistanceTo(GetWorld()->GetFirstPlayerController()->GetPawn());
-
-	if (GetPerceptionComponent() != nullptr)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("All Systems Set"));
-	} 
-	else 
-	{
-		UE_LOG(LogTemp, Warning, TEXT("System Set Failed"));
-	}
 	
 }
 

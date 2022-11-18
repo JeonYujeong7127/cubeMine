@@ -77,6 +77,9 @@
     <ClCompile Include="..\..\Source\CubeMine\Private\BTService_Detect.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTTaskNode_Attack.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CubeMine\Private\BTTask_Patrol.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
@@ -96,6 +99,9 @@
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CubeMine\Public\BTService_Detect.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTTaskNode_Attack.h">
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CubeMine\Public\BTTask_Patrol.h">

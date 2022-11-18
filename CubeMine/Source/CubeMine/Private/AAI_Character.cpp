@@ -28,6 +28,13 @@ void AAAI_Character::BeginPlay()
 	Super::BeginPlay();
 }
 
+void AAAI_Character::Attack()
+{
+	IsAttack = false;
+	UE_LOG(LogTemp, Warning, TEXT("Attack Begin"));
+	IsAttack = true;
+	OnAttackEnd.Broadcast();
+}
 // Called every frame
 void AAAI_Character::Tick(float DeltaTime)
 {

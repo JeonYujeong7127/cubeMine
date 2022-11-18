@@ -102,7 +102,9 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
-            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\aai_character.generated.h"
+            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\aai_character.generated.h",
+            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\source\\cubemine\\cubeminecharacter.h",
+            "c:\\users\\es58\\documents\\github\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\cubeminecharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

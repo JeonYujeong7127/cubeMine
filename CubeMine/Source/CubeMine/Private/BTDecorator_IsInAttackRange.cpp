@@ -5,6 +5,7 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "AAI_Character.h"
 #include "AAIController.h"
+#include "CubeMine/CubeMineCharacter.h"
 
 bool UBTDecorator_IsInAttackRange::CalculateRawConditionValue(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) const
 {
@@ -15,9 +16,12 @@ bool UBTDecorator_IsInAttackRange::CalculateRawConditionValue(UBehaviorTreeCompo
 	if (nullptr == ControllingPawn)
 		return false;
 
-	auto Target = Cast<AAAI_Character>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(AAAIController::TargetKey));
-	if (nullptr == Target)
+	auto Target = Cast<ACubeMineCharacter>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(AAAIController::TargetKey));
+	if (nullptr == Target) {
+		UE_LOG(LogTemp, Warning, TEXT("Target Failed"));
 		return false;
+	}
+		
 	bResult = (Target->GetDistanceTo(ControllingPawn) <= 200.0f);
 	return bResult;
 }

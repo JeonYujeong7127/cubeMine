@@ -34,16 +34,14 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 	{
 		for (auto OverlapResult : OverlapResults)
 		{
-			AAAI_Character* ACharacterObject = Cast<AAAI_Character>(OverlapResult.GetActor());
-			//컨트롤러가 플레이어의 컨트롤러라면
-			if (ACharacterObject && ACharacterObject->GetController()->IsPlayerController())
-			{
-				OwnerComp.GetBlackboardComponent()->SetValueAsObject(AAAIController::TargetKey, ACharacterObject);
+			if (OverlapResult.GetActor() == GetWorld()->GetFirstPlayerController()->GetPawn()) {
+				UE_LOG(LogTemp, Warning, TEXT("Object Overlap"));
+				OwnerComp.GetBlackboardComponent()->SetValueAsObject(AAAIController::TargetKey, OverlapResult.GetActor());
 
 				//반경을 보여준다
 				DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Green, false, 0.2f);
-				DrawDebugPoint(World, ACharacterObject->GetActorLocation(), 10.0f, FColor::Blue, false, 0.2f);
-				DrawDebugLine(World, ControllingPawn->GetActorLocation(), ACharacterObject->GetActorLocation(), FColor::Blue, false, 0.2f);
+				DrawDebugPoint(World, OverlapResult.GetActor()->GetActorLocation(), 10.0f, FColor::Blue, false, 0.2f);
+				DrawDebugLine(World, ControllingPawn->GetActorLocation(), OverlapResult.GetActor()->GetActorLocation(), FColor::Blue, false, 0.2f);
 				return;
 			}
 		}
