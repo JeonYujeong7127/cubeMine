@@ -3,7 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "AIController.h"
+#include "BehaviorTree/BehaviorTree.h"
+#include "BehaviorTree/BlackboardComponent.h"
+#include "BehaviorTree/BehaviorTreeComponent.h"
 #include "AAIController.generated.h"
 
 UCLASS()
@@ -18,61 +22,17 @@ public:
 	
 	virtual void OnPossess(APawn* InPawn) override;
 
-	virtual void Tick(float DeltaSeconds) override;
+public:
+	static const FName HomePosKey;
+	static const FName PatrolPosKey;
+	static const FName TargetKey;
 
-	virtual FRotator GetControlRotation() const override;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
+		class UBehaviorTree* BTAsset;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
+		class UBlackboardData* BBAsset;
 
 public:
-	UFUNCTION()
-		void OnPawnDetected(const TArray<AActor*> &DetectedPawns);
-
-	UFUNCTION()
-		void BeginOverlap();
-
-	UFUNCTION()
-		void LoopAttackAction();
-
-	UFUNCTION()
-		void AttackPlayer();
-
-	UFUNCTION()
-		void EndOverlap();
-
-	UFUNCTION()
-		void AttackPlayerAction();
-
-public:
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		float AISightRadius = 500.0f;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		float AISightAge = 5.f;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		float AILosesSightRadius = AISightRadius + 50.0f;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		float AIFieldOfView = 90.0f;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		class UAISenseConfig_Sight* SightConfig;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		bool bIsPlayerDetected = false;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-		float DistanceToPlayer = 0.0f;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool bIsAttack = false;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool bIsRunning = false;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool bIsOverlap = false;
-
-	FTimerHandle CountdownTimerHandle;
 
 };

@@ -68,10 +68,16 @@
     <ClCompile Include="..\..\Source\CubeMine\Private\AAI_Character.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\CubeMine\Private\AIWaypoint.cpp">
+    <ClCompile Include="..\..\Source\CubeMine\Private\BotMovementCharacter.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\CubeMine\Private\BotMovementCharacter.cpp">
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTService_Detect.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTTask_Patrol.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
     <Filter Include="Source\CubeMine\Public">
@@ -83,10 +89,16 @@
     <ClInclude Include="..\..\Source\CubeMine\Public\AAI_Character.h">
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\CubeMine\Public\AIWaypoint.h">
+    <ClInclude Include="..\..\Source\CubeMine\Public\BotMovementCharacter.h">
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\CubeMine\Public\BotMovementCharacter.h">
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTService_Detect.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTTask_Patrol.h">
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
   </ItemGroup>

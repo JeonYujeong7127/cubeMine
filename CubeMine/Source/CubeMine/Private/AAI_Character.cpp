@@ -10,6 +10,9 @@ AAAI_Character::AAAI_Character()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	AIControllerClass = AAAIController::StaticClass();
+	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+
 	/*
 	CapsuleComponent = GetCapsuleComponent();
 	CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &AAAI_Character::OnPlayerEnter);
@@ -37,19 +40,5 @@ void AAAI_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-}
-
-void AAAI_Character::OnPlayerEnter(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OhterComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	if (OtherActor == GetWorld()->GetFirstPlayerController()->GetPawn()) {
-		AIController = Cast<AAAIController>(GetController());
-		AIController->BeginOverlap();
-	}
-}
-
-void AAAI_Character::OnPlayerExit(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OhterComponent, int32 OtherBodyIndex)
-{
-	AIController = Cast<AAAIController>(GetController());
-	AIController->EndOverlap();
 }
 

@@ -6,6 +6,7 @@
 #include "AAIController.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/Character.h"
+#include "BehaviorTree/BehaviorTree.h"
 #include "AAI_Character.generated.h"
 
 UCLASS()
@@ -18,9 +19,6 @@ public:
 	AAAI_Character();
 
 	UPROPERTY(EditAnywhere, BlueprintReadwrite)
-		class AAIWaypoint* NextWaypoint;
-
-	UPROPERTY(EditAnywhere, BlueprintReadwrite)
 	AAAIController* AIController;
 
 protected:
@@ -28,16 +26,13 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+		class UBehaviorTree* TreeAsset;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	UFUNCTION(BlueprintCallable)
-		void OnPlayerEnter(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OhterComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-
-	UFUNCTION(BlueprintCallable)
-		void OnPlayerExit(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OhterComponent, int32 OtherBodyIndex);
 
 };
