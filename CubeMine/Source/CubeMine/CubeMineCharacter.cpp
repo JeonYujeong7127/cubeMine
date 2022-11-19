@@ -91,13 +91,15 @@ void ACubeMineCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 void ACubeMineCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	APlayerController* PC = Cast<APlayerController>(GetController());
 
 	if (IsValid(MineWidgetClass))
 	{
 		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
 		if (IsValid(MineWidget))
 		{
-			MineWidget->SetVisibility(ESlateVisibility::Collapsed);
+			PC->bShowMouseCursor = true;
+			MineWidget->SetVisibility(ESlateVisibility::Visible);
 			MineWidget->AddToViewport();
 		}
 	}

@@ -16,7 +16,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_CubeMine_Source_CubeMine_CM_MineUI_h_16_SPARSE_DATA
 #define FID_CubeMine_Source_CubeMine_CM_MineUI_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execButton00RightClick); \
 	DECLARE_FUNCTION(execButton77Callback); \
 	DECLARE_FUNCTION(execButton76Callback); \
 	DECLARE_FUNCTION(execButton75Callback); \
@@ -85,7 +84,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_CubeMine_Source_CubeMine_CM_MineUI_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execButton00RightClick); \
 	DECLARE_FUNCTION(execButton77Callback); \
 	DECLARE_FUNCTION(execButton76Callback); \
 	DECLARE_FUNCTION(execButton75Callback); \
