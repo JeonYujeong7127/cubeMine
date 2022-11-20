@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\mainplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "d:\\unreal projects\\cubemine\\source\\cubemine\\mainplayercontroller.h",
+            "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\mainplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

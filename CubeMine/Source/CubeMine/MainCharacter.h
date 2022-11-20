@@ -36,6 +36,9 @@ public:
 	// Sets default values for this character's properties
 	AMainCharacter();
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Items)
+	class AWeapon* EquippedWeapon;
+
 	UPROPERTY(VisibleAnyWhere, BlueprintReadWrite, Category = "Enums")
 	EMovementStatus MovementStatus;
 
@@ -142,4 +145,6 @@ public:
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
 };

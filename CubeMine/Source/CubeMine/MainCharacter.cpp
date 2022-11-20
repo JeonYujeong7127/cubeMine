@@ -52,7 +52,7 @@ AMainCharacter::AMainCharacter()
 
 	GetCharacterMovement()->JumpZVelocity = 350.f;
 	GetCharacterMovement()->AirControl = 0.2f;
-	GetCharacterMovement()->MaxWalkSpeed = 500.f;
+	GetCharacterMovement()->MaxWalkSpeed = 250.f;
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 
@@ -62,8 +62,8 @@ AMainCharacter::AMainCharacter()
 	Stamina = 120.f;
 	Keys = 0;
 
-	RunningSpeed = 650.f;
-	SprintingSpeed = 950.f;
+	RunningSpeed = 400.f;
+	SprintingSpeed = 650.f;
 
 	bShiftKeyDown = false;
 

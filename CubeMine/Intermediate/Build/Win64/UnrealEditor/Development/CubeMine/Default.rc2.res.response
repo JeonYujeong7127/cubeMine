@@ -64,5 +64,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=CubeMine
-/fo "C:\Users\hyunsu\Documents\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Default.rc2.res"
+/fo "D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

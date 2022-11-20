@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\pickup.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "d:\\unreal projects\\cubemine\\source\\cubemine\\pickup.h",
+            "d:\\unreal projects\\cubemine\\source\\cubemine\\item.h",
+            "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\item.generated.h",
+            "d:\\unreal projects\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\pickup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

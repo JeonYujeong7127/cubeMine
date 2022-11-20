@@ -21,6 +21,8 @@ void APickUp::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* O
 		if (Main)
 		{
 			Main->IncrementKeys(KeyCount);
+
+			Destroy();
 		}
 	}
 }
