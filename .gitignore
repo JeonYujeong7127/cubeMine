@@ -96,3 +96,4 @@ Plugins/**/Binaries/*
 Plugins/**/Intermediate/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unrealengine
+*.log
