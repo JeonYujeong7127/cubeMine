@@ -1,12 +1,12 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "c:\\gameprogramming\\cubemine\\source\\cubemine\\cubemine.cpp",
+        "Source": "c:\\unreal project\\cubeminej\\cubemine\\source\\cubemine\\cubemine.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\gameprogramming\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\unreal project\\cubeminej\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\gameprogramming\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\gameprogramming\\cubemine\\source\\cubemine\\cubemine.h"
+            "c:\\unreal project\\cubeminej\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\unreal project\\cubeminej\\cubemine\\source\\cubemine\\cubemine.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

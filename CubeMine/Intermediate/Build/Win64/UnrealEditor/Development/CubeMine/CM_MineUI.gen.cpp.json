@@ -1,12 +1,12 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "c:\\gameprogramming\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\cm_mineui.gen.cpp",
+        "Source": "c:\\unreal project\\cubeminej\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\cm_mineui.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\gameprogramming\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\unreal project\\cubeminej\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\gameprogramming\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\gameprogramming\\cubemine\\source\\cubemine\\cm_mineui.h",
+            "c:\\unreal project\\cubeminej\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\unreal project\\cubeminej\\cubemine\\source\\cubemine\\cm_mineui.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\umg\\public\\blueprint\\userwidget.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\uobject\\objectsavecontext.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\umg\\public\\components\\slatewrappertypes.h",
@@ -138,7 +138,7 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\dynamicpropertypath.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\widgetblueprintgeneratedclass.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\userwidget.generated.h",
-            "c:\\gameprogramming\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\cm_mineui.generated.h"
+            "c:\\unreal project\\cubeminej\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\cm_mineui.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

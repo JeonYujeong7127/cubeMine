@@ -15,15 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 	UPackage* Z_Construct_UPackage__Script_CubeMine();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
-	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(UCM_MineUI::execButton00RightClick)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->Button00RightClick();
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(UCM_MineUI::execButton77Callback)
 	{
 		P_FINISH;
@@ -477,7 +469,6 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		UClass* Class = UCM_MineUI::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Button00Callback", &UCM_MineUI::execButton00Callback },
-			{ "Button00RightClick", &UCM_MineUI::execButton00RightClick },
 			{ "Button01Callback", &UCM_MineUI::execButton01Callback },
 			{ "Button02Callback", &UCM_MineUI::execButton02Callback },
 			{ "Button03Callback", &UCM_MineUI::execButton03Callback },
@@ -563,28 +554,6 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UCM_MineUI_Button00RightClick_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCM_MineUI_Button00RightClick_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "CM_MineUI.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button00RightClick_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button00RightClick", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button00RightClick_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button00RightClick_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UCM_MineUI_Button00RightClick()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UCM_MineUI_Button00RightClick_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -2498,10 +2467,6 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_TT_77_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_TT_77;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_FF_00_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_FF_00;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -2512,7 +2477,6 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCM_MineUI_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UCM_MineUI_Button00Callback, "Button00Callback" }, // 3891975166
-		{ &Z_Construct_UFunction_UCM_MineUI_Button00RightClick, "Button00RightClick" }, // 3699578048
 		{ &Z_Construct_UFunction_UCM_MineUI_Button01Callback, "Button01Callback" }, // 4107731191
 		{ &Z_Construct_UFunction_UCM_MineUI_Button02Callback, "Button02Callback" }, // 393357951
 		{ &Z_Construct_UFunction_UCM_MineUI_Button03Callback, "Button03Callback" }, // 749893406
@@ -3735,15 +3699,6 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_TT_77 = { "TT_77", nullptr, (EPropertyFlags)0x00200800000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, TT_77), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_TT_77_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_TT_77_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_00_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "CM_MineUI" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "CM_MineUI.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_00 = { "FF_00", nullptr, (EPropertyFlags)0x00200800000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, FF_00), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_00_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_00_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCM_MineUI_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_BT_00,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_BT_01,
@@ -3873,7 +3828,6 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_TT_75,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_TT_76,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_TT_77,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_00,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCM_MineUI_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCM_MineUI>::IsAbstract,
@@ -3911,9 +3865,9 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UCM_MineUI, UCM_MineUI::StaticClass, TEXT("UCM_MineUI"), &Z_Registration_Info_UClass_UCM_MineUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCM_MineUI), 737339317U) },
+		{ Z_Construct_UClass_UCM_MineUI, UCM_MineUI::StaticClass, TEXT("UCM_MineUI"), &Z_Registration_Info_UClass_UCM_MineUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCM_MineUI), 3613525054U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_488275164(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_443373439(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
