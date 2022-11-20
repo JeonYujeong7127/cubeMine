@@ -13,9 +13,13 @@ bool UBTDecorator_IsInAttackRange::CalculateRawConditionValue(UBehaviorTreeCompo
 
 	auto ControllingPawn = OwnerComp.GetAIOwner()->GetPawn();
 
+	
 	if (nullptr == ControllingPawn)
 		return false;
 
+	auto ABCharacter = Cast<AAAI_Character>(OwnerComp.GetAIOwner()->GetPawn());
+	//if (ABCharacter->IsAttack == true)	return true;
+	
 	auto Target = Cast<ACubeMineCharacter>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(AAAIController::TargetKey));
 	if (nullptr == Target) {
 		UE_LOG(LogTemp, Warning, TEXT("Target Failed"));
@@ -23,5 +27,7 @@ bool UBTDecorator_IsInAttackRange::CalculateRawConditionValue(UBehaviorTreeCompo
 	}
 		
 	bResult = (Target->GetDistanceTo(ControllingPawn) <= 200.0f);
+	OwnerComp.GetBlackboardComponent()->SetValueAsBool(AAAIController::AttackKey, bResult);
+	ABCharacter->IsInside = bResult;
 	return bResult;
 }

@@ -9,6 +9,7 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "AAI_Character.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnAttackHitCheckDelegate);
 DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
 
 UCLASS()
@@ -27,19 +28,33 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 public:	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 		class UBehaviorTree* TreeAsset;
 
-	void Attack();
-	FOnAttackEndDelegate OnAttackEnd;
+	UFUNCTION()
+		void Attack();
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UFUNCTION()
+		void AnimNotify_AttackHitCheck();
+
+	UFUNCTION()
+		void AnimNotify_EndAttack();
+
+	//FOnAttackHitCheckDelegate	OnAttackHitCheck;
+	FOnAttackEndDelegate OnAttackEnd;
+	FTimerHandle AttackHandle;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	bool IsAttack = false;
+		bool IsAttack = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool IsWaiting = false;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool IsInside = false;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 };

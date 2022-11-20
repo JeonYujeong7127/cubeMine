@@ -36,7 +36,7 @@ public: \
 
 #define FID_CubeMine_Source_CubeMine_Public_BTTaskNode_Attack_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UBTTaskNode_Attack(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UBTTaskNode_Attack(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBTTaskNode_Attack) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBTTaskNode_Attack); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBTTaskNode_Attack); \
@@ -48,8 +48,6 @@ public:
 
 
 #define FID_CubeMine_Source_CubeMine_Public_BTTaskNode_Attack_h_12_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UBTTaskNode_Attack(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UBTTaskNode_Attack(UBTTaskNode_Attack&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBTTaskNode_Attack); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBTTaskNode_Attack); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBTTaskNode_Attack)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UBTTaskNode_Attack)
 
 
 #define FID_CubeMine_Source_CubeMine_Public_BTTaskNode_Attack_h_9_PROLOG

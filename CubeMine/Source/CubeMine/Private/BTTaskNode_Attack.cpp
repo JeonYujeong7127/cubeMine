@@ -4,9 +4,18 @@
 #include "BTTaskNode_Attack.h"
 #include "AAI_Character.h"
 #include "AAIController.h"
+#include "BehaviorTree/BlackboardComponent.h"
+#include "BehaviorTree/BlackboardData.h"
+
+const FName UBTTaskNode_Attack::AttackKey(TEXT("Attack"));
+
+UBTTaskNode_Attack::UBTTaskNode_Attack() {
+	bNotifyTick = true;
+}
 
 EBTNodeResult::Type UBTTaskNode_Attack::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
+	
 	EBTNodeResult::Type Result = Super::ExecuteTask(OwnerComp, NodeMemory);
 
 	auto ABCharacter = Cast<AAAI_Character>(OwnerComp.GetAIOwner()->GetPawn());
@@ -16,6 +25,7 @@ EBTNodeResult::Type UBTTaskNode_Attack::ExecuteTask(UBehaviorTreeComponent& Owne
 	ABCharacter->Attack();
 	IsAttacking = true;
 	//람다식.ABCharacter이 AttackEnd Delegate를 호출하면 IsAttacking을 false로
+
 	ABCharacter->OnAttackEnd.AddLambda([this]()->void {
 		IsAttacking = false;
 		});

@@ -15,6 +15,7 @@
 const FName AAAIController::HomePosKey(TEXT("HomePos"));
 const FName AAAIController::PatrolPosKey(TEXT("PatrolPos"));
 const FName AAAIController::TargetKey(TEXT("Target"));
+const FName AAAIController::AttackKey(TEXT("Attack"));
 
 AAAIController::AAAIController() 
 {

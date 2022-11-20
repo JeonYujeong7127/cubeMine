@@ -13,10 +13,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CUBEMINE_AAI_Character_generated_h
 
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_SPARSE_DATA
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_RPC_WRAPPERS
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_SPARSE_DATA
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_EndAttack); \
+	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck); \
+	DECLARE_FUNCTION(execAttack);
+
+
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_EndAttack); \
+	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck); \
+	DECLARE_FUNCTION(execAttack);
+
+
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAAI_Character(); \
 	friend struct Z_Construct_UClass_AAAI_Character_Statics; \
@@ -25,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(AAAI_Character)
 
 
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_INCLASS \
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAAAI_Character(); \
 	friend struct Z_Construct_UClass_AAAI_Character_Statics; \
@@ -34,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(AAAI_Character)
 
 
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_STANDARD_CONSTRUCTORS \
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAAI_Character(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAAI_Character) \
@@ -47,7 +59,7 @@ private: \
 public:
 
 
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAAI_Character(AAAI_Character&&); \
@@ -58,25 +70,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAAI_Character)
 
 
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_14_PROLOG
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_GENERATED_BODY_LEGACY \
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_15_PROLOG
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_SPARSE_DATA \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_RPC_WRAPPERS \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_INCLASS \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_STANDARD_CONSTRUCTORS \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_SPARSE_DATA \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_RPC_WRAPPERS \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_INCLASS \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_GENERATED_BODY \
+#define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_SPARSE_DATA \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_INCLASS_NO_PURE_DECLS \
-	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_17_ENHANCED_CONSTRUCTORS \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_SPARSE_DATA \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_INCLASS_NO_PURE_DECLS \
+	FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

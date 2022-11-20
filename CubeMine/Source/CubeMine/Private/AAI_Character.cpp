@@ -12,6 +12,7 @@ AAAI_Character::AAAI_Character()
 
 	AIControllerClass = AAAIController::StaticClass();
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+	auto AnimInstance = Cast<UAnimInstance>(GetMesh()->GetAnimInstance());
 
 	/*
 	CapsuleComponent = GetCapsuleComponent();
@@ -26,15 +27,38 @@ AAAI_Character::AAAI_Character()
 void AAAI_Character::BeginPlay()
 {
 	Super::BeginPlay();
+	IsAttack = false;
 }
 
 void AAAI_Character::Attack()
 {
-	IsAttack = false;
-	UE_LOG(LogTemp, Warning, TEXT("Attack Begin"));
 	IsAttack = true;
-	OnAttackEnd.Broadcast();
+	IsWaiting = true;
+	UE_LOG(LogTemp, Warning, TEXT("Start Timer"));
+
+
+	GetWorld()->GetTimerManager().SetTimer(AttackHandle, FTimerDelegate::CreateLambda([&]()
+		{
+			IsWaiting = false;
+			if (!IsInside) {
+				UE_LOG(LogTemp, Warning, TEXT("End Timer"));
+				OnAttackEnd.Broadcast();
+				IsAttack = false;
+				GetWorld()->GetTimerManager().ClearTimer(AttackHandle);
+			}else UE_LOG(LogTemp, Warning, TEXT("Call Timer"));
+		}), 1.5f, true);
+
 }
+
+void AAAI_Character::AnimNotify_AttackHitCheck()
+{
+}
+
+void AAAI_Character::AnimNotify_EndAttack()
+{
+}
+
+
 // Called every frame
 void AAAI_Character::Tick(float DeltaTime)
 {
