@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Unreal Project\\cubeMinej\\CubeMine\\Source\\CubeMine\\CubeMine.Build.cs",
-		"C:\\Unreal Project\\cubeMinej\\CubeMine\\Source\\CubeMine.Target.cs",
-		"C:\\Unreal Project\\cubeMinej\\CubeMine\\Source\\CubeMineEditor.Target.cs"
+		"C:\\Users\\VR\\Desktop\\unreal\\cubeMine\\CubeMine\\Source\\CubeMine\\CubeMine.Build.cs",
+		"C:\\Users\\VR\\Desktop\\unreal\\cubeMine\\CubeMine\\Source\\CubeMine.Target.cs",
+		"C:\\Users\\VR\\Desktop\\unreal\\cubeMine\\CubeMine\\Source\\CubeMineEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

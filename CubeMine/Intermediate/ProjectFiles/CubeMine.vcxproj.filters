@@ -65,5 +65,11 @@
     <ClInclude Include="..\..\Source\CubeMine\CubeMineGameMode.h">
       <Filter>Source\CubeMine</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MyFirstActor.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MyFirstActor.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

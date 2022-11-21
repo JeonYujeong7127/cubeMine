@@ -8,6 +8,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "MyFirstActor.h" // AMyFirstActor
+
 
 //////////////////////////////////////////////////////////////////////////
 // ACubeMineCharacter
@@ -91,14 +94,50 @@ void ACubeMineCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 void ACubeMineCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	UE_LOG(LogTemp, Log, TEXT("Hello!!"));
+
+	APlayerController* PC = Cast<APlayerController>(GetController());
+	UWorld* world = GetWorld();
+	FVector Location = FVector::ZeroVector;
+	TArray<AActor*> ArrayofTarget;
+	AActor* target = 0;
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+	FRotator rotator;
+	int mineNum = 0;
+
 
 	if (IsValid(MineWidgetClass))
 	{
 		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
 		if (IsValid(MineWidget))
 		{
+			//PC->bShowMouseCursor = true;
 			MineWidget->SetVisibility(ESlateVisibility::Collapsed);
 			MineWidget->AddToViewport();
+			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
+			UGameplayStatics::GetAllActorsWithTag(world, TEXT("target"), ArrayofTarget);
+			for (int i = 0; i <= 7; i++) {
+				for (int j = 0; j <= 7; j++) {
+					UE_LOG(LogTemp, Log, TEXT("(%d, %d) : %d"), i, j, MineMap[i][j]);
+					if (MineMap[i][j] < 0) {
+						UE_LOG(LogTemp, Log, TEXT("Mine is here (%d, %d)"), i, j);
+						mineNum = (i * 8) + j + 1;
+						for (int k = 0; k <= 63; k++) {
+							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
+								Location = ArrayofTarget[k]->GetActorLocation();
+								world->SpawnActor<AMyFirstActor>(AMyFirstActor::StaticClass(), Location, rotator, SpawnParams);
+								UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
+								break;
+							}
+
+						}
+					}
+				}
+			}
+		}
+		else {
+			UE_LOG(LogTemp, Warning, TEXT("fail to load MineWidget!!!"));
 		}
 	}
 }
