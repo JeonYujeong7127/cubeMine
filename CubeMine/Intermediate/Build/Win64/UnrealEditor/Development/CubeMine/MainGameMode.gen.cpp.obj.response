@@ -1,4 +1,4 @@
-"D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine\MainGameMode.gen.cpp"
+C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine\MainGameMode.gen.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Slate
 /I Runtime
@@ -251,8 +251,8 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I "D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine"
-/I "D:\Unreal Projects\CubeMine\Source"
+/I C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine
+/I C:\Users\VR\Desktop\hyunsu\CubeMine\Source
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -271,18 +271,18 @@
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
-/Yu"D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\MainGameMode.gen.cpp.obj"
-/sourceDependencies "D:\Unreal Projects\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\MainGameMode.gen.cpp.json"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
+/Yu"C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\MainGameMode.gen.cpp.obj"
+/sourceDependencies C:\Users\VR\Desktop\hyunsu\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\MainGameMode.gen.cpp.json
 /Zc:inline
 /nologo
 /Oi

@@ -31,7 +31,7 @@ void AWeapon::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	Super::OnOverlapEnd(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
 }
 
-void AWeapon::Equip(class AMainCharacter* Char)
+void AWeapon::Equip(AMainCharacter* Char)
 {
 	if (Char)
 	{

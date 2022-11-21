@@ -1,0 +1,6 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\VR\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\VR\Desktop\hyunsu).
+  Invalidating makefile for CubeMineEditor (working set of source files changed)
+UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Build.bat" CubeMineEditor Win64 Development -Project="C:\Users\VR\Desktop\hyunsu\CubeMine\CubeMine.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).
