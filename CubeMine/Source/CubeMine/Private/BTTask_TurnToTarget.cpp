@@ -4,7 +4,7 @@
 #include "BTTask_TurnToTarget.h"
 #include "AAI_Character.h"
 #include "AAIController.h"
-#include "CubeMine/CubeMineCharacter.h"
+#include "../MainCharacter.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
 EBTNodeResult::Type UBTTask_TurnToTarget::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
@@ -15,7 +15,7 @@ EBTNodeResult::Type UBTTask_TurnToTarget::ExecuteTask(UBehaviorTreeComponent& Ow
 	if (nullptr == ABCharacter)
 		return EBTNodeResult::Failed;
 
-	auto Target = Cast<ACubeMineCharacter>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(AAAIController::TargetKey));
+	auto Target = Cast<AMainCharacter>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(AAAIController::TargetKey));
 	if (nullptr == Target)
 		return EBTNodeResult::Failed;
 

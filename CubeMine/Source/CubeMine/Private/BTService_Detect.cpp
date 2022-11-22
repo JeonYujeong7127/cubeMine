@@ -35,9 +35,7 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 		for (auto OverlapResult : OverlapResults)
 		{
 			if (OverlapResult.GetActor() == GetWorld()->GetFirstPlayerController()->GetPawn()) {
-				UE_LOG(LogTemp, Warning, TEXT("Object Overlap"));
 				OwnerComp.GetBlackboardComponent()->SetValueAsObject(AAAIController::TargetKey, OverlapResult.GetActor());
-
 				//반경을 보여준다
 				DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Green, false, 0.2f);
 				DrawDebugPoint(World, OverlapResult.GetActor()->GetActorLocation(), 10.0f, FColor::Blue, false, 0.2f);

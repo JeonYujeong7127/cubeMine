@@ -6,7 +6,6 @@
 #include "AAI_Character.h"
 #include "AAIController.h"
 #include "../MainCharacter.h"
-#include "CubeMine/CubeMineCharacter.h"
 
 bool UBTDecorator_IsInAttackRange::CalculateRawConditionValue(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) const
 {
@@ -27,7 +26,7 @@ bool UBTDecorator_IsInAttackRange::CalculateRawConditionValue(UBehaviorTreeCompo
 		return false;
 	}
 		
-	bResult = (Target->GetDistanceTo(ControllingPawn) <= 200.0f);
+	bResult = (Target->GetDistanceTo(ControllingPawn) <= 100.0f);
 	OwnerComp.GetBlackboardComponent()->SetValueAsBool(AAAIController::AttackKey, bResult);
 	ABCharacter->IsInside = bResult;
 	return bResult;

@@ -16,15 +16,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_SPARSE_DATA
 #define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execAnimNotify_EndAttack); \
-	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck); \
+	DECLARE_FUNCTION(execDieAI); \
+	DECLARE_FUNCTION(execAI_DecrementHealth); \
+	DECLARE_FUNCTION(execCheckAttackDamage); \
 	DECLARE_FUNCTION(execAttack);
 
 
 #define FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execAnimNotify_EndAttack); \
-	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck); \
+	DECLARE_FUNCTION(execDieAI); \
+	DECLARE_FUNCTION(execAI_DecrementHealth); \
+	DECLARE_FUNCTION(execCheckAttackDamage); \
 	DECLARE_FUNCTION(execAttack);
 
 

@@ -37,12 +37,11 @@ public:
 
 	UFUNCTION()
 		void Attack();
+	UFUNCTION(BlueprintCallable)
+		void CheckAttackDamage();
 
 	UFUNCTION()
-		void AnimNotify_AttackHitCheck();
-
-	UFUNCTION()
-		void AnimNotify_EndAttack();
+		void AI_DecrementHealth(float Amount);
 
 	//FOnAttackHitCheckDelegate	OnAttackHitCheck;
 	FOnAttackEndDelegate OnAttackEnd;
@@ -53,8 +52,26 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		bool IsWaiting = false;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		bool IsInside = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Attack, Meta = (AllowPrivateAccess = true))
+		bool IsDead = false;
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+private:
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRange;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRadius;
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AIHealth;
+
+	UFUNCTION()
+		void DieAI();
 };

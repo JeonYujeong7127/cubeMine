@@ -16,18 +16,26 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 	CUBEMINE_API UClass* Z_Construct_UClass_AAAIController_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(AAAI_Character::execAnimNotify_EndAttack)
+	DEFINE_FUNCTION(AAAI_Character::execDieAI)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->AnimNotify_EndAttack();
+		P_THIS->DieAI();
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(AAAI_Character::execAnimNotify_AttackHitCheck)
+	DEFINE_FUNCTION(AAAI_Character::execAI_DecrementHealth)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_Amount);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AI_DecrementHealth(Z_Param_Amount);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AAAI_Character::execCheckAttackDamage)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->AnimNotify_AttackHitCheck();
+		P_THIS->CheckAttackDamage();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AAAI_Character::execAttack)
@@ -41,53 +49,42 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 	{
 		UClass* Class = AAAI_Character::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "AnimNotify_AttackHitCheck", &AAAI_Character::execAnimNotify_AttackHitCheck },
-			{ "AnimNotify_EndAttack", &AAAI_Character::execAnimNotify_EndAttack },
+			{ "AI_DecrementHealth", &AAAI_Character::execAI_DecrementHealth },
 			{ "Attack", &AAAI_Character::execAttack },
+			{ "CheckAttackDamage", &AAAI_Character::execCheckAttackDamage },
+			{ "DieAI", &AAAI_Character::execDieAI },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck_Statics
+	struct Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics
 	{
+		struct AAI_Character_eventAI_DecrementHealth_Parms
+		{
+			float Amount;
+		};
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Amount;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::NewProp_Amount = { "Amount", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAI_Character_eventAI_DecrementHealth_Parms, Amount), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::NewProp_Amount,
+	};
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/AAI_Character.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAAI_Character, nullptr, "AnimNotify_AttackHitCheck", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck()
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAAI_Character, nullptr, "AI_DecrementHealth", nullptr, nullptr, sizeof(Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::AAI_Character_eventAI_DecrementHealth_Parms), Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/AAI_Character.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAAI_Character, nullptr, "AnimNotify_EndAttack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack_Statics::FuncParams);
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -110,6 +107,50 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AAAI_Character_Attack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAAI_Character_CheckAttackDamage_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAAI_Character_CheckAttackDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/AAI_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AAAI_Character_CheckAttackDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAAI_Character, nullptr, "CheckAttackDamage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAAI_Character_CheckAttackDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAAI_Character_CheckAttackDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAAI_Character_CheckAttackDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AAAI_Character_CheckAttackDamage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAAI_Character_DieAI_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAAI_Character_DieAI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/AAI_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AAAI_Character_DieAI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAAI_Character, nullptr, "DieAI", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAAI_Character_DieAI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAAI_Character_DieAI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAAI_Character_DieAI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AAAI_Character_DieAI_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -148,6 +189,23 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 #endif
 		static void NewProp_IsInside_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_IsInside;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_IsDead_MetaData[];
+#endif
+		static void NewProp_IsDead_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_IsDead;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AttackRange_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_AttackRange;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AttackRadius_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_AttackRadius;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AIHealth_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_AIHealth;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -157,9 +215,10 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CubeMine,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAAI_Character_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AAAI_Character_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 2802860852
-		{ &Z_Construct_UFunction_AAAI_Character_AnimNotify_EndAttack, "AnimNotify_EndAttack" }, // 1585103294
+		{ &Z_Construct_UFunction_AAAI_Character_AI_DecrementHealth, "AI_DecrementHealth" }, // 205023589
 		{ &Z_Construct_UFunction_AAAI_Character_Attack, "Attack" }, // 281749076
+		{ &Z_Construct_UFunction_AAAI_Character_CheckAttackDamage, "CheckAttackDamage" }, // 3144561377
+		{ &Z_Construct_UFunction_AAAI_Character_DieAI, "DieAI" }, // 30735528
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAAI_Character_Statics::Class_MetaDataParams[] = {
@@ -215,12 +274,52 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 		((AAAI_Character*)Obj)->IsInside = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsInside = { "IsInside", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAAI_Character), &Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsInside_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsInside_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsInside_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/AAI_Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead_SetBit(void* Obj)
+	{
+		((AAAI_Character*)Obj)->IsDead = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead = { "IsDead", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAAI_Character), &Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRange_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/AAI_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRange = { "AttackRange", nullptr, (EPropertyFlags)0x0040000000020815, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAAI_Character, AttackRange), METADATA_PARAMS(Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRange_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRadius_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/AAI_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRadius = { "AttackRadius", nullptr, (EPropertyFlags)0x0040000000020815, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAAI_Character, AttackRadius), METADATA_PARAMS(Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRadius_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAAI_Character_Statics::NewProp_AIHealth_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/AAI_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAAI_Character_Statics::NewProp_AIHealth = { "AIHealth", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAAI_Character, AIHealth), METADATA_PARAMS(Z_Construct_UClass_AAAI_Character_Statics::NewProp_AIHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAAI_Character_Statics::NewProp_AIHealth_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAAI_Character_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_AIController,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_TreeAsset,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsAttack,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsWaiting,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsInside,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_IsDead,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRange,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_AttackRadius,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAAI_Character_Statics::NewProp_AIHealth,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAAI_Character_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAAI_Character>::IsAbstract,
@@ -258,9 +357,9 @@ void EmptyLinkFunctionForGeneratedCodeAAI_Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AAAI_Character, AAAI_Character::StaticClass, TEXT("AAAI_Character"), &Z_Registration_Info_UClass_AAAI_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAAI_Character), 2498355177U) },
+		{ Z_Construct_UClass_AAAI_Character, AAAI_Character::StaticClass, TEXT("AAAI_Character"), &Z_Registration_Info_UClass_AAAI_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAAI_Character), 3071887833U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_3208596264(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_1769785121(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_Public_AAI_Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
