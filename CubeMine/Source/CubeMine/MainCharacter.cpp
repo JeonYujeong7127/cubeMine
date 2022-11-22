@@ -263,7 +263,13 @@ void AMainCharacter::EKeyDown()
 			SetActiveOverlappingItem(nullptr);
 		}
 	}
+	else if(EquippedWeapon)
+	{
+		
+		Attack();
+	}
 }
+
 void AMainCharacter::EKeyUp()
 {
 	bEKeyDown = false;
@@ -324,4 +330,11 @@ void  AMainCharacter::SetEquippedWeapon(AWeapon* WeaponToSet)
 		EquippedWeapon->Destroy(); // 이전에 장착했던 무기 파괴 
 	}
 	EquippedWeapon = WeaponToSet;
+}
+
+void  AMainCharacter::Attack()
+{
+	bAttacking = true;
+
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 }
