@@ -7,9 +7,10 @@
 		{
 			"Name": "CubeMine",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
+			"LoadingPhase": "Default"
 			"AdditionalDependencies": [
 				"Engine",
+				"AIModule",
 				"UMG"
 			]
 		}
