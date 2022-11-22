@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\VR\\Desktop\\hyunsu\\CubeMine\\Source\\CubeMine\\CubeMine.Build.cs",
-		"C:\\Users\\VR\\Desktop\\hyunsu\\CubeMine\\Source\\CubeMine.Target.cs",
-		"C:\\Users\\VR\\Desktop\\hyunsu\\CubeMine\\Source\\CubeMineEditor.Target.cs"
+		"C:\\Users\\ES58\\Documents\\GitHub\\cubeMine\\CubeMine\\Source\\CubeMine\\CubeMine.Build.cs",
+		"C:\\Users\\ES58\\Documents\\GitHub\\cubeMine\\CubeMine\\Source\\CubeMine.Target.cs",
+		"C:\\Users\\ES58\\Documents\\GitHub\\cubeMine\\CubeMine\\Source\\CubeMineEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }
