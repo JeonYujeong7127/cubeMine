@@ -83,6 +83,9 @@
     <ClCompile Include="..\..\Source\CubeMine\Private\BTTask_Patrol.cpp">
       <Filter>Source\CubeMine\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTTask_TurnToTarget.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\CubeMine\Public">
       <UniqueIdentifier>{EF00EF52-17F6-3088-8620-928D56C4674F}</UniqueIdentifier>
     </Filter>
@@ -105,6 +108,9 @@
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CubeMine\Public\BTTask_Patrol.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTTask_TurnToTarget.h">
       <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
   </ItemGroup>
