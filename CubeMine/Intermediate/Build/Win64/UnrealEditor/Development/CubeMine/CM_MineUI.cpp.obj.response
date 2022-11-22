@@ -1,6 +1,6 @@
-C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\CM_MineUI.cpp
+C:\master_v2\CubeMine\Source\CubeMine\CM_MineUI.cpp
 /I .
-/I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\Private
+/I C:\master_v2\CubeMine\Source\CubeMine\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Slate
 /I Runtime
 /I Runtime\Slate\Public
@@ -252,9 +252,9 @@ C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\CM_
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine
-/I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source
-/I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\Public
+/I C:\master_v2\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine
+/I C:\master_v2\CubeMine\Source
+/I C:\master_v2\CubeMine\Source\CubeMine\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -273,18 +273,18 @@ C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\CM_
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
-/Yu"C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CM_MineUI.cpp.obj"
-/sourceDependencies C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CM_MineUI.cpp.json
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\master_v2\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\master_v2\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
+/Yu"C:\master_v2\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\master_v2\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\master_v2\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CM_MineUI.cpp.obj"
+/sourceDependencies C:\master_v2\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CM_MineUI.cpp.json
 /Zc:inline
 /nologo
 /Oi

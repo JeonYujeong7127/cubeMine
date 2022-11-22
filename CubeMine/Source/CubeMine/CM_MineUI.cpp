@@ -16,6 +16,7 @@ void UCM_MineUI::NativeConstruct()
 	CheckOpen.Init(TArray<int32>(), size);
 	BTArr.Init(TArray<UButton*>(), size);
 	TTArr.Init(TArray<UTextBlock*>(), size);
+	FFArr.Init(TArray<UImage*>(), size);
 	InitArr();
 	SetMine();
 	SetMineNum();
@@ -281,6 +282,136 @@ void UCM_MineUI::NativeConstruct()
 	TTArr[7].Add(TT_76);
 	TTArr[7].Add(TT_77);
 
+	FF_00 = Cast<UImage>(GetWidgetFromName(TEXT("F_00")));
+	FF_01 = Cast<UImage>(GetWidgetFromName(TEXT("F_01")));
+	FF_02 = Cast<UImage>(GetWidgetFromName(TEXT("F_02")));
+	FF_03 = Cast<UImage>(GetWidgetFromName(TEXT("F_03")));
+	FF_04 = Cast<UImage>(GetWidgetFromName(TEXT("F_04")));
+	FF_05 = Cast<UImage>(GetWidgetFromName(TEXT("F_05")));
+	FF_06 = Cast<UImage>(GetWidgetFromName(TEXT("F_06")));
+	FF_07 = Cast<UImage>(GetWidgetFromName(TEXT("F_07")));
+	FF_10 = Cast<UImage>(GetWidgetFromName(TEXT("F_10")));
+	FF_11 = Cast<UImage>(GetWidgetFromName(TEXT("F_11")));
+	FF_12 = Cast<UImage>(GetWidgetFromName(TEXT("F_12")));
+	FF_13 = Cast<UImage>(GetWidgetFromName(TEXT("F_13")));
+	FF_14 = Cast<UImage>(GetWidgetFromName(TEXT("F_14")));
+	FF_15 = Cast<UImage>(GetWidgetFromName(TEXT("F_15")));
+	FF_16 = Cast<UImage>(GetWidgetFromName(TEXT("F_16")));
+	FF_17 = Cast<UImage>(GetWidgetFromName(TEXT("F_17")));
+	FF_20 = Cast<UImage>(GetWidgetFromName(TEXT("F_20")));
+	FF_21 = Cast<UImage>(GetWidgetFromName(TEXT("F_21")));
+	FF_22 = Cast<UImage>(GetWidgetFromName(TEXT("F_22")));
+	FF_23 = Cast<UImage>(GetWidgetFromName(TEXT("F_23")));
+	FF_24 = Cast<UImage>(GetWidgetFromName(TEXT("F_24")));
+	FF_25 = Cast<UImage>(GetWidgetFromName(TEXT("F_25")));
+	FF_26 = Cast<UImage>(GetWidgetFromName(TEXT("F_26")));
+	FF_27 = Cast<UImage>(GetWidgetFromName(TEXT("F_27")));
+	FF_30 = Cast<UImage>(GetWidgetFromName(TEXT("F_30")));
+	FF_31 = Cast<UImage>(GetWidgetFromName(TEXT("F_31")));
+	FF_32 = Cast<UImage>(GetWidgetFromName(TEXT("F_32")));
+	FF_33 = Cast<UImage>(GetWidgetFromName(TEXT("F_33")));
+	FF_34 = Cast<UImage>(GetWidgetFromName(TEXT("F_34")));
+	FF_35 = Cast<UImage>(GetWidgetFromName(TEXT("F_35")));
+	FF_36 = Cast<UImage>(GetWidgetFromName(TEXT("F_36")));
+	FF_37 = Cast<UImage>(GetWidgetFromName(TEXT("F_37")));
+	FF_40 = Cast<UImage>(GetWidgetFromName(TEXT("F_40")));
+	FF_41 = Cast<UImage>(GetWidgetFromName(TEXT("F_41")));
+	FF_42 = Cast<UImage>(GetWidgetFromName(TEXT("F_42")));
+	FF_43 = Cast<UImage>(GetWidgetFromName(TEXT("F_43")));
+	FF_44 = Cast<UImage>(GetWidgetFromName(TEXT("F_44")));
+	FF_45 = Cast<UImage>(GetWidgetFromName(TEXT("F_45")));
+	FF_46 = Cast<UImage>(GetWidgetFromName(TEXT("F_46")));
+	FF_47 = Cast<UImage>(GetWidgetFromName(TEXT("F_47")));
+	FF_50 = Cast<UImage>(GetWidgetFromName(TEXT("F_50")));
+	FF_51 = Cast<UImage>(GetWidgetFromName(TEXT("F_51")));
+	FF_52 = Cast<UImage>(GetWidgetFromName(TEXT("F_52")));
+	FF_53 = Cast<UImage>(GetWidgetFromName(TEXT("F_53")));
+	FF_54 = Cast<UImage>(GetWidgetFromName(TEXT("F_54")));
+	FF_55 = Cast<UImage>(GetWidgetFromName(TEXT("F_55")));
+	FF_56 = Cast<UImage>(GetWidgetFromName(TEXT("F_56")));
+	FF_57 = Cast<UImage>(GetWidgetFromName(TEXT("F_57")));
+	FF_60 = Cast<UImage>(GetWidgetFromName(TEXT("F_60")));
+	FF_61 = Cast<UImage>(GetWidgetFromName(TEXT("F_61")));
+	FF_62 = Cast<UImage>(GetWidgetFromName(TEXT("F_62")));
+	FF_63 = Cast<UImage>(GetWidgetFromName(TEXT("F_63")));
+	FF_64 = Cast<UImage>(GetWidgetFromName(TEXT("F_64")));
+	FF_65 = Cast<UImage>(GetWidgetFromName(TEXT("F_65")));
+	FF_66 = Cast<UImage>(GetWidgetFromName(TEXT("F_66")));
+	FF_67 = Cast<UImage>(GetWidgetFromName(TEXT("F_67")));
+	FF_70 = Cast<UImage>(GetWidgetFromName(TEXT("F_70")));
+	FF_71 = Cast<UImage>(GetWidgetFromName(TEXT("F_71")));
+	FF_72 = Cast<UImage>(GetWidgetFromName(TEXT("F_72")));
+	FF_73 = Cast<UImage>(GetWidgetFromName(TEXT("F_73")));
+	FF_74 = Cast<UImage>(GetWidgetFromName(TEXT("F_74")));
+	FF_75 = Cast<UImage>(GetWidgetFromName(TEXT("F_75")));
+	FF_76 = Cast<UImage>(GetWidgetFromName(TEXT("F_76")));
+	FF_77 = Cast<UImage>(GetWidgetFromName(TEXT("F_77")));
+
+	FFArr[0].Add(FF_00);
+	FFArr[0].Add(FF_01);
+	FFArr[0].Add(FF_02);
+	FFArr[0].Add(FF_03);
+	FFArr[0].Add(FF_04);
+	FFArr[0].Add(FF_05);
+	FFArr[0].Add(FF_06);
+	FFArr[0].Add(FF_07);
+	FFArr[1].Add(FF_10);
+	FFArr[1].Add(FF_11);
+	FFArr[1].Add(FF_12);
+	FFArr[1].Add(FF_13);
+	FFArr[1].Add(FF_14);
+	FFArr[1].Add(FF_15);
+	FFArr[1].Add(FF_16);
+	FFArr[1].Add(FF_17);
+	FFArr[2].Add(FF_20);
+	FFArr[2].Add(FF_21);
+	FFArr[2].Add(FF_22);
+	FFArr[2].Add(FF_23);
+	FFArr[2].Add(FF_24);
+	FFArr[2].Add(FF_25);
+	FFArr[2].Add(FF_26);
+	FFArr[2].Add(FF_27);
+	FFArr[3].Add(FF_30);
+	FFArr[3].Add(FF_31);
+	FFArr[3].Add(FF_32);
+	FFArr[3].Add(FF_33);
+	FFArr[3].Add(FF_34);
+	FFArr[3].Add(FF_35);
+	FFArr[3].Add(FF_36);
+	FFArr[3].Add(FF_37);
+	FFArr[4].Add(FF_40);
+	FFArr[4].Add(FF_41);
+	FFArr[4].Add(FF_42);
+	FFArr[4].Add(FF_43);
+	FFArr[4].Add(FF_44);
+	FFArr[4].Add(FF_45);
+	FFArr[4].Add(FF_46);
+	FFArr[4].Add(FF_47);
+	FFArr[5].Add(FF_50);
+	FFArr[5].Add(FF_51);
+	FFArr[5].Add(FF_52);
+	FFArr[5].Add(FF_53);
+	FFArr[5].Add(FF_54);
+	FFArr[5].Add(FF_55);
+	FFArr[5].Add(FF_56);
+	FFArr[5].Add(FF_57);
+	FFArr[6].Add(FF_60);
+	FFArr[6].Add(FF_61);
+	FFArr[6].Add(FF_62);
+	FFArr[6].Add(FF_63);
+	FFArr[6].Add(FF_64);
+	FFArr[6].Add(FF_65);
+	FFArr[6].Add(FF_66);
+	FFArr[6].Add(FF_67);
+	FFArr[7].Add(FF_70);
+	FFArr[7].Add(FF_71);
+	FFArr[7].Add(FF_72);
+	FFArr[7].Add(FF_73);
+	FFArr[7].Add(FF_74);
+	FFArr[7].Add(FF_75);
+	FFArr[7].Add(FF_76);
+	FFArr[7].Add(FF_77);
+
 	BT_00->OnClicked.AddDynamic(this, &UCM_MineUI::Button00Callback);
 	BT_01->OnClicked.AddDynamic(this, &UCM_MineUI::Button01Callback);
 	BT_02->OnClicked.AddDynamic(this, &UCM_MineUI::Button02Callback);
@@ -351,324 +482,515 @@ void UCM_MineUI::NativeConstruct()
 
 void UCM_MineUI::Button00Callback()
 {
-	DFS(0, 0, size);
-	OpenMine();
+	if (!FF_00->IsVisible())
+	{
+		DFS(0, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button01Callback()
 {
-	DFS(0, 1, size);
-	OpenMine();
+	if (!FF_01->IsVisible())
+	{
+		DFS(0, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button02Callback()
 {
-	DFS(0, 2, size);
-	OpenMine();
+	if (!FF_02->IsVisible())
+	{
+		DFS(0, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button03Callback()
 {
-	DFS(0, 3, size);
-	OpenMine();
+	if (!FF_03->IsVisible())
+	{
+		DFS(0, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button04Callback()
 {
-	DFS(0, 4, size);
-	OpenMine();
+	if (!FF_04->IsVisible())
+	{
+		DFS(0, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button05Callback()
 {
-	DFS(0, 5, size);
-	OpenMine();
+	if (!FF_05->IsVisible())
+	{
+		DFS(0, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button06Callback()
 {
-	DFS(0, 6, size);
-	OpenMine();
+	if (!FF_06->IsVisible())
+	{
+		DFS(0, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button07Callback()
 {
-	DFS(0, 7, size);
-	OpenMine();
+	if (!FF_07->IsVisible())
+	{
+		DFS(0, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button10Callback()
 {
-	DFS(1, 0, size);
-	OpenMine();
+	if (!FF_10->IsVisible())
+	{
+		DFS(1, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button11Callback()
 {
-	DFS(1, 1, size);
-	OpenMine();
+	if (!FF_11->IsVisible())
+	{
+		DFS(1, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button12Callback()
 {
-	DFS(1, 2, size);
-	OpenMine();
+	if (!FF_12->IsVisible())
+	{
+		DFS(1, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button13Callback()
 {
-	DFS(1, 3, size);
-	OpenMine();
+	if (!FF_13->IsVisible())
+	{
+		DFS(1, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button14Callback()
 {
-	DFS(1, 4, size);
-	OpenMine();
+	if (!FF_14->IsVisible())
+	{
+		DFS(1, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button15Callback()
 {
-	DFS(1, 5, size);
-	OpenMine();
+	if (!FF_15->IsVisible())
+	{
+		DFS(1, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button16Callback()
 {
-	DFS(1, 6, size);
-	OpenMine();
+	if (!FF_16->IsVisible())
+	{
+		DFS(1, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button17Callback()
 {
-	DFS(1, 7, size);
-	OpenMine();
+	if (!FF_17->IsVisible())
+	{
+		DFS(1, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button20Callback()
 {
-	DFS(2, 0, size);
-	OpenMine();
+	if (!FF_20->IsVisible())
+	{
+		DFS(2, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button21Callback()
 {
-	DFS(2, 1, size);
-	OpenMine();
+	if (!FF_21->IsVisible())
+	{
+		DFS(2, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button22Callback()
 {
-	DFS(2, 2, size);
-	OpenMine();
+	if (!FF_22->IsVisible())
+	{
+		DFS(2, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button23Callback()
 {
-	DFS(2, 3, size);
-	OpenMine();
+	if (!FF_23->IsVisible())
+	{
+		DFS(2, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button24Callback()
 {
-	DFS(2, 4, size);
-	OpenMine();
+	if (!FF_24->IsVisible())
+	{
+		DFS(2, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button25Callback()
 {
-	DFS(2, 5, size);
-	OpenMine();
+	if (!FF_25->IsVisible())
+	{
+		DFS(2, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button26Callback()
 {
-	DFS(2, 6, size);
-	OpenMine();
+	if (!FF_26->IsVisible())
+	{
+		DFS(2, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button27Callback()
 {
-	DFS(2, 7, size);
-	OpenMine();
+	if (!FF_27->IsVisible())
+	{
+		DFS(2, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button30Callback()
 {
-	DFS(3, 0, size);
-	OpenMine();
+	if (!FF_30->IsVisible())
+	{
+		DFS(3, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button31Callback()
 {
-	DFS(3, 1, size);
-	OpenMine();
+	if (!FF_31->IsVisible())
+	{
+		DFS(3, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button32Callback()
 {
-	DFS(3, 2, size);
-	OpenMine();
+	if (!FF_32->IsVisible())
+	{
+		DFS(3, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button33Callback()
 {
-	DFS(3, 3, size);
-	OpenMine();
+	if (!FF_33->IsVisible())
+	{
+		DFS(3, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button34Callback()
 {
-	DFS(3, 4, size);
-	OpenMine();
+	if (!FF_34->IsVisible())
+	{
+		DFS(3, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button35Callback()
 {
-	DFS(3, 5, size);
-	OpenMine();
+	if (!FF_35->IsVisible())
+	{
+		DFS(3, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button36Callback()
 {
-	DFS(3, 6, size);
-	OpenMine();
+	if (!FF_36->IsVisible())
+	{
+		DFS(3, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button37Callback()
 {
-	DFS(3, 7, size);
-	OpenMine();
+	if (!FF_37->IsVisible())
+	{
+		DFS(3, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button40Callback()
 {
-	DFS(4, 0, size);
-	OpenMine();
+	if (!FF_40->IsVisible())
+	{
+		DFS(4, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button41Callback()
 {
-	DFS(4, 1, size);
-	OpenMine();
+	if (!FF_41->IsVisible())
+	{
+		DFS(4, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button42Callback()
 {
-	DFS(4, 2, size);
-	OpenMine();
+	if (!FF_42->IsVisible())
+	{
+		DFS(4, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button43Callback()
 {
-	DFS(4, 3, size);
-	OpenMine();
+	if (!FF_43->IsVisible())
+	{
+		DFS(4, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button44Callback()
 {
-	DFS(4, 4, size);
-	OpenMine();
-	
+	if (!FF_44->IsVisible())
+	{
+		DFS(4, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button45Callback()
 {
-	DFS(4, 5, size);
-	OpenMine();
+	if (!FF_45->IsVisible())
+	{
+		DFS(4, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button46Callback()
 {
-	DFS(4, 6, size);
-	OpenMine();
+	if (!FF_46->IsVisible())
+	{
+		DFS(4, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button47Callback()
 {
-	DFS(4, 7, size);
-	OpenMine();
+	if (!FF_47->IsVisible())
+	{
+		DFS(4, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button50Callback()
 {
-	DFS(5, 0, size);
-	OpenMine();
+	if (!FF_50->IsVisible())
+	{
+		DFS(5, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button51Callback()
 {
-	DFS(5, 1, size);
-	OpenMine();
+	if (!FF_51->IsVisible())
+	{
+		DFS(5, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button52Callback()
 {
-	DFS(5, 2, size);
-	OpenMine();
+	if (!FF_52->IsVisible())
+	{
+		DFS(5, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button53Callback()
 {
-	DFS(5, 3, size);
-	OpenMine();
+	if (!FF_53->IsVisible())
+	{
+		DFS(5, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button54Callback()
 {
-	DFS(5, 4, size);
-	OpenMine();
+	if (!FF_54->IsVisible())
+	{
+		DFS(5, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button55Callback()
 {
-	DFS(5, 5, size);
-	OpenMine();
+	if (!FF_55->IsVisible())
+	{
+		DFS(5, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button56Callback()
 {
-	DFS(5, 6, size);
-	OpenMine();
+	if (!FF_56->IsVisible())
+	{
+		DFS(5, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button57Callback()
 {
-	DFS(5, 7, size);
-	OpenMine();
+	if (!FF_57->IsVisible())
+	{
+		DFS(5, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button60Callback()
 {
-	DFS(6, 0, size);
-	OpenMine();
+	if (!FF_60->IsVisible())
+	{
+		DFS(6, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button61Callback()
 {
-	DFS(6, 1, size);
-	OpenMine();
+	if (!FF_61->IsVisible())
+	{
+		DFS(6, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button62Callback()
 {
-	DFS(6, 2, size);
-	OpenMine();
+	if (!FF_62->IsVisible())
+	{
+		DFS(6, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button63Callback()
 {
-	DFS(6, 3, size);
-	OpenMine();
+	if (!FF_63->IsVisible())
+	{
+		DFS(6, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button64Callback()
 {
-	DFS(6, 4, size);
-	OpenMine();
+	if (!FF_64->IsVisible())
+	{
+		DFS(6, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button65Callback()
 {
-	DFS(6, 5, size);
-	OpenMine();
+	if (!FF_65->IsVisible())
+	{
+		DFS(6, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button66Callback()
 {
-	DFS(6, 6, size);
-	OpenMine();
+	if (!FF_66->IsVisible())
+	{
+		DFS(6, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button67Callback()
 {
-	DFS(6, 7, size);
-	OpenMine();
+	if (!FF_67->IsVisible())
+	{
+		DFS(6, 7, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button70Callback()
 {
-	DFS(7, 0, size);
-	OpenMine();
+	if (!FF_70->IsVisible())
+	{
+		DFS(7, 0, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button71Callback()
 {
-	DFS(7, 1, size);
-	OpenMine();
+	if (!FF_71->IsVisible())
+	{
+		DFS(7, 1, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button72Callback()
 {
-	DFS(7, 2, size);
-	OpenMine();
+	if (!FF_72->IsVisible())
+	{
+		DFS(7, 2, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button73Callback()
 {
-	DFS(7, 3, size);
-	OpenMine();
+	if (!FF_73->IsVisible())
+	{
+		DFS(7, 3, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button74Callback()
 {
-	DFS(7, 4, size);
-	OpenMine();
+	if (!FF_74->IsVisible())
+	{
+		DFS(7, 4, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button75Callback()
 {
-	DFS(7, 5, size);
-	OpenMine();
+	if (!FF_75->IsVisible())
+	{
+		DFS(7, 5, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button76Callback()
 {
-	DFS(7, 6, size);
-	OpenMine();
+	if (!FF_76->IsVisible())
+	{
+		DFS(7, 6, size);
+		OpenMine();
+	}
 }
 void UCM_MineUI::Button77Callback()
 {
-	DFS(7, 7, size);
-	OpenMine();
+	if (!FF_77->IsVisible())
+	{
+		DFS(7, 7, size);
+		OpenMine();
+	}
 }
 
 
@@ -740,7 +1062,7 @@ bool UCM_MineUI::CanSetMine(int32 CheckRow, int32 CheckCol)
 	{
 		for (int32 j = CheckCol - 1; j <= CheckCol + 1; j++)
 		{
-			if (Mine2D[i][j] == -9)
+			if (Mine2D[i][j] < 0)
 				Count++;
 		}
 	}
@@ -805,6 +1127,7 @@ void UCM_MineUI::OpenMine()
 				Text = FString::Printf(TEXT("%d"), Mine2D[i][j]);
 				TTArr[i][j]->SetText(FText::FromString(Text));
 				TTArr[i][j]->SetVisibility(ESlateVisibility::Visible);
+				FFArr[i][j]->SetVisibility(ESlateVisibility::Hidden);
 			}
 		}
 

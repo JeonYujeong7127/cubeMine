@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\btservice_detect.gen.cpp",
+        "Source": "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\btservice_detect.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\source\\cubemine\\public\\btservice_detect.h",
+            "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\master_v2\\cubemine\\source\\cubemine\\public\\btservice_detect.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\aimodule\\classes\\behaviortree\\btservice.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\aimodule\\classes\\behaviortree\\btauxiliarynode.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\aimodule\\classes\\behaviortree\\btnode.h",
@@ -45,7 +45,7 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\btnode.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\btauxiliarynode.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\btservice.generated.h",
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\btservice_detect.generated.h"
+            "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\btservice_detect.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

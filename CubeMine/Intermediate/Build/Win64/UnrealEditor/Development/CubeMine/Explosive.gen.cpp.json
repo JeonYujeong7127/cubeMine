@@ -1,15 +1,15 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\explosive.gen.cpp",
+        "Source": "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\explosive.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\source\\cubemine\\explosive.h",
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\source\\cubemine\\item.h",
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\item.generated.h",
-            "c:\\users\\es58\\documents\\github\\cubemine_v2\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\explosive.generated.h"
+            "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\master_v2\\cubemine\\source\\cubemine\\explosive.h",
+            "c:\\master_v2\\cubemine\\source\\cubemine\\item.h",
+            "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\item.generated.h",
+            "c:\\master_v2\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\explosive.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
