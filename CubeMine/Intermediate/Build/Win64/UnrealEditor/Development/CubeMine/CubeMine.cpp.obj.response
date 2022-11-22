@@ -1,5 +1,6 @@
 C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\CubeMine.cpp
 /I .
+/I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Slate
 /I Runtime
 /I Runtime\Slate\Public
@@ -253,6 +254,7 @@ C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\Cub
 /I Developer\AnimationDataController\Public
 /I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine
 /I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source
+/I C:\Users\ES58\Documents\GitHub\cubeMine_v2\cubeMine\CubeMine\Source\CubeMine\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh

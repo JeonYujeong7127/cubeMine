@@ -65,11 +65,113 @@
     <ClInclude Include="..\..\Source\CubeMine\CubeMineGameMode.h">
       <Filter>Source\CubeMine</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\Explosive.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\Explosive.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\Item.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\Item.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainAnimInstance.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainAnimInstance.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainCharacter.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainCharacter.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainGameMode.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainGameMode.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\MainPlayerController.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\MainPlayerController.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\CubeMine\MyFirstActor.cpp">
       <Filter>Source\CubeMine</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CubeMine\MyFirstActor.h">
       <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\PickUp.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\PickUp.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CubeMine\Weapon.cpp">
+      <Filter>Source\CubeMine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CubeMine\Weapon.h">
+      <Filter>Source\CubeMine</Filter>
+    </ClInclude>
+    <Filter Include="Source\CubeMine\Private">
+      <UniqueIdentifier>{79271C91-CFF6-3E3D-8C71-F92DDF232B2F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CubeMine\Private\AAIController.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\AAI_Character.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BotMovementCharacter.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTService_Detect.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTTaskNode_Attack.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTTask_Patrol.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CubeMine\Private\BTTask_TurnToTarget.cpp">
+      <Filter>Source\CubeMine\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CubeMine\Public">
+      <UniqueIdentifier>{EF00EF52-17F6-3088-8620-928D56C4674F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CubeMine\Public\AAIController.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\AAI_Character.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BotMovementCharacter.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTService_Detect.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTTaskNode_Attack.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTTask_Patrol.h">
+      <Filter>Source\CubeMine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CubeMine\Public\BTTask_TurnToTarget.h">
+      <Filter>Source\CubeMine\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
