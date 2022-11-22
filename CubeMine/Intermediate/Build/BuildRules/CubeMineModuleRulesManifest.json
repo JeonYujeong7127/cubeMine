@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\master_v2\\CubeMine\\Source\\CubeMine\\CubeMine.Build.cs",
-		"C:\\master_v2\\CubeMine\\Source\\CubeMine.Target.cs",
-		"C:\\master_v2\\CubeMine\\Source\\CubeMineEditor.Target.cs"
-	],
-	"EngineVersion": "5.0.3"
-}
