@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CubeMine",
-			"Path": "C:\\Users\\VR\\Desktop\\unreal\\cubeMine\\CubeMine\\Source\\CubeMine.Target.cs",
+			"Path": "C:\\Users\\ES58\\Documents\\GitHub\\cubeMine_v2\\cubeMine\\CubeMine\\Source\\CubeMine.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CubeMineEditor",
-			"Path": "C:\\Users\\VR\\Desktop\\unreal\\cubeMine\\CubeMine\\Source\\CubeMineEditor.Target.cs",
+			"Path": "C:\\Users\\ES58\\Documents\\GitHub\\cubeMine_v2\\cubeMine\\CubeMine\\Source\\CubeMineEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
