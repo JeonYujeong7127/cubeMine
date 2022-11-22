@@ -94,9 +94,6 @@ void ACubeMineCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 void ACubeMineCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Log, TEXT("Hello!!"));
-
-	APlayerController* PC = Cast<APlayerController>(GetController());
 	UWorld* world = GetWorld();
 	FVector Location = FVector::ZeroVector;
 	TArray<AActor*> ArrayofTarget;
@@ -112,7 +109,6 @@ void ACubeMineCharacter::BeginPlay()
 		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
 		if (IsValid(MineWidget))
 		{
-			//PC->bShowMouseCursor = true;
 			MineWidget->SetVisibility(ESlateVisibility::Collapsed);
 			MineWidget->AddToViewport();
 			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
