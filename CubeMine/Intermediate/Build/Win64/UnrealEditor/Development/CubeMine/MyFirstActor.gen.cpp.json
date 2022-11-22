@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\vr\\desktop\\unreal\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\myfirstactor.gen.cpp",
+        "Source": "c:\\unreal project\\yujeong\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\myfirstactor.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\vr\\desktop\\unreal\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\unreal project\\yujeong\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\vr\\desktop\\unreal\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\users\\vr\\desktop\\unreal\\cubemine\\cubemine\\source\\cubemine\\myfirstactor.h",
-            "c:\\users\\vr\\desktop\\unreal\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\myfirstactor.generated.h"
+            "c:\\unreal project\\yujeong\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\unreal project\\yujeong\\cubemine\\source\\cubemine\\myfirstactor.h",
+            "c:\\unreal project\\yujeong\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\myfirstactor.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

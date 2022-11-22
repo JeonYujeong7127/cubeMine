@@ -119,15 +119,12 @@ void ACubeMineCharacter::BeginPlay()
 			UGameplayStatics::GetAllActorsWithTag(world, TEXT("target"), ArrayofTarget);
 			for (int i = 0; i <= 7; i++) {
 				for (int j = 0; j <= 7; j++) {
-					UE_LOG(LogTemp, Log, TEXT("(%d, %d) : %d"), i, j, MineMap[i][j]);
 					if (MineMap[i][j] < 0) {
-						UE_LOG(LogTemp, Log, TEXT("Mine is here (%d, %d)"), i, j);
 						mineNum = (i * 8) + j + 1;
 						for (int k = 0; k <= 63; k++) {
 							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
 								Location = ArrayofTarget[k]->GetActorLocation();
 								world->SpawnActor<AMyFirstActor>(AMyFirstActor::StaticClass(), Location, rotator, SpawnParams);
-								UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
 								break;
 							}
 
