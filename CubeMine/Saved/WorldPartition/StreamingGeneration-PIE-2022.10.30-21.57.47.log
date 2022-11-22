@@ -1,0 +1,13 @@
+Containers:
+  [+] MainContainer:
+   |            ID: 0x0000000000000000
+   |        Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+   |     Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+   |     Container: /Game/ThirdPerson/Maps/ThirdPersonMap
+   |  ActorDescs:
+   |      - Guid:174DF71143EA367D14F3838C26CC06DF Class:SkyLight Name:SkyLight_0 SpatiallyLoaded:false Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=690.000), Max=(X=0.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:false LevelBoundsRelevant:false HLODRelevant:false FolderPath:Lighting FolderGuid:08A10B054C95868C663DE39EE4343813 Parent:00000000000000000000000000000000
+   |      - Guid:788903924598EC8109F9709A8AB41C0D Class:WorldDataLayers Name:WorldDataLayers SpatiallyLoaded:false Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false LevelBoundsRelevant:false HLODRelevant:false FolderPath:None FolderGuid:00000000000000000000000000000000 Parent:00000000000000000000000000000000
+   |      - Guid:9FFE6665469AE829D82050A8B1F67178 Class:DirectionalLight Name:DirectionalLight_1 SpatiallyLoaded:false Bounds:IsValid=true, Min=(X=-1048576.000 Y=-1048576.000 Z=-1048576.000), Max=(X=1048576.000 Y=1048576.000 Z=1048576.000) RuntimeGrid:None EditorOnly:false LevelBoundsRelevant:false HLODRelevant:false FolderPath:Lighting FolderGuid:08A10B054C95868C663DE39EE4343813 Parent:00000000000000000000000000000000
+   |      - Guid:C70CF07A4373BB91F8095A995239EFF3 Class:Actor Name:door_parent_Child_C_UAID_00919ECB28C4FB4401_1286544143 SpatiallyLoaded:true Bounds:IsValid=true, Min=(X=1388.000 Y=429.200 Z=1474.000), Max=(X=1652.000 Y=454.800 Z=1906.000) RuntimeGrid:None EditorOnly:false LevelBoundsRelevant:true HLODRelevant:false FolderPath:None FolderGuid:00000000000000000000000000000000 Parent:00000000000000000000000000000000
+   |      - Guid:C726A3284B806D4C379405885740B688 Class:PlayerStart Name:PlayerStart_0 SpatiallyLoaded:false Bounds:IsValid=true, Min=(X=970.000 Y=1070.000 Z=1560.013), Max=(X=1050.000 Y=1150.000 Z=1744.013) RuntimeGrid:None EditorOnly:false LevelBoundsRelevant:true HLODRelevant:false FolderPath:None FolderGuid:00000000000000000000000000000000 Parent:00000000000000000000000000000000
+   |      - Guid:E7C88B004DFFF4BE08155AB223A0EF2C Class:SkyAtmosphere Name:SkyAtmosphere_1 SpatiallyLoaded:false Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=1020.000), Max=(X=0.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:false LevelBoundsRelevant:false HLODRelevant:false FolderPath:Lighting FolderGuid:08A10B054C95868C663DE39EE4343813 Parent:00000000000000000000000000000000
