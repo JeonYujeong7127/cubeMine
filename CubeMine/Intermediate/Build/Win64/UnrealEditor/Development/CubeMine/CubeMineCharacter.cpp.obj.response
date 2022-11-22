@@ -1,12 +1,22 @@
-"C:\Unreal Project\cubeMine\CubeMine\Source\CubeMine\CubeMineCharacter.cpp"
+C:\branchmaster\cubeMine\CubeMine\Source\CubeMine\CubeMineCharacter.cpp
 /I .
-/I "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine"
-/I "C:\Unreal Project\cubeMine\CubeMine\Source"
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Slate
 /I Runtime
+/I Runtime\Slate\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I Runtime\ImageWrapper\Public
+/I ThirdParty
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
@@ -18,20 +28,8 @@
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
 /I Runtime\Net\Common\Public
-/I Runtime\ApplicationCore\Public
-/I Runtime\RHI\Public
-/I Runtime\Json\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore
-/I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Slate
-/I Runtime\Slate\Public
-/I Runtime\ImageWrapper\Public
-/I ThirdParty
 /I Runtime\Messaging\Public
 /I Runtime\MessagingCommon\Public
 /I Runtime\RenderCore\Public
@@ -253,6 +251,8 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine
+/I C:\branchmaster\cubeMine\CubeMine\Source
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -271,18 +271,18 @@
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
-/Yu"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMineCharacter.cpp.obj"
-/sourceDependencies "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMineCharacter.cpp.json"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
+/Yu"C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMineCharacter.cpp.obj"
+/sourceDependencies C:\branchmaster\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMineCharacter.cpp.json
 /Zc:inline
 /nologo
 /Oi

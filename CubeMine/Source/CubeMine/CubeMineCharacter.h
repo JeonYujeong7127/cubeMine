@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CM_MineUI.h"
 #include "GameFramework/Character.h"
 #include "CubeMineCharacter.generated.h"
 
@@ -10,6 +11,7 @@ UCLASS(config=Game)
 class ACubeMineCharacter : public ACharacter
 {
 	GENERATED_BODY()
+public:
 
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -18,6 +20,12 @@ class ACubeMineCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+protected:
+	
+	TSubclassOf<UUserWidget> MineWidgetClass;
+	UCM_MineUI* MineWidget;
+
 public:
 	ACubeMineCharacter();
 
@@ -51,9 +59,12 @@ protected:
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
+	void Show();
+
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void BeginPlay() override;
 	// End of APawn interface
 
 public:
