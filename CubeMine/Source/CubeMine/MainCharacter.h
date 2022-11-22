@@ -36,9 +36,6 @@ public:
 	// Sets default values for this character's properties
 	AMainCharacter();
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Items)
-	class AWeapon* EquippedWeapon;
-
 	UPROPERTY(VisibleAnyWhere, BlueprintReadWrite, Category = "Enums")
 	EMovementStatus MovementStatus;
 
@@ -142,9 +139,23 @@ public:
 	*/
 	void LookUpAtRate(float Rate);
 
+	bool bEKeyDown;
+	void EKeyDown();
+	void EKeyUp();
+
+
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
-	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Items)
+	class AWeapon* EquippedWeapon;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Items)
+	class AItem* ActiveOverlappingItem;
+
+	
+	void SetEquippedWeapon(AWeapon* WeaponToSet);
+	FORCEINLINE AWeapon* GetEquippedWeapon() {return EquippedWeapon; }
+	FORCEINLINE void SetActiveOverlappingItem(AItem* Item) { ActiveOverlappingItem = Item; }
 };

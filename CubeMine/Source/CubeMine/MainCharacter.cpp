@@ -10,6 +10,7 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/World.h"
+#include "Weapon.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -192,6 +193,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMainCharacter::ShiftKeyDown);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMainCharacter::ShiftKeyUp);
 
+	PlayerInputComponent->BindAction("Equipped", IE_Pressed, this, &AMainCharacter::EKeyDown);
+	PlayerInputComponent->BindAction("Equipped", IE_Released, this, &AMainCharacter::EKeyUp);
+
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
@@ -200,8 +204,6 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AMainCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AMainCharacter::LookUpAtRate);
-
-
 
 }
 
@@ -246,6 +248,25 @@ void AMainCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * TurnRateGamepad * GetWorld()->GetDeltaSeconds());
+}
+
+void AMainCharacter::EKeyDown()
+{
+	bEKeyDown = true;
+
+	if (ActiveOverlappingItem)
+	{
+		AWeapon* Weapon = Cast<AWeapon>(ActiveOverlappingItem);
+		if (Weapon)
+		{
+			Weapon->Equip(this);
+			SetActiveOverlappingItem(nullptr);
+		}
+	}
+}
+void AMainCharacter::EKeyUp()
+{
+	bEKeyDown = false;
 }
 
 void AMainCharacter::DecrementHealth(float Amount)
@@ -294,4 +315,13 @@ void AMainCharacter::ShiftKeyDown()
 void AMainCharacter::ShiftKeyUp()
 {
 	bShiftKeyDown = false;
+}
+
+void  AMainCharacter::SetEquippedWeapon(AWeapon* WeaponToSet)
+{
+	if (EquippedWeapon)
+	{
+		EquippedWeapon->Destroy(); // 이전에 장착했던 무기 파괴 
+	}
+	EquippedWeapon = WeaponToSet;
 }
