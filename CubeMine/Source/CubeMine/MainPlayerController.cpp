@@ -4,6 +4,11 @@
 #include "MainPlayerController.h"
 #include "Blueprint/UserWidget.h"
 
+AMainPlayerController::AMainPlayerController()
+{
+	bShowMouseCursor = true;
+}
+
 void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();

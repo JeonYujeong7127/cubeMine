@@ -51,11 +51,11 @@ ACubeMineCharacter::ACubeMineCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	static ConstructorHelpers::FClassFinder<UCM_MineUI> Mine_UI(TEXT("/Game/ThirdPerson/Blueprints/UI/UI_Mine.UI_Mine_C"));
+	/*static ConstructorHelpers::FClassFinder<UCM_MineUI> Mine_UI(TEXT("/Game/ThirdPerson/Blueprints/UI/UI_Mine.UI_Mine_C"));
 	if (Mine_UI.Succeeded())
 	{
 		MineWidgetClass = Mine_UI.Class;
-	}
+	}*/
 	
 
 	
@@ -73,7 +73,7 @@ void ACubeMineCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAction("Show", IE_Pressed, this, &ACubeMineCharacter::Show);
+	//PlayerInputComponent->BindAction("Show", IE_Pressed, this, &ACubeMineCharacter::Show);
 
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &ACubeMineCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &ACubeMineCharacter::MoveRight);
@@ -94,7 +94,7 @@ void ACubeMineCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 void ACubeMineCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	UWorld* world = GetWorld();
+	/*UWorld* world = GetWorld();
 	FVector Location = FVector::ZeroVector;
 	TArray<AActor*> ArrayofTarget;
 	AActor* target = 0;
@@ -135,27 +135,27 @@ void ACubeMineCharacter::BeginPlay()
 		else {
 			UE_LOG(LogTemp, Warning, TEXT("fail to load MineWidget!!!"));
 		}
-	}
+	}*/
 }
 
-void ACubeMineCharacter::Show()
-{
-	APlayerController* PC = Cast<APlayerController>(GetController());
-
-	if (MineWidget->IsVisible())
-	{
-		PC->bShowMouseCursor = false;
-		PC->SetInputMode(FInputModeGameOnly());
-		MineWidget->SetVisibility(ESlateVisibility::Collapsed);
-	}
-	else
-	{
-		PC->bShowMouseCursor = true;
-		PC->SetInputMode(FInputModeGameAndUI());
-		MineWidget->SetVisibility(ESlateVisibility::Visible);
-	}
-		
-}
+//void ACubeMineCharacter::Show()
+//{
+//	APlayerController* PC = Cast<APlayerController>(GetController());
+//
+//	if (MineWidget->IsVisible())
+//	{
+//		PC->bShowMouseCursor = false;
+//		PC->SetInputMode(FInputModeGameOnly());
+//		MineWidget->SetVisibility(ESlateVisibility::Collapsed);
+//	}
+//	else
+//	{
+//		PC->bShowMouseCursor = true;
+//		PC->SetInputMode(FInputModeGameAndUI());
+//		MineWidget->SetVisibility(ESlateVisibility::Visible);
+//	}
+//		
+//}
 
 void ACubeMineCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {

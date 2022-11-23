@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CM_MineUI.h"
 #include "GameFramework/Character.h"
 #include "MainCharacter.generated.h"
 
@@ -111,6 +112,9 @@ public:
 	void IncrementKeys(int32 Amount);
 	void Die();
 
+//protected:
+//	TSubclassOf<UUserWidget> MineWidgetClass;
+//	UCM_MineUI* MineWidget;
 
 protected:
 	// Called when the game starts or when spawned

@@ -15,6 +15,8 @@ class CUBEMINE_API AMainPlayerController : public APlayerController
 	GENERATED_BODY()
 public:
 	
+	AMainPlayerController();
+
 	/** Reference to the UMG asset in the editor */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 	TSubclassOf<class UUserWidget> HUDOverlayAsset;
