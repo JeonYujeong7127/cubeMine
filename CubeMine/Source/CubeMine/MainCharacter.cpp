@@ -78,11 +78,11 @@ AMainCharacter::AMainCharacter()
 	StaminaDrainRate = 25.f;
 	MinSprintStamina = 50.f;
 
-	/*static ConstructorHelpers::FClassFinder<UCM_MineUI> Mine_UI(TEXT("/Game/ThirdPerson/Blueprints/UI/UI_Mine.UI_Mine_C"));
+	static ConstructorHelpers::FClassFinder<UCM_MineUI> Mine_UI(TEXT("/Game/ThirdPerson/Blueprints/UI/UI_Mine.UI_Mine_C"));
 	if (Mine_UI.Succeeded())
 	{
 		MineWidgetClass = Mine_UI.Class;
-	}*/
+	}
 
 }
 
@@ -90,15 +90,14 @@ AMainCharacter::AMainCharacter()
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	/*if (IsValid(MineWidgetClass))
+	if (IsValid(MineWidgetClass))
 	{
 		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
 		if (IsValid(MineWidget))
 		{
-			MineWidget->SetVisibility(ESlateVisibility::Visible);
-			MineWidget->AddToViewport();
+			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
 		}
-	}*/
+	}
 }
 
 // Called every frame

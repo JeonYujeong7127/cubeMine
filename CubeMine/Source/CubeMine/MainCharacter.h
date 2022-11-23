@@ -112,9 +112,9 @@ public:
 	void IncrementKeys(int32 Amount);
 	void Die();
 
-//protected:
-//	TSubclassOf<UUserWidget> MineWidgetClass;
-//	UCM_MineUI* MineWidget;
+protected:
+	TSubclassOf<UUserWidget> MineWidgetClass;
+	UCM_MineUI* MineWidget;
 
 protected:
 	// Called when the game starts or when spawned

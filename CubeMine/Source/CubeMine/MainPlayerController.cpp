@@ -7,6 +7,7 @@
 AMainPlayerController::AMainPlayerController()
 {
 	bShowMouseCursor = true;
+	
 }
 
 void AMainPlayerController::BeginPlay()
@@ -19,5 +20,7 @@ void AMainPlayerController::BeginPlay()
 	}
 	HUDOverlay->AddToViewport();
 	HUDOverlay->SetVisibility(ESlateVisibility::Visible);
+	
+	
 
 }
