@@ -8,7 +8,9 @@
 #include "Kismet/GameplayStatics.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Animation/AnimInstance.h"
 #include "Engine/World.h"
 #include "Weapon.h"
 
@@ -210,7 +212,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 void AMainCharacter::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!bAttacking))
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -273,6 +275,7 @@ void AMainCharacter::EKeyDown()
 void AMainCharacter::EKeyUp()
 {
 	bEKeyDown = false;
+
 }
 
 void AMainCharacter::DecrementHealth(float Amount)
@@ -334,7 +337,38 @@ void  AMainCharacter::SetEquippedWeapon(AWeapon* WeaponToSet)
 
 void  AMainCharacter::Attack()
 {
-	bAttacking = true;
+	if (!bAttacking)
+	{
+		bAttacking = true;
 
-	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance && CombatMontage)
+		{
+			int32 Section = FMath::RandRange(0, 1); //0,1 사이 난수 생성
+			switch (Section)
+			{
+			case 0:
+				AnimInstance->Montage_Play(CombatMontage, 2.2f);
+				AnimInstance->Montage_JumpToSection(FName("Attack_1"), CombatMontage);
+				UE_LOG(LogTemp, Warning, TEXT("Attack_1"));
+				break;
+			case 1:
+				AnimInstance->Montage_Play(CombatMontage, 1.8f);
+				AnimInstance->Montage_JumpToSection(FName("Attack_2"), CombatMontage);
+				UE_LOG(LogTemp, Warning, TEXT("Attack_2"));
+				break;
+
+			default:
+				;
+			}
+			
+
+		}
+	}
+	
+}
+
+void AMainCharacter::AttackEnd()
+{
+	bAttacking = false;
 }

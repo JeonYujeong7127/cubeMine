@@ -59,7 +59,8 @@ void AWeapon::Equip(AMainCharacter* Char)
 			RightHandSocket->AttachActor(this, Char->GetMesh()); //장비 호출
 			bRotate = false;
 
-			 
+			WeaponState = EWeaponState::EWS_Equipped;
+
 			Char->SetEquippedWeapon(this);
 			Char->SetActiveOverlappingItem(nullptr);
 		}
