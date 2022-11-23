@@ -95,6 +95,8 @@ void AMainCharacter::BeginPlay()
 		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
 		if (IsValid(MineWidget))
 		{
+			MineWidget->AddToViewport();
+			MineWidget->SetVisibility(ESlateVisibility::Visible);
 			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
 		}
 	}
