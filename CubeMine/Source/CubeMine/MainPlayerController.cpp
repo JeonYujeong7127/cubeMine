@@ -4,6 +4,12 @@
 #include "MainPlayerController.h"
 #include "Blueprint/UserWidget.h"
 
+AMainPlayerController::AMainPlayerController()
+{
+	bShowMouseCursor = true;
+	
+}
+
 void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -14,5 +20,7 @@ void AMainPlayerController::BeginPlay()
 	}
 	HUDOverlay->AddToViewport();
 	HUDOverlay->SetVisibility(ESlateVisibility::Visible);
+	
+	
 
 }

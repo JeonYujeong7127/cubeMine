@@ -2,6 +2,7 @@
 
 
 #include "MainCharacter.h"
+#include "CM_MineUI.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/PlayerController.h"
@@ -13,6 +14,8 @@
 #include "Animation/AnimInstance.h"
 #include "Engine/World.h"
 #include "Weapon.h"
+#include "MyFirstActor.h"
+#include "MainPlayerController.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -77,13 +80,28 @@ AMainCharacter::AMainCharacter()
 	StaminaDrainRate = 25.f;
 	MinSprintStamina = 50.f;
 
+	static ConstructorHelpers::FClassFinder<UCM_MineUI> Mine_UI(TEXT("/Game/ThirdPerson/Blueprints/UI/UI_Mine.UI_Mine_C"));
+	if (Mine_UI.Succeeded())
+	{
+		MineWidgetClass = Mine_UI.Class;
+	}
+
 }
 
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
+	if (IsValid(MineWidgetClass))
+	{
+		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
+		if (IsValid(MineWidget))
+		{
+			MineWidget->AddToViewport();
+			MineWidget->SetVisibility(ESlateVisibility::Visible);
+			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
+		}
+	}
 }
 
 // Called every frame
@@ -191,6 +209,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMainCharacter::ShiftKeyDown);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMainCharacter::ShiftKeyUp);

@@ -23,8 +23,8 @@ public:
 
 protected:
 	
-	TSubclassOf<UUserWidget> MineWidgetClass;
-	UCM_MineUI* MineWidget;
+	/*TSubclassOf<UUserWidget> MineWidgetClass;
+	UCM_MineUI* MineWidget;*/
 
 public:
 	ACubeMineCharacter();
@@ -59,7 +59,7 @@ protected:
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
-	void Show();
+	//void Show();
 
 protected:
 	// APawn interface
