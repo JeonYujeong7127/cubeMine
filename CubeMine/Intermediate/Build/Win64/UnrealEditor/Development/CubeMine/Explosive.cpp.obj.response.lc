@@ -1,6 +1,6 @@
-C:\CubeMine\CubeMine\Source\CubeMine\Explosive.cpp
+"C:\Unreal Project\cubeMine\CubeMine\Source\CubeMine\Explosive.cpp"
 /I .
-/I C:\CubeMine\CubeMine\Source\CubeMine\Private
+/I "C:\Unreal Project\cubeMine\CubeMine\Source\CubeMine\Private"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Slate
 /I Runtime
 /I Runtime\Slate\Public
@@ -252,9 +252,9 @@ C:\CubeMine\CubeMine\Source\CubeMine\Explosive.cpp
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I C:\CubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine
-/I C:\CubeMine\CubeMine\Source
-/I C:\CubeMine\CubeMine\Source\CubeMine\Public
+/I "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Inc\CubeMine"
+/I "C:\Unreal Project\cubeMine\CubeMine\Source"
+/I "C:\Unreal Project\cubeMine\CubeMine\Source\CubeMine\Public"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -273,18 +273,18 @@ C:\CubeMine\CubeMine\Source\CubeMine\Explosive.cpp
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\CubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\CubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
-/Yu"C:\CubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\CubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\CubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Explosive.cpp.lc.obj"
-/sourceDependencies"C:\CubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Explosive.cpp.lc.json"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Definitions.CubeMine.h"
+/Yu"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Explosive.cpp.lc.obj"
+/sourceDependencies"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Explosive.cpp.lc.json"
 /Zc:inline
 /nologo
 /Oi

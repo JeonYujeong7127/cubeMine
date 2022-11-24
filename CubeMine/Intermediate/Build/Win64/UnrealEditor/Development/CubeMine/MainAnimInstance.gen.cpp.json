@@ -1,13 +1,13 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\mainaniminstance.gen.cpp",
+        "Source": "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\mainaniminstance.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\cubemine\\cubemine\\source\\cubemine\\mainaniminstance.h",
-            "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\mainaniminstance.generated.h"
+            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\mainaniminstance.h",
+            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\mainaniminstance.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

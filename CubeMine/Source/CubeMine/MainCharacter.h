@@ -112,10 +112,28 @@ public:
 	void IncrementKeys(int32 Amount);
 	void Die();
 	void Show();
+
 protected:
 	TSubclassOf<UUserWidget> MineWidgetClass;
 	UCM_MineUI* MineWidget;
 
+	UFUNCTION(BlueprintCallable)
+		void ItemSpawn(FVector Location, UWorld* world);
+
+	UFUNCTION(BlueprintCallable)
+		void MineSpawn(FVector Location, UWorld* world);
+
+	UFUNCTION(BlueprintCallable)
+		void KeySpawn(FVector Location, UWorld* world);
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> ISpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> MSpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> KSpawn;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
