@@ -541,6 +541,7 @@ private:
 
 public:
 	TArray<TArray<int32>> Mine2D;
+	TArray<TArray<int32>> SpawnMap;
 	TArray<TArray<int32>> CheckOpen;
 	TArray<TArray<UButton*>> BTArr;
 	TArray<TArray<UTextBlock*>> TTArr;
@@ -556,7 +557,7 @@ public:
 	void ShowMine();
 	void DFS(int32 row, int32 col, int32 num);
 	void OpenMine();
-	
+	void SetSpawnMap();
 
 	
 };

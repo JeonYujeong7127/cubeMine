@@ -13,6 +13,7 @@ void UCM_MineUI::NativeConstruct()
 	Super::NativeConstruct();
 
 	Mine2D.Init(TArray<int32>(), size);
+	SpawnMap.Init(TArray<int32>(), size);
 	CheckOpen.Init(TArray<int32>(), size);
 	BTArr.Init(TArray<UButton*>(), size);
 	TTArr.Init(TArray<UTextBlock*>(), size);
@@ -20,6 +21,7 @@ void UCM_MineUI::NativeConstruct()
 	InitArr();
 	SetMine();
 	SetMineNum();
+	SetSpawnMap();
 	
 
 	BT_00 = Cast<UButton>(GetWidgetFromName(TEXT("0_0")));
@@ -1003,6 +1005,7 @@ void UCM_MineUI::InitArr()
 		{
 			Mine2D[i].Add(0);
 			CheckOpen[i].Add(0);
+			SpawnMap[i].Add(0);
 		}
 		
 	}
@@ -1081,10 +1084,50 @@ void UCM_MineUI::ShowMine() {
 	{
 		for (int32 j = 0; j < size; j++)
 		{
-			UE_LOG(LogTemp, Log, TEXT("%d"),Mine2D[i][j]);
+			UE_LOG(LogTemp, Log, TEXT("%d"),SpawnMap[i][j]);
 		}
 		
 	}
+}
+
+void UCM_MineUI::SetSpawnMap()
+{
+	int32 MineRow, MineCol;
+	int32 i;
+	int32 count = 0;
+
+	for (i = 0; i < 16; i++)
+	{
+		MineRow = FMath::RandRange(1, 6);
+		MineCol = FMath::RandRange(1, 6);
+
+		if (Mine2D[MineRow][MineCol] < 0)
+		{
+			i--;
+		}
+		else if (SpawnMap[MineRow][MineCol] != 0)
+		{
+			i--;
+		}
+		else
+		{
+			if (count < 3)
+			{
+				SpawnMap[MineRow][MineCol] = 1;
+				count++;
+			}
+			else if (count < 6)
+			{
+				SpawnMap[MineRow][MineCol] = 2;
+				count++;
+			}
+			else
+			{
+				SpawnMap[MineRow][MineCol] = 3;
+			}
+		}
+	}
+	ShowMine();
 }
 
 void UCM_MineUI::DFS(int32 row, int32 col, int32 num)
