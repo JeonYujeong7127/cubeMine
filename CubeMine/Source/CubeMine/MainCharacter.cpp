@@ -98,11 +98,13 @@ void AMainCharacter::BeginPlay()
 		if (IsValid(MineWidget))
 		{
 			MineWidget->AddToViewport();
-			MineWidget->SetVisibility(ESlateVisibility::Visible);
+			MineWidget->SetVisibility(ESlateVisibility::Collapsed);
 			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
 		}
 	}
 }
+
+
 
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
@@ -210,6 +212,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction("Show", IE_Pressed, this, &AMainCharacter::Show);
 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMainCharacter::ShiftKeyDown);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMainCharacter::ShiftKeyUp);
@@ -228,6 +231,23 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
+void AMainCharacter::Show()
+{
+	APlayerController* PC = Cast<AMainPlayerController>(GetController());
+	
+	if (MineWidget->IsVisible())
+	{
+		PC->bShowMouseCursor = false;
+		PC->SetInputMode(FInputModeGameOnly());
+		MineWidget->SetVisibility(ESlateVisibility::Collapsed);
+	}
+	else
+	{
+		PC->bShowMouseCursor = true;
+		PC->SetInputMode(FInputModeGameAndUI());
+		MineWidget->SetVisibility(ESlateVisibility::Visible);
+	}
+}
 
 void AMainCharacter::MoveForward(float Value)
 {

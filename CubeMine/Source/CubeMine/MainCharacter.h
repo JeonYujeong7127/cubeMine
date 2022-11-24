@@ -111,7 +111,7 @@ public:
 	void DecrementHealth(float Amount);
 	void IncrementKeys(int32 Amount);
 	void Die();
-
+	void Show();
 protected:
 	TSubclassOf<UUserWidget> MineWidgetClass;
 	UCM_MineUI* MineWidget;

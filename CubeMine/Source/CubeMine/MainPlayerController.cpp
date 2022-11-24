@@ -6,7 +6,7 @@
 
 AMainPlayerController::AMainPlayerController()
 {
-	bShowMouseCursor = true;
+	bShowMouseCursor = false;
 	
 }
 
