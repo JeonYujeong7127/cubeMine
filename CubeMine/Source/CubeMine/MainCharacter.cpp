@@ -14,6 +14,7 @@
 #include "Animation/AnimInstance.h"
 #include "Engine/World.h"
 #include "Explosive.h"
+#include "AAI_Character.h"
 #include "PickUp.h"
 #include "Weapon.h"
 #include "MyFirstActor.h"
@@ -114,10 +115,17 @@ void AMainCharacter::KeySpawn(FVector Location, UWorld* world)
 	world->SpawnActor<APickUp>(KSpawn, Location, rotator, SpawnParams);
 }
 
+void AMainCharacter::MobSpawn(FVector Location, UWorld* world)
+{
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+	FRotator rotator;
+	world->SpawnActor<AAAI_Character>(MoSpawn, Location, rotator, SpawnParams);
+}
+
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
-	Super::BeginPlay();
 	Super::BeginPlay();
 	UWorld* world = GetWorld();
 	FVector Location = FVector::ZeroVector;
@@ -185,8 +193,9 @@ void AMainCharacter::BeginPlay()
 							mineNum = (i * 8) + j + 1;
 							for (int k = 0; k <= 63; k++) {
 								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
+									TSubclassOf<class AAAI_Character> AAAI_Character_Actor;
 									Location = ArrayofTarget[k]->GetActorLocation();
-									//world->SpawnActor<AItem>(ToSpawn, Location, rotator, SpawnParams);
+									world->SpawnActor<AAAI_Character>(AAAI_Character_Actor, Location, rotator, SpawnParams);
 									UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
 									break;
 								}

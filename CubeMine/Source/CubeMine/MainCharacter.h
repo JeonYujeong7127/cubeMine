@@ -126,6 +126,9 @@ protected:
 	UFUNCTION(BlueprintCallable)
 		void KeySpawn(FVector Location, UWorld* world);
 
+	UFUNCTION(BlueprintCallable)
+		void MobSpawn(FVector Location, UWorld* world);
+
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AActor> ISpawn;
 
@@ -134,6 +137,10 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AActor> KSpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> MoSpawn;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

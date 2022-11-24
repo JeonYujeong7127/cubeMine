@@ -18,6 +18,7 @@ class UWorld;
 #define FID_CubeMine_Source_CubeMine_MainCharacter_h_34_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execAttackEnd); \
+	DECLARE_FUNCTION(execMobSpawn); \
 	DECLARE_FUNCTION(execKeySpawn); \
 	DECLARE_FUNCTION(execMineSpawn); \
 	DECLARE_FUNCTION(execItemSpawn);
@@ -26,6 +27,7 @@ class UWorld;
 #define FID_CubeMine_Source_CubeMine_MainCharacter_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execAttackEnd); \
+	DECLARE_FUNCTION(execMobSpawn); \
 	DECLARE_FUNCTION(execKeySpawn); \
 	DECLARE_FUNCTION(execMineSpawn); \
 	DECLARE_FUNCTION(execItemSpawn);
