@@ -112,6 +112,7 @@ public:
 	void IncrementKeys(int32 Amount);
 	void Die();
 	//void Show();
+	void showCursor();
 
 /*protected:
 	TSubclassOf<UUserWidget> MineWidgetClass;

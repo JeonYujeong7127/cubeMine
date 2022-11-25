@@ -291,6 +291,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Equipped", IE_Pressed, this, &AMainCharacter::EKeyDown);
 	PlayerInputComponent->BindAction("Equipped", IE_Released, this, &AMainCharacter::EKeyUp);
 
+	PlayerInputComponent->BindAction("ShowCursor", IE_Released, this, &AMainCharacter::showCursor);
+
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
@@ -409,6 +411,17 @@ void AMainCharacter::IncrementKeys(int32 Amount)
 void AMainCharacter::Die()
 {
 
+}
+
+void AMainCharacter::showCursor()
+{
+	APlayerController* PC = Cast<AMainPlayerController>(GetController());	
+	if (PC->bShowMouseCursor == false) {
+		PC->bShowMouseCursor = true;
+	}
+	else {
+		PC->bShowMouseCursor = false;
+	}
 }
 
 void AMainCharacter::SetMovementStatus(EMovementStatus Status)

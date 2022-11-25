@@ -18,10 +18,11 @@ public:
 	UPROPERTY()
 		UStaticMeshComponent* Mesh;
 
-protected:
+public:
 	TSubclassOf<UUserWidget> MineWidgetClass;
 	UCM_MineUI* MineWidget;
 
+protected:
 	UFUNCTION(BlueprintCallable)
 		void ItemSpawn(FVector Location, UWorld* world);
 
@@ -49,4 +50,5 @@ protected:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
 };
