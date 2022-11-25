@@ -165,6 +165,7 @@ void AMainCharacter::BeginPlay()
 					}
 					else {
 						if (SpawnMap[i][j] == 1) { // 아이템 3개
+							UE_LOG(LogTemp, Log, TEXT("SpawnMap[%d][%d] = %d"), i, j, SpawnMap[i][j]);
 							UE_LOG(LogTemp, Log, TEXT("Item is here (%d, %d)"), i, j);
 							mineNum = (i * 8) + j + 1;
 							for (int k = 0; k <= 63; k++) {
@@ -195,7 +196,7 @@ void AMainCharacter::BeginPlay()
 								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
 									TSubclassOf<class AAAI_Character> AAAI_Character_Actor;
 									Location = ArrayofTarget[k]->GetActorLocation();
-									world->SpawnActor<AAAI_Character>(AAAI_Character_Actor, Location, rotator, SpawnParams);
+									MobSpawn(Location, world);
 									UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
 									break;
 								}

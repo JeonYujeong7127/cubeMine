@@ -1084,9 +1084,8 @@ void UCM_MineUI::ShowMine() {
 	{
 		for (int32 j = 0; j < size; j++)
 		{
-			UE_LOG(LogTemp, Log, TEXT("%d"),SpawnMap[i][j]);
+			UE_LOG(LogTemp, Log, TEXT("SpawnMap[%d][%d] = %d"),i, j, SpawnMap[i][j]);
 		}
-		
 	}
 }
 

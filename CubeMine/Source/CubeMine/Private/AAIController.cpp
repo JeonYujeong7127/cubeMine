@@ -20,7 +20,7 @@ const FName AAAIController::AttackKey(TEXT("Attack"));
 AAAIController::AAAIController() 
 {
 	PrimaryActorTick.bCanEverTick = true;
-	
+
 	static ConstructorHelpers::FObjectFinder<UBlackboardData> BBObject(TEXT("BlackboardData'/Game/AI_Behaivor/BB_AICharacter.BB_AICharacter'"));
 	if (BBObject.Succeeded())
 	{

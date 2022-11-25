@@ -7,7 +7,6 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\CubeMineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\AAIController.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\AAI_Character.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\BotMovementCharacter.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\BTDecorator_IsInAttackRange.cpp.obj"
@@ -15,7 +14,6 @@
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\BTTaskNode_Attack.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\BTTask_Patrol.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\BTTask_TurnToTarget.cpp.obj"
-"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CM_MineUI.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMine.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMineCharacter.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CubeMineGameMode.cpp.obj"
@@ -27,6 +25,8 @@
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\MyFirstActor.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\PickUp.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\Weapon.cpp.obj"
+"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\AAIController.cpp.obj"
+"C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\CM_MineUI.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\MainCharacter.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\AAIController.gen.cpp.obj"
 "C:\Unreal Project\cubeMine\CubeMine\Intermediate\Build\Win64\UnrealEditor\Development\CubeMine\AAI_Character.gen.cpp.obj"

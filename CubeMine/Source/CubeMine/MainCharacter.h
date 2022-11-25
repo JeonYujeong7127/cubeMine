@@ -29,7 +29,7 @@ enum class EStaminaStatus : uint8
 };
 
 UCLASS()
-class CUBEMINE_API AMainCharacter : public ACharacter
+class CUBEMINE_API	AMainCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
