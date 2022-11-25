@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CM_MineUI.h"
 #include "GameFramework/Actor.h"
 #include "MyFirstActor.generated.h"
 
@@ -18,11 +19,34 @@ public:
 		UStaticMeshComponent* Mesh;
 
 protected:
+	TSubclassOf<UUserWidget> MineWidgetClass;
+	UCM_MineUI* MineWidget;
+
+	UFUNCTION(BlueprintCallable)
+		void ItemSpawn(FVector Location, UWorld* world);
+
+	UFUNCTION(BlueprintCallable)
+		void MineSpawn(FVector Location, UWorld* world);
+
+	UFUNCTION(BlueprintCallable)
+		void KeySpawn(FVector Location, UWorld* world);
+
+	UFUNCTION(BlueprintCallable)
+		void MobSpawn(FVector Location, UWorld* world);
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> ISpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> MSpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> KSpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> MoSpawn;
+
+protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 };

@@ -111,9 +111,9 @@ public:
 	void DecrementHealth(float Amount);
 	void IncrementKeys(int32 Amount);
 	void Die();
-	void Show();
+	//void Show();
 
-protected:
+/*protected:
 	TSubclassOf<UUserWidget> MineWidgetClass;
 	UCM_MineUI* MineWidget;
 
@@ -139,7 +139,7 @@ protected:
 		TSubclassOf<class AActor> KSpawn;
 
 	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> MoSpawn;
+		TSubclassOf<class AActor> MoSpawn; */
 
 protected:
 	// Called when the game starts or when spawned

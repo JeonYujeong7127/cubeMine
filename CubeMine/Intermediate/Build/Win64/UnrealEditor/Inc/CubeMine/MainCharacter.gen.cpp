@@ -15,12 +15,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	CUBEMINE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	CUBEMINE_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UClass* Z_Construct_UClass_UWorld_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	CUBEMINE_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 	CUBEMINE_API UClass* Z_Construct_UClass_AItem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
@@ -157,51 +153,11 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		P_THIS->AttackEnd();
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(AMainCharacter::execMobSpawn)
-	{
-		P_GET_STRUCT(FVector,Z_Param_Location);
-		P_GET_OBJECT(UWorld,Z_Param_world);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->MobSpawn(Z_Param_Location,Z_Param_world);
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AMainCharacter::execKeySpawn)
-	{
-		P_GET_STRUCT(FVector,Z_Param_Location);
-		P_GET_OBJECT(UWorld,Z_Param_world);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->KeySpawn(Z_Param_Location,Z_Param_world);
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AMainCharacter::execMineSpawn)
-	{
-		P_GET_STRUCT(FVector,Z_Param_Location);
-		P_GET_OBJECT(UWorld,Z_Param_world);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->MineSpawn(Z_Param_Location,Z_Param_world);
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AMainCharacter::execItemSpawn)
-	{
-		P_GET_STRUCT(FVector,Z_Param_Location);
-		P_GET_OBJECT(UWorld,Z_Param_world);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->ItemSpawn(Z_Param_Location,Z_Param_world);
-		P_NATIVE_END;
-	}
 	void AMainCharacter::StaticRegisterNativesAMainCharacter()
 	{
 		UClass* Class = AMainCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AttackEnd", &AMainCharacter::execAttackEnd },
-			{ "ItemSpawn", &AMainCharacter::execItemSpawn },
-			{ "KeySpawn", &AMainCharacter::execKeySpawn },
-			{ "MineSpawn", &AMainCharacter::execMineSpawn },
-			{ "MobSpawn", &AMainCharacter::execMobSpawn },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -224,150 +180,6 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMainCharacter_AttackEnd_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics
-	{
-		struct MainCharacter_eventItemSpawn_Parms
-		{
-			FVector Location;
-			UWorld* world;
-		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_Location;
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_world;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventItemSpawn_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::NewProp_world = { "world", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventItemSpawn_Parms, world), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::NewProp_Location,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::NewProp_world,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "ItemSpawn", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::MainCharacter_eventItemSpawn_Parms), Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainCharacter_ItemSpawn()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMainCharacter_ItemSpawn_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics
-	{
-		struct MainCharacter_eventKeySpawn_Parms
-		{
-			FVector Location;
-			UWorld* world;
-		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_Location;
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_world;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventKeySpawn_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::NewProp_world = { "world", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventKeySpawn_Parms, world), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::NewProp_Location,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::NewProp_world,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "KeySpawn", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::MainCharacter_eventKeySpawn_Parms), Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainCharacter_KeySpawn()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMainCharacter_KeySpawn_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics
-	{
-		struct MainCharacter_eventMineSpawn_Parms
-		{
-			FVector Location;
-			UWorld* world;
-		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_Location;
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_world;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventMineSpawn_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::NewProp_world = { "world", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventMineSpawn_Parms, world), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::NewProp_Location,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::NewProp_world,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "MineSpawn", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::MainCharacter_eventMineSpawn_Parms), Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainCharacter_MineSpawn()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMainCharacter_MineSpawn_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics
-	{
-		struct MainCharacter_eventMobSpawn_Parms
-		{
-			FVector Location;
-			UWorld* world;
-		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_Location;
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_world;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventMobSpawn_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::NewProp_world = { "world", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventMobSpawn_Parms, world), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::NewProp_Location,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::NewProp_world,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "MobSpawn", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::MainCharacter_eventMobSpawn_Parms), Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainCharacter_MobSpawn()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMainCharacter_MobSpawn_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -450,22 +262,6 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 		static const UECodeGen_Private::FIntPropertyParams NewProp_Keys;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_ISpawn_MetaData[];
-#endif
-		static const UECodeGen_Private::FClassPropertyParams NewProp_ISpawn;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_MSpawn_MetaData[];
-#endif
-		static const UECodeGen_Private::FClassPropertyParams NewProp_MSpawn;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_KSpawn_MetaData[];
-#endif
-		static const UECodeGen_Private::FClassPropertyParams NewProp_KSpawn;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoSpawn_MetaData[];
-#endif
-		static const UECodeGen_Private::FClassPropertyParams NewProp_MoSpawn;
-#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_EquippedWeapon_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_EquippedWeapon;
@@ -492,10 +288,6 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMainCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMainCharacter_AttackEnd, "AttackEnd" }, // 2928955700
-		{ &Z_Construct_UFunction_AMainCharacter_ItemSpawn, "ItemSpawn" }, // 1116705871
-		{ &Z_Construct_UFunction_AMainCharacter_KeySpawn, "KeySpawn" }, // 1101804178
-		{ &Z_Construct_UFunction_AMainCharacter_MineSpawn, "MineSpawn" }, // 2394106383
-		{ &Z_Construct_UFunction_AMainCharacter_MobSpawn, "MobSpawn" }, // 3172121741
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams[] = {
@@ -633,34 +425,6 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_Keys = { "Keys", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, Keys), METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_Keys_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_Keys_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_ISpawn_MetaData[] = {
-		{ "Category", "MainCharacter" },
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_ISpawn = { "ISpawn", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, ISpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_ISpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_ISpawn_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_MSpawn_MetaData[] = {
-		{ "Category", "MainCharacter" },
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_MSpawn = { "MSpawn", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, MSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_MSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_MSpawn_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_KSpawn_MetaData[] = {
-		{ "Category", "MainCharacter" },
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_KSpawn = { "KSpawn", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, KSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_KSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_KSpawn_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_MoSpawn_MetaData[] = {
-		{ "Category", "MainCharacter" },
-		{ "ModuleRelativePath", "MainCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_MoSpawn = { "MoSpawn", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, MoSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_MoSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_MoSpawn_MetaData)) };
-#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon_MetaData[] = {
 		{ "Category", "Items" },
 		{ "ModuleRelativePath", "MainCharacter.h" },
@@ -711,10 +475,6 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MaxStamina,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Stamina,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Keys,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_ISpawn,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MSpawn,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_KSpawn,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MoSpawn,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_ActiveOverlappingItem,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bAttacking,
@@ -761,9 +521,9 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ EStaminaStatus_StaticEnum, TEXT("EStaminaStatus"), &Z_Registration_Info_UEnum_EStaminaStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4084186088U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMainCharacter, AMainCharacter::StaticClass, TEXT("AMainCharacter"), &Z_Registration_Info_UClass_AMainCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainCharacter), 3390175014U) },
+		{ Z_Construct_UClass_AMainCharacter, AMainCharacter::StaticClass, TEXT("AMainCharacter"), &Z_Registration_Info_UClass_AMainCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainCharacter), 817597598U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_1876361322(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_1571237015(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainCharacter_h_Statics::EnumInfo));
