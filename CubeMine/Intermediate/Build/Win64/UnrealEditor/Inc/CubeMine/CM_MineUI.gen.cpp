@@ -548,7 +548,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button00Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button00Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button00Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button00Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -570,7 +570,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button01Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button01Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button01Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button01Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button01Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button01Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button01Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button01Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button01Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -592,7 +592,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button02Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button02Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button02Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button02Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button02Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button02Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button02Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button02Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button02Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -614,7 +614,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button03Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button03Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button03Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button03Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button03Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button03Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button03Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button03Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button03Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -636,7 +636,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button04Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button04Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button04Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button04Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button04Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button04Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button04Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button04Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button04Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -658,7 +658,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button05Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button05Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button05Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button05Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button05Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button05Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button05Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button05Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button05Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -680,7 +680,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button06Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button06Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button06Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button06Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button06Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button06Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button06Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button06Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button06Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -702,7 +702,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button07Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button07Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button07Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button07Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button07Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button07Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button07Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button07Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button07Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -724,7 +724,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button10Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button10Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button10Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button10Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button10Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button10Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button10Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button10Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button10Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -746,7 +746,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button11Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button11Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button11Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button11Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button11Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button11Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button11Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button11Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button11Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -768,7 +768,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button12Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button12Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button12Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button12Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button12Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button12Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button12Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button12Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button12Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -790,7 +790,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button13Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button13Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button13Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button13Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button13Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button13Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button13Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button13Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button13Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -812,7 +812,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button14Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button14Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button14Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button14Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button14Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button14Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button14Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button14Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button14Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -834,7 +834,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button15Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button15Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button15Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button15Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button15Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button15Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button15Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button15Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button15Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -856,7 +856,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button16Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button16Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button16Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button16Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button16Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button16Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button16Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button16Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button16Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -878,7 +878,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button17Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button17Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button17Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button17Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button17Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button17Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button17Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button17Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button17Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -900,7 +900,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button20Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button20Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button20Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button20Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button20Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button20Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button20Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button20Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button20Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -922,7 +922,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button21Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button21Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button21Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button21Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button21Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button21Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button21Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button21Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button21Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -944,7 +944,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button22Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button22Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button22Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button22Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button22Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button22Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button22Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button22Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button22Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -966,7 +966,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button23Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button23Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button23Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button23Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button23Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button23Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button23Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button23Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button23Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -988,7 +988,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button24Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button24Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button24Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button24Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button24Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button24Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button24Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button24Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button24Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1010,7 +1010,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button25Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button25Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button25Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button25Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button25Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button25Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button25Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button25Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button25Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1032,7 +1032,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button26Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button26Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button26Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button26Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button26Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button26Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button26Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button26Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button26Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1054,7 +1054,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button27Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button27Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button27Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button27Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button27Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button27Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button27Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button27Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button27Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1076,7 +1076,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button30Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button30Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button30Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button30Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button30Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button30Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button30Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button30Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button30Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1098,7 +1098,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button31Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button31Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button31Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button31Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button31Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button31Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button31Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button31Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button31Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1120,7 +1120,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button32Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button32Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button32Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button32Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button32Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button32Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button32Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button32Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button32Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1142,7 +1142,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button33Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button33Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button33Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button33Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button33Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button33Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button33Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button33Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button33Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1164,7 +1164,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button34Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button34Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button34Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button34Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button34Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button34Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button34Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button34Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button34Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1186,7 +1186,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button35Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button35Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button35Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button35Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button35Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button35Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button35Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button35Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button35Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1208,7 +1208,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button36Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button36Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button36Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button36Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button36Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button36Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button36Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button36Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button36Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1230,7 +1230,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button37Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button37Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button37Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button37Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button37Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button37Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button37Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button37Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button37Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1252,7 +1252,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button40Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button40Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button40Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button40Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button40Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button40Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button40Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button40Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button40Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1274,7 +1274,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button41Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button41Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button41Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button41Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button41Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button41Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button41Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button41Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button41Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1296,7 +1296,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button42Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button42Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button42Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button42Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button42Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button42Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button42Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button42Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button42Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1318,7 +1318,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button43Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button43Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button43Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button43Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button43Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button43Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button43Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button43Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button43Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1340,7 +1340,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button44Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button44Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button44Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button44Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button44Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button44Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button44Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button44Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button44Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1362,7 +1362,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button45Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button45Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button45Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button45Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button45Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button45Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button45Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button45Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button45Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1384,7 +1384,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button46Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button46Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button46Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button46Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button46Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button46Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button46Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button46Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button46Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1406,7 +1406,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button47Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button47Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button47Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button47Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button47Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button47Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button47Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button47Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button47Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1428,7 +1428,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button50Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button50Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button50Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button50Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button50Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button50Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button50Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button50Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button50Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1450,7 +1450,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button51Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button51Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button51Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button51Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button51Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button51Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button51Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button51Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button51Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1472,7 +1472,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button52Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button52Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button52Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button52Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button52Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button52Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button52Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button52Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button52Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1494,7 +1494,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button53Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button53Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button53Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button53Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button53Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button53Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button53Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button53Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button53Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1516,7 +1516,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button54Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button54Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button54Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button54Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button54Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button54Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button54Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button54Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button54Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1538,7 +1538,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button55Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button55Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button55Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button55Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button55Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button55Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button55Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button55Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button55Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1560,7 +1560,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button56Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button56Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button56Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button56Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button56Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button56Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button56Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button56Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button56Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1582,7 +1582,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button57Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button57Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button57Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button57Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button57Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button57Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button57Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button57Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button57Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1604,7 +1604,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button60Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button60Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button60Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button60Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button60Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button60Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button60Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button60Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button60Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1626,7 +1626,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button61Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button61Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button61Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button61Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button61Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button61Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button61Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button61Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button61Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1648,7 +1648,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button62Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button62Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button62Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button62Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button62Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button62Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button62Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button62Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button62Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1670,7 +1670,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button63Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button63Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button63Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button63Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button63Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button63Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button63Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button63Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button63Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1692,7 +1692,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button64Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button64Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button64Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button64Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button64Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button64Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button64Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button64Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button64Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1714,7 +1714,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button65Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button65Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button65Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button65Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button65Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button65Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button65Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button65Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button65Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1736,7 +1736,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button66Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button66Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button66Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button66Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button66Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button66Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button66Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button66Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button66Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1758,7 +1758,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button67Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button67Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button67Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button67Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button67Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button67Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button67Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button67Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button67Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1780,7 +1780,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button70Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button70Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button70Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button70Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button70Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button70Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button70Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button70Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button70Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1802,7 +1802,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button71Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button71Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button71Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button71Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button71Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button71Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button71Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button71Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button71Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1824,7 +1824,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button72Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button72Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button72Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button72Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button72Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button72Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button72Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button72Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button72Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1846,7 +1846,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button73Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button73Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button73Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button73Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button73Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button73Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button73Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button73Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button73Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1868,7 +1868,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button74Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button74Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button74Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button74Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button74Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button74Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button74Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button74Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button74Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1890,7 +1890,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button75Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button75Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button75Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button75Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button75Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button75Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button75Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button75Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button75Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1912,7 +1912,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button76Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button76Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button76Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button76Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button76Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button76Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button76Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button76Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button76Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1934,7 +1934,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		{ "ModuleRelativePath", "CM_MineUI.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button77Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button77Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button77Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button77Callback_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCM_MineUI_Button77Callback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCM_MineUI, nullptr, "Button77Callback", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCM_MineUI_Button77Callback_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCM_MineUI_Button77Callback_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCM_MineUI_Button77Callback()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2733,70 +2733,70 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CubeMine,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCM_MineUI_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UCM_MineUI_Button00Callback, "Button00Callback" }, // 3891975166
-		{ &Z_Construct_UFunction_UCM_MineUI_Button01Callback, "Button01Callback" }, // 4107731191
-		{ &Z_Construct_UFunction_UCM_MineUI_Button02Callback, "Button02Callback" }, // 393357951
-		{ &Z_Construct_UFunction_UCM_MineUI_Button03Callback, "Button03Callback" }, // 749893406
-		{ &Z_Construct_UFunction_UCM_MineUI_Button04Callback, "Button04Callback" }, // 214754481
-		{ &Z_Construct_UFunction_UCM_MineUI_Button05Callback, "Button05Callback" }, // 542033727
-		{ &Z_Construct_UFunction_UCM_MineUI_Button06Callback, "Button06Callback" }, // 1535077065
-		{ &Z_Construct_UFunction_UCM_MineUI_Button07Callback, "Button07Callback" }, // 4073619201
-		{ &Z_Construct_UFunction_UCM_MineUI_Button10Callback, "Button10Callback" }, // 3128512777
-		{ &Z_Construct_UFunction_UCM_MineUI_Button11Callback, "Button11Callback" }, // 4148165024
-		{ &Z_Construct_UFunction_UCM_MineUI_Button12Callback, "Button12Callback" }, // 525725039
-		{ &Z_Construct_UFunction_UCM_MineUI_Button13Callback, "Button13Callback" }, // 378517128
-		{ &Z_Construct_UFunction_UCM_MineUI_Button14Callback, "Button14Callback" }, // 170609815
-		{ &Z_Construct_UFunction_UCM_MineUI_Button15Callback, "Button15Callback" }, // 3709362129
-		{ &Z_Construct_UFunction_UCM_MineUI_Button16Callback, "Button16Callback" }, // 825093760
-		{ &Z_Construct_UFunction_UCM_MineUI_Button17Callback, "Button17Callback" }, // 3242018079
-		{ &Z_Construct_UFunction_UCM_MineUI_Button20Callback, "Button20Callback" }, // 3963427403
-		{ &Z_Construct_UFunction_UCM_MineUI_Button21Callback, "Button21Callback" }, // 2374486178
-		{ &Z_Construct_UFunction_UCM_MineUI_Button22Callback, "Button22Callback" }, // 1509064585
-		{ &Z_Construct_UFunction_UCM_MineUI_Button23Callback, "Button23Callback" }, // 2675661591
-		{ &Z_Construct_UFunction_UCM_MineUI_Button24Callback, "Button24Callback" }, // 1091684740
-		{ &Z_Construct_UFunction_UCM_MineUI_Button25Callback, "Button25Callback" }, // 3305278224
-		{ &Z_Construct_UFunction_UCM_MineUI_Button26Callback, "Button26Callback" }, // 1498902833
-		{ &Z_Construct_UFunction_UCM_MineUI_Button27Callback, "Button27Callback" }, // 270061588
-		{ &Z_Construct_UFunction_UCM_MineUI_Button30Callback, "Button30Callback" }, // 3568420949
-		{ &Z_Construct_UFunction_UCM_MineUI_Button31Callback, "Button31Callback" }, // 849499812
-		{ &Z_Construct_UFunction_UCM_MineUI_Button32Callback, "Button32Callback" }, // 2949477
-		{ &Z_Construct_UFunction_UCM_MineUI_Button33Callback, "Button33Callback" }, // 2515331222
-		{ &Z_Construct_UFunction_UCM_MineUI_Button34Callback, "Button34Callback" }, // 2847337227
-		{ &Z_Construct_UFunction_UCM_MineUI_Button35Callback, "Button35Callback" }, // 637758626
-		{ &Z_Construct_UFunction_UCM_MineUI_Button36Callback, "Button36Callback" }, // 1502486213
-		{ &Z_Construct_UFunction_UCM_MineUI_Button37Callback, "Button37Callback" }, // 2161071525
-		{ &Z_Construct_UFunction_UCM_MineUI_Button40Callback, "Button40Callback" }, // 2249541068
-		{ &Z_Construct_UFunction_UCM_MineUI_Button41Callback, "Button41Callback" }, // 2999041651
-		{ &Z_Construct_UFunction_UCM_MineUI_Button42Callback, "Button42Callback" }, // 3811634656
-		{ &Z_Construct_UFunction_UCM_MineUI_Button43Callback, "Button43Callback" }, // 279856599
-		{ &Z_Construct_UFunction_UCM_MineUI_Button44Callback, "Button44Callback" }, // 3359909680
-		{ &Z_Construct_UFunction_UCM_MineUI_Button45Callback, "Button45Callback" }, // 2255100883
-		{ &Z_Construct_UFunction_UCM_MineUI_Button46Callback, "Button46Callback" }, // 3394258735
-		{ &Z_Construct_UFunction_UCM_MineUI_Button47Callback, "Button47Callback" }, // 1546510171
-		{ &Z_Construct_UFunction_UCM_MineUI_Button50Callback, "Button50Callback" }, // 1374392903
-		{ &Z_Construct_UFunction_UCM_MineUI_Button51Callback, "Button51Callback" }, // 1768475111
-		{ &Z_Construct_UFunction_UCM_MineUI_Button52Callback, "Button52Callback" }, // 1325561398
-		{ &Z_Construct_UFunction_UCM_MineUI_Button53Callback, "Button53Callback" }, // 2470754304
-		{ &Z_Construct_UFunction_UCM_MineUI_Button54Callback, "Button54Callback" }, // 4021627192
-		{ &Z_Construct_UFunction_UCM_MineUI_Button55Callback, "Button55Callback" }, // 3972930259
-		{ &Z_Construct_UFunction_UCM_MineUI_Button56Callback, "Button56Callback" }, // 2373907912
-		{ &Z_Construct_UFunction_UCM_MineUI_Button57Callback, "Button57Callback" }, // 824245837
-		{ &Z_Construct_UFunction_UCM_MineUI_Button60Callback, "Button60Callback" }, // 468143593
-		{ &Z_Construct_UFunction_UCM_MineUI_Button61Callback, "Button61Callback" }, // 766057914
-		{ &Z_Construct_UFunction_UCM_MineUI_Button62Callback, "Button62Callback" }, // 3021427049
-		{ &Z_Construct_UFunction_UCM_MineUI_Button63Callback, "Button63Callback" }, // 3635743327
-		{ &Z_Construct_UFunction_UCM_MineUI_Button64Callback, "Button64Callback" }, // 554549146
-		{ &Z_Construct_UFunction_UCM_MineUI_Button65Callback, "Button65Callback" }, // 1202770050
-		{ &Z_Construct_UFunction_UCM_MineUI_Button66Callback, "Button66Callback" }, // 1095800600
-		{ &Z_Construct_UFunction_UCM_MineUI_Button67Callback, "Button67Callback" }, // 534371946
-		{ &Z_Construct_UFunction_UCM_MineUI_Button70Callback, "Button70Callback" }, // 1317447454
-		{ &Z_Construct_UFunction_UCM_MineUI_Button71Callback, "Button71Callback" }, // 4262653133
-		{ &Z_Construct_UFunction_UCM_MineUI_Button72Callback, "Button72Callback" }, // 537267999
-		{ &Z_Construct_UFunction_UCM_MineUI_Button73Callback, "Button73Callback" }, // 331109885
-		{ &Z_Construct_UFunction_UCM_MineUI_Button74Callback, "Button74Callback" }, // 1959397908
-		{ &Z_Construct_UFunction_UCM_MineUI_Button75Callback, "Button75Callback" }, // 1611360071
-		{ &Z_Construct_UFunction_UCM_MineUI_Button76Callback, "Button76Callback" }, // 2155441620
-		{ &Z_Construct_UFunction_UCM_MineUI_Button77Callback, "Button77Callback" }, // 1957269765
+		{ &Z_Construct_UFunction_UCM_MineUI_Button00Callback, "Button00Callback" }, // 3593122493
+		{ &Z_Construct_UFunction_UCM_MineUI_Button01Callback, "Button01Callback" }, // 3803307444
+		{ &Z_Construct_UFunction_UCM_MineUI_Button02Callback, "Button02Callback" }, // 4267259234
+		{ &Z_Construct_UFunction_UCM_MineUI_Button03Callback, "Button03Callback" }, // 3831382092
+		{ &Z_Construct_UFunction_UCM_MineUI_Button04Callback, "Button04Callback" }, // 2293240431
+		{ &Z_Construct_UFunction_UCM_MineUI_Button05Callback, "Button05Callback" }, // 370979982
+		{ &Z_Construct_UFunction_UCM_MineUI_Button06Callback, "Button06Callback" }, // 1920476042
+		{ &Z_Construct_UFunction_UCM_MineUI_Button07Callback, "Button07Callback" }, // 723913801
+		{ &Z_Construct_UFunction_UCM_MineUI_Button10Callback, "Button10Callback" }, // 1027966950
+		{ &Z_Construct_UFunction_UCM_MineUI_Button11Callback, "Button11Callback" }, // 795625985
+		{ &Z_Construct_UFunction_UCM_MineUI_Button12Callback, "Button12Callback" }, // 1374908886
+		{ &Z_Construct_UFunction_UCM_MineUI_Button13Callback, "Button13Callback" }, // 507886680
+		{ &Z_Construct_UFunction_UCM_MineUI_Button14Callback, "Button14Callback" }, // 1679703864
+		{ &Z_Construct_UFunction_UCM_MineUI_Button15Callback, "Button15Callback" }, // 3058147219
+		{ &Z_Construct_UFunction_UCM_MineUI_Button16Callback, "Button16Callback" }, // 675577743
+		{ &Z_Construct_UFunction_UCM_MineUI_Button17Callback, "Button17Callback" }, // 3018055896
+		{ &Z_Construct_UFunction_UCM_MineUI_Button20Callback, "Button20Callback" }, // 26849590
+		{ &Z_Construct_UFunction_UCM_MineUI_Button21Callback, "Button21Callback" }, // 1941897059
+		{ &Z_Construct_UFunction_UCM_MineUI_Button22Callback, "Button22Callback" }, // 2426415146
+		{ &Z_Construct_UFunction_UCM_MineUI_Button23Callback, "Button23Callback" }, // 1503185629
+		{ &Z_Construct_UFunction_UCM_MineUI_Button24Callback, "Button24Callback" }, // 2852383544
+		{ &Z_Construct_UFunction_UCM_MineUI_Button25Callback, "Button25Callback" }, // 3542228867
+		{ &Z_Construct_UFunction_UCM_MineUI_Button26Callback, "Button26Callback" }, // 2884038629
+		{ &Z_Construct_UFunction_UCM_MineUI_Button27Callback, "Button27Callback" }, // 1690959
+		{ &Z_Construct_UFunction_UCM_MineUI_Button30Callback, "Button30Callback" }, // 2523656710
+		{ &Z_Construct_UFunction_UCM_MineUI_Button31Callback, "Button31Callback" }, // 435589463
+		{ &Z_Construct_UFunction_UCM_MineUI_Button32Callback, "Button32Callback" }, // 2819438946
+		{ &Z_Construct_UFunction_UCM_MineUI_Button33Callback, "Button33Callback" }, // 800199232
+		{ &Z_Construct_UFunction_UCM_MineUI_Button34Callback, "Button34Callback" }, // 3106356994
+		{ &Z_Construct_UFunction_UCM_MineUI_Button35Callback, "Button35Callback" }, // 3986409851
+		{ &Z_Construct_UFunction_UCM_MineUI_Button36Callback, "Button36Callback" }, // 2109491381
+		{ &Z_Construct_UFunction_UCM_MineUI_Button37Callback, "Button37Callback" }, // 651813853
+		{ &Z_Construct_UFunction_UCM_MineUI_Button40Callback, "Button40Callback" }, // 614951190
+		{ &Z_Construct_UFunction_UCM_MineUI_Button41Callback, "Button41Callback" }, // 3766028776
+		{ &Z_Construct_UFunction_UCM_MineUI_Button42Callback, "Button42Callback" }, // 1354080882
+		{ &Z_Construct_UFunction_UCM_MineUI_Button43Callback, "Button43Callback" }, // 2487195614
+		{ &Z_Construct_UFunction_UCM_MineUI_Button44Callback, "Button44Callback" }, // 3403394873
+		{ &Z_Construct_UFunction_UCM_MineUI_Button45Callback, "Button45Callback" }, // 2366568790
+		{ &Z_Construct_UFunction_UCM_MineUI_Button46Callback, "Button46Callback" }, // 567997874
+		{ &Z_Construct_UFunction_UCM_MineUI_Button47Callback, "Button47Callback" }, // 2336183824
+		{ &Z_Construct_UFunction_UCM_MineUI_Button50Callback, "Button50Callback" }, // 2528315820
+		{ &Z_Construct_UFunction_UCM_MineUI_Button51Callback, "Button51Callback" }, // 4092864979
+		{ &Z_Construct_UFunction_UCM_MineUI_Button52Callback, "Button52Callback" }, // 875044851
+		{ &Z_Construct_UFunction_UCM_MineUI_Button53Callback, "Button53Callback" }, // 3269903561
+		{ &Z_Construct_UFunction_UCM_MineUI_Button54Callback, "Button54Callback" }, // 2702616465
+		{ &Z_Construct_UFunction_UCM_MineUI_Button55Callback, "Button55Callback" }, // 400721549
+		{ &Z_Construct_UFunction_UCM_MineUI_Button56Callback, "Button56Callback" }, // 3791020537
+		{ &Z_Construct_UFunction_UCM_MineUI_Button57Callback, "Button57Callback" }, // 3320120946
+		{ &Z_Construct_UFunction_UCM_MineUI_Button60Callback, "Button60Callback" }, // 4194146233
+		{ &Z_Construct_UFunction_UCM_MineUI_Button61Callback, "Button61Callback" }, // 1707229569
+		{ &Z_Construct_UFunction_UCM_MineUI_Button62Callback, "Button62Callback" }, // 3043251645
+		{ &Z_Construct_UFunction_UCM_MineUI_Button63Callback, "Button63Callback" }, // 4233269749
+		{ &Z_Construct_UFunction_UCM_MineUI_Button64Callback, "Button64Callback" }, // 35243769
+		{ &Z_Construct_UFunction_UCM_MineUI_Button65Callback, "Button65Callback" }, // 809313893
+		{ &Z_Construct_UFunction_UCM_MineUI_Button66Callback, "Button66Callback" }, // 2407149176
+		{ &Z_Construct_UFunction_UCM_MineUI_Button67Callback, "Button67Callback" }, // 4032854231
+		{ &Z_Construct_UFunction_UCM_MineUI_Button70Callback, "Button70Callback" }, // 1799629896
+		{ &Z_Construct_UFunction_UCM_MineUI_Button71Callback, "Button71Callback" }, // 2500136206
+		{ &Z_Construct_UFunction_UCM_MineUI_Button72Callback, "Button72Callback" }, // 2474109473
+		{ &Z_Construct_UFunction_UCM_MineUI_Button73Callback, "Button73Callback" }, // 132914425
+		{ &Z_Construct_UFunction_UCM_MineUI_Button74Callback, "Button74Callback" }, // 1694064027
+		{ &Z_Construct_UFunction_UCM_MineUI_Button75Callback, "Button75Callback" }, // 771890852
+		{ &Z_Construct_UFunction_UCM_MineUI_Button76Callback, "Button76Callback" }, // 1109292425
+		{ &Z_Construct_UFunction_UCM_MineUI_Button77Callback, "Button77Callback" }, // 2441035651
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::Class_MetaDataParams[] = {
@@ -4762,9 +4762,9 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UCM_MineUI, UCM_MineUI::StaticClass, TEXT("UCM_MineUI"), &Z_Registration_Info_UClass_UCM_MineUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCM_MineUI), 1032605795U) },
+		{ Z_Construct_UClass_UCM_MineUI, UCM_MineUI::StaticClass, TEXT("UCM_MineUI"), &Z_Registration_Info_UClass_UCM_MineUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCM_MineUI), 2226476279U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_1390924663(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_1335651817(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

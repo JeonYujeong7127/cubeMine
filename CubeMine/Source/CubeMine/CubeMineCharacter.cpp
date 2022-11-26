@@ -9,8 +9,6 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "MyFirstActor.h" // AMyFirstActor
-
 
 //////////////////////////////////////////////////////////////////////////
 // ACubeMineCharacter

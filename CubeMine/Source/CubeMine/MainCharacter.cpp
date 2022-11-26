@@ -12,10 +12,12 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Animation/AnimInstance.h"
+#include "Containers/UnrealString.h"
 #include "Engine/World.h"
 #include "Explosive.h"
 #include "AAI_Character.h"
 #include "PickUp.h"
+#include "MyActor.h"
 #include "Weapon.h"
 #include "MainPlayerController.h"
 
@@ -81,106 +83,129 @@ AMainCharacter::AMainCharacter()
 
 	StaminaDrainRate = 25.f;
 	MinSprintStamina = 50.f;
+
+	static ConstructorHelpers::FClassFinder<UCM_MineUI> Mine_UI(TEXT("/Game/ThirdPerson/Blueprints/UI/UI_Mine.UI_Mine_C"));
+	if (Mine_UI.Succeeded())
+	{
+		MineWidgetClass = Mine_UI.Class;
+	}
 }
 
 
+
+void AMainCharacter::MakeWidget()
+{
+	MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
+}
+
+UCM_MineUI* AMainCharacter::getMineWidget()
+{
+	return MineWidget;
+}
 
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	//UWorld* world = GetWorld();
-	//FVector Location = FVector::ZeroVector;
-	//TArray<AActor*> ArrayofTarget;
-	//AActor* target = 0;
-	//FActorSpawnParameters SpawnParams;
-	//SpawnParams.Owner = this;
-	//FRotator rotator;
-	//int mineNum = 0;
+	UWorld* world = GetWorld();
+	FVector Location = FVector::ZeroVector;
+	TArray<AActor*> ArrayofTarget;
+	AActor* target = 0;
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+	FRotator rotator;
+	UClass* SpawnActor;
+	int mineNum = 0;
 
-	//if (IsValid(MineWidgetClass))
-	//{
-	//	MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
-	//	if (IsValid(MineWidget))
-	//	{
-	//		MineWidget->SetVisibility(ESlateVisibility::Collapsed);
-	//		MineWidget->AddToViewport();
+	if (IsValid(MineWidgetClass))
+	{
+		MakeWidget();
+		if (IsValid(MineWidget))
+		{
+			MineWidget->SetVisibility(ESlateVisibility::Visible);
+			MineWidget->AddToViewport();
 
-	//		TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
-	//		TArray<TArray<int32>> SpawnMap = MineWidget->SpawnMap;
-	//		UGameplayStatics::GetAllActorsWithTag(world, TEXT("target"), ArrayofTarget);
+			TArray<TArray<int32>> MineMap = MineWidget->Mine2D;
+			TArray<TArray<int32>> SpawnMap = MineWidget->SpawnMap;
+			UGameplayStatics::GetAllActorsWithTag(world, TEXT("target"), ArrayofTarget);
 
-	//		for (int i = 0; i <= 7; i++) {
-	//			for (int j = 0; j <= 7; j++) {
-	//				UE_LOG(LogTemp, Log, TEXT("(%d, %d) : %d"), i, j, MineMap[i][j]);
-	//				if (MineMap[i][j] < 0) {
-	//					UE_LOG(LogTemp, Log, TEXT("Mine is here (%d, %d)"), i, j);
-	//					mineNum = (i * 8) + j + 1;
-	//					for (int k = 0; k <= 63; k++) {
-	//						if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
-	//							Location = ArrayofTarget[k]->GetActorLocation();
-	//							MineSpawn(Location, world);
-	//							UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
-	//							break;
-	//						}
-	//					}
-	//				}
-	//				else {
-	//					if (SpawnMap[i][j] == 1) { // 아이템 3개
-	//						UE_LOG(LogTemp, Log, TEXT("SpawnMap[%d][%d] = %d"), i, j, SpawnMap[i][j]);
-	//						UE_LOG(LogTemp, Log, TEXT("Item is here (%d, %d)"), i, j);
-	//						mineNum = (i * 8) + j + 1;
-	//						for (int k = 0; k <= 63; k++) {
-	//							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
-	//								Location = ArrayofTarget[k]->GetActorLocation();
-	//								ItemSpawn(Location, world);
-	//								UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
-	//								break;
-	//							}
-	//						}
-	//					}
-	//					else if (SpawnMap[i][j] == 2) { // 키 3개
-	//						UE_LOG(LogTemp, Log, TEXT("Key is here (%d, %d)"), i, j);
-	//						mineNum = (i * 8) + j + 1;
-	//						for (int k = 0; k <= 63; k++) {
-	//							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
-	//								Location = ArrayofTarget[k]->GetActorLocation();
-	//								KeySpawn(Location, world);
-	//								UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
-	//								break;
-	//							}
-	//						}
-	//					}
-	//					else if (SpawnMap[i][j] == 3) { // 몬스터 10개
-	//						UE_LOG(LogTemp, Log, TEXT("Monster is here (%d, %d)"), i, j);
-	//						mineNum = (i * 8) + j + 1;
-	//						for (int k = 0; k <= 63; k++) {
-	//							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
-	//								TSubclassOf<class AAAI_Character> AAAI_Character_Actor;
-	//								Location = ArrayofTarget[k]->GetActorLocation();
-	//								MobSpawn(Location, world);
-	//								UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
-	//								break;
-	//							}
-	//						}
-	//					}
-	//					else continue;
-	//				}
-	//			}
-	//		}
-	//	}
-	//	else {
-	//		UE_LOG(LogTemp, Warning, TEXT("fail to load MineWidget!!!"));
-	//	}
-	//}
+			for (int i = 0; i <= 7; i++) {
+				for (int j = 0; j <= 7; j++) {
+					UE_LOG(LogTemp, Log, TEXT("(%d, %d) : %d"), i, j, MineMap[i][j]);
+					if (MineMap[i][j] < 0) {
+						UE_LOG(LogTemp, Log, TEXT("Mine is here (%d, %d)"), i, j);
+						mineNum = (i * 8) + j + 1;
+						for (int k = 0; k <= 63; k++) {
+							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
+								Location = ArrayofTarget[k]->GetActorLocation();
+								FName path = TEXT("Blueprint'/Game/ThirdPerson/Player/Explosive_BP.Explosive_BP_C'");
+								SpawnActor = Cast<UClass>(StaticLoadObject(UClass::StaticClass(), NULL, *path.ToString()));
+								world->SpawnActor<AExplosive>(SpawnActor, Location, rotator, SpawnParams);
+								UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
+								break;
+							}
+						}
+					}
+					else {
+						if (SpawnMap[i][j] == 1) { // 아이템 3개
+							UE_LOG(LogTemp, Log, TEXT("SpawnMap[%d][%d] = %d"), i, j, SpawnMap[i][j]);
+							UE_LOG(LogTemp, Log, TEXT("Item is here (%d, %d)"), i, j);
+							mineNum = (i * 8) + j + 1;
+							for (int k = 0; k <= 63; k++) {
+								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
+									Location = ArrayofTarget[k]->GetActorLocation();
+									FName path = TEXT("Blueprint'/Game/ThirdPerson/Player/Weapon_BP.Weapon_BP_C'");
+									SpawnActor = Cast<UClass>(StaticLoadObject(UClass::StaticClass(), NULL, *path.ToString()));
+									world->SpawnActor<AWeapon>(SpawnActor, Location, rotator, SpawnParams);
+									UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
+									break;
+								}
+							}
+						}
+						else if (SpawnMap[i][j] == 2) { // 키 3개
+							UE_LOG(LogTemp, Log, TEXT("Key is here (%d, %d)"), i, j);
+							mineNum = (i * 8) + j + 1;
+							for (int k = 0; k <= 63; k++) {
+								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
+									Location = ArrayofTarget[k]->GetActorLocation();
+									FName path = TEXT("Blueprint'/Game/ThirdPerson/Player/PickUp_BP.PickUp_BP_C'");
+									SpawnActor = Cast<UClass>(StaticLoadObject(UClass::StaticClass(), NULL, *path.ToString()));
+									world->SpawnActor<APickUp>(SpawnActor, Location, rotator, SpawnParams);
+									UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
+									break;
+								}
+							}
+						}
+						else if (SpawnMap[i][j] == 3) { // 몬스터 10개
+							UE_LOG(LogTemp, Log, TEXT("Monster is here (%d, %d)"), i, j);
+							mineNum = (i * 8) + j + 1;
+							for (int k = 0; k <= 63; k++) {
+								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
+									Location = ArrayofTarget[k]->GetActorLocation();
+									FName path = TEXT("Blueprint'/Game/BluePrints/BP_AAI_Character.BP_AAI_Character_C'");
+									SpawnActor = Cast<UClass>(StaticLoadObject(UClass::StaticClass(), NULL, *path.ToString()));
+									world->SpawnActor<AActor>(SpawnActor, Location, rotator, SpawnParams);
+									UE_LOG(LogTemp, Log, TEXT("Character Label: %s"), *ArrayofTarget[k]->GetActorLabel());
+									break;
+								}
+							}
+						}
+						else continue;
+					}
+				}
+			}
+		}
+		else {
+			UE_LOG(LogTemp, Warning, TEXT("fail to load MineWidget!!!"));
+		}
+	}
 }
-
-
 
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
 

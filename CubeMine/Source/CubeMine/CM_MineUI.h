@@ -408,7 +408,7 @@ protected:
 protected:
 	virtual void NativeConstruct() override;
 
-private:
+public:
 	UFUNCTION(BlueprintCallable)
 		void Button00Callback();
 	UFUNCTION(BlueprintCallable)

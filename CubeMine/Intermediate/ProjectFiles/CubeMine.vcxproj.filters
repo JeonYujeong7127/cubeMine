@@ -101,10 +101,10 @@
     <ClInclude Include="..\..\Source\CubeMine\MainPlayerController.h">
       <Filter>Source\CubeMine</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\CubeMine\MyFirstActor.cpp">
+    <ClCompile Include="..\..\Source\CubeMine\MyActor.cpp">
       <Filter>Source\CubeMine</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\CubeMine\MyFirstActor.h">
+    <ClInclude Include="..\..\Source\CubeMine\MyActor.h">
       <Filter>Source\CubeMine</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CubeMine\PickUp.cpp">

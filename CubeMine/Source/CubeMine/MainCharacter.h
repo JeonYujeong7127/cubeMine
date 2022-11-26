@@ -5,6 +5,11 @@
 #include "CoreMinimal.h"
 #include "CM_MineUI.h"
 #include "GameFramework/Character.h"
+#include "Explosive.h"
+#include "AAI_Character.h"
+#include "PickUp.h"
+#include "Weapon.h"
+#include "Kismet/GameplayStatics.h"
 #include "MainCharacter.generated.h"
 
 UENUM(BlueprintType)
@@ -114,33 +119,15 @@ public:
 	//void Show();
 	void showCursor();
 
-/*protected:
+public:
 	TSubclassOf<UUserWidget> MineWidgetClass;
 	UCM_MineUI* MineWidget;
 
-	UFUNCTION(BlueprintCallable)
-		void ItemSpawn(FVector Location, UWorld* world);
-
-	UFUNCTION(BlueprintCallable)
-		void MineSpawn(FVector Location, UWorld* world);
-
-	UFUNCTION(BlueprintCallable)
-		void KeySpawn(FVector Location, UWorld* world);
-
-	UFUNCTION(BlueprintCallable)
-		void MobSpawn(FVector Location, UWorld* world);
-
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> ISpawn;
-
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> MSpawn;
-
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> KSpawn;
-
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> MoSpawn; */
+protected:
+	void MakeWidget();
+	
+public:
+	UCM_MineUI* getMineWidget();
 
 protected:
 	// Called when the game starts or when spawned
