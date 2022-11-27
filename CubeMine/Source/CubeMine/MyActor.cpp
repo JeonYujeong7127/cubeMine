@@ -3,10 +3,11 @@
 
 #include "MyActor.h"
 #include "Components/WidgetComponent.h"
-#include "Components/SphereComponent.h"
+#include "Components/BoxComponent.h"
 #include "CM_MineUI.h"
 #include "MainCharacter.h"
 #include "Components/Button.h"
+#include "Kismet/GamePlayStatics.h"
 #include "GameFramework/Controller.h"
 
 // Sets default values
@@ -15,7 +16,7 @@ AMyActor::AMyActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	CollisionVolume = CreateDefaultSubobject<USphereComponent>(TEXT("CollisionVolume"));
+	CollisionVolume = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionVolume"));
 	RootComponent = CollisionVolume;
 }
 
@@ -26,7 +27,6 @@ void AMyActor::BeginPlay()
 
 	CollisionVolume->OnComponentBeginOverlap.AddDynamic(this, &AMyActor::OnOverlapBegin);
 	CollisionVolume->OnComponentEndOverlap.AddDynamic(this, &AMyActor::OnOverlapEnd);
-
 	// ######### 오류나는 부분 ############
 	// MineWidget = mainC->getMineWidget();
 }

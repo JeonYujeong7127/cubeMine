@@ -18,7 +18,7 @@ public:
 
 	/**Base shape collision */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Item | Collision")
-		class USphereComponent* CollisionVolume;
+		class UBoxComponent* CollisionVolume;
 
 	/**Base Mesh collision */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "MyActor | Mesh")
