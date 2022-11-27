@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Unreal Project\\cubeMine\\CubeMine\\Source\\CubeMine\\CubeMine.Build.cs",
+		"C:\\Unreal Project\\cubeMine\\CubeMine\\Source\\CubeMine.Target.cs",
+		"C:\\Unreal Project\\cubeMine\\CubeMine\\Source\\CubeMineEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

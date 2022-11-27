@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\cubemine.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\cubemine.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

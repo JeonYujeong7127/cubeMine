@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\explosive.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\explosive.h",
+            "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\item.h",
+            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\item.generated.h",
+            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\explosive.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
