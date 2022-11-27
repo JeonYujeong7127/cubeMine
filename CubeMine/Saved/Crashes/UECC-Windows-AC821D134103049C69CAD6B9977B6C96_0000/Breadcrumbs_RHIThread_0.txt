@@ -1,7 +1,0 @@
-Breadcrumbs 'RHIThread'
-Context 1/2
-	00 Scene
-	01 DiffuseIndirectAndAO
-	02 LumenScreenProbeGather
-	03 RadianceCache
-	04 TranslucentSurfacesMarkPass

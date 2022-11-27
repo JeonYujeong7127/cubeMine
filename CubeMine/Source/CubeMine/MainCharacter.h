@@ -6,7 +6,7 @@
 #include "CM_MineUI.h"
 #include "GameFramework/Character.h"
 #include "Explosive.h"
-#include "AAI_Character.h"
+#include "../Public/AAI_Character.h"
 #include "PickUp.h"
 #include "Weapon.h"
 #include "Kismet/GameplayStatics.h"
@@ -55,6 +55,17 @@ public:
 
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = "Enums")
 	float MinSprintStamina;
+
+	float InterpSpeed;
+	bool bInterpToEnemy;
+	void SetInterpToEnemy(bool Interp);
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+	class AAAI_Character* CombatTarget;
+
+	FORCEINLINE void SetCombatTarget(AAAI_Character* Target) { CombatTarget = Target;  }
+
+	FRotator GetLookAtRotationYaw(FVector Target);
 
 	/** Set Movement status and running speed*/
 	void SetMovementStatus(EMovementStatus Status);
@@ -177,7 +188,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Anims")
 	bool bAttacking;
-
 	void Attack();
 
 	UFUNCTION(BlueprintCallable)

@@ -24,6 +24,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadwrite)
 	AAAIController* AIController;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	class UParticleSystem* HitParticles;
+	
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
