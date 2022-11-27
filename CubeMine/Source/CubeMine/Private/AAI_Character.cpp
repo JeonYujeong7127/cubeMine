@@ -71,6 +71,7 @@ void AAAI_Character::CheckAttackDamage()
 
 	if (bResult)
 	{
+		auto OtherActor = Cast<AMainCharacter>(HitResult.GetActor());
 		if (HitResult.GetActor() != nullptr)
 		{
 			FVector TraceVec = GetActorForwardVector() * AttackRange;
@@ -86,12 +87,15 @@ void AAAI_Character::CheckAttackDamage()
 
 			DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
 			//UE_LOG(LogTemp, Warning, TEXT("Actor Name : %s"), *HitResult.GetActor()->GetName());
-			auto OtherActor = Cast<AMainCharacter>(HitResult.GetActor());
 			if (OtherActor!=nullptr) {
-				
+				OtherActor->SetCombatTarget(this);
 				OtherActor->DecrementHealth(10);
 			}
 		}
+		else {
+			OtherActor->SetCombatTarget(nullptr);
+		}
+	
 	}
 
 }
