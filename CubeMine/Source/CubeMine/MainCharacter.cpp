@@ -299,6 +299,26 @@ void AMainCharacter::Tick(float DeltaTime)
 	}
 }
 
+void AMainCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	/*FString label = OtherActor->GetActorLabel();
+	UE_LOG(LogTemp, Warning, TEXT("Label: %s"), *label);
+	if (label.Mid(0, 1) == "ml") {
+		TArray<FString> Array = {};
+		label.ParseIntoArray(Array, TEXT("l"));
+		int num1 = (FCString::Atoi(*Array[1]) - 1) / 8;
+		int num2 = (FCString::Atoi(*Array[1]) - 1) % 8;
+		FString num = FString::FromInt(num1).Append(FString::FromInt(num2));
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *num);
+
+		
+	}*/
+}
+
+void AMainCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+}
+
 // Called to bind functionality to input
 void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {

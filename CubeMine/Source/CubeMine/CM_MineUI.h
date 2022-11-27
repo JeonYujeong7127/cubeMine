@@ -15,7 +15,7 @@ class CUBEMINE_API UCM_MineUI : public UUserWidget
 {
 	GENERATED_BODY()
 
-protected:
+public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 		class UButton* BT_00;

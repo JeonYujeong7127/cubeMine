@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef CUBEMINE_MainCharacter_generated_h
 #error "MainCharacter.generated.h already included, missing '#pragma once' in MainCharacter.h"
 #endif
@@ -16,12 +19,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_CubeMine_Source_CubeMine_MainCharacter_h_39_SPARSE_DATA
 #define FID_CubeMine_Source_CubeMine_MainCharacter_h_39_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execAttackEnd);
+	DECLARE_FUNCTION(execAttackEnd); \
+	DECLARE_FUNCTION(execOnOverlapEnd); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
 #define FID_CubeMine_Source_CubeMine_MainCharacter_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execAttackEnd);
+	DECLARE_FUNCTION(execAttackEnd); \
+	DECLARE_FUNCTION(execOnOverlapEnd); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
 #define FID_CubeMine_Source_CubeMine_MainCharacter_h_39_INCLASS_NO_PURE_DECLS \
