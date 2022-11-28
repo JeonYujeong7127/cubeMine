@@ -88,7 +88,11 @@ void AAAI_Character::CheckAttackDamage()
 			//DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
 			//UE_LOG(LogTemp, Warning, TEXT("Actor Name : %s"), *HitResult.GetActor()->GetName());
 			if (OtherActor!=nullptr) {
-				OtherActor->SetCombatTarget(this);
+				if (OtherActor->CombatTarget == this)
+				{
+					OtherActor->SetCombatTarget(nullptr);
+				}
+				
 				OtherActor->DecrementHealth(10);
 			}
 		}
@@ -103,6 +107,9 @@ void AAAI_Character::CheckAttackDamage()
 void AAAI_Character::AI_DecrementHealth(float Amount)
 {
 	AIHealth = AIHealth - Amount;
+
+	UE_LOG(LogTemp, Error, TEXT(" Decreament Health!!!"));
+
 	if (AIHealth <= 0.f) {
 		AIHealth = 0.f;
 		DieAI();

@@ -484,6 +484,15 @@ void AMainCharacter::IncrementKeys(int32 Amount)
 
 void AMainCharacter::Die()
 {
+
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	if (AnimInstance && CombatMontage)
+	{
+		AnimInstance->Montage_Play(CombatMontage, 1.0f);
+		AnimInstance->Montage_JumpToSection(FName("Death"));
+	}
+
+
 	FStringClassReference MyWidgetClassRef(TEXT("/Game/WB/GameOver.GameOver_C"));
 	if (UClass* MyWidgetClass = MyWidgetClassRef.TryLoadClass<UUserWidget>())
 	{
@@ -571,7 +580,6 @@ void  AMainCharacter::Attack()
 				;
 			}
 			
-
 		}
 	}
 	
