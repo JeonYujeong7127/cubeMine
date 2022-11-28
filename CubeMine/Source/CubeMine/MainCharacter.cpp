@@ -462,7 +462,7 @@ void AMainCharacter::IncrementKeys(int32 Amount)
 {
 	Keys += Amount;
 	if (Keys == 3) {
-		FStringClassReference MyWidgetClassRef(TEXT("WidgetBlueprint'/Game/WB/Escape.Escape_C'"));
+		FStringClassReference MyWidgetClassRef(TEXT("/Game/WB/Escape.Escape_C"));
 		if (UClass* MyWidgetClass = MyWidgetClassRef.TryLoadClass<UUserWidget>())
 		{
 			UUserWidget* MyWidget = CreateWidget<UUserWidget>(GetWorld(), MyWidgetClass);
@@ -478,7 +478,7 @@ void AMainCharacter::IncrementKeys(int32 Amount)
 
 void AMainCharacter::Die()
 {
-	FStringClassReference MyWidgetClassRef(TEXT("WidgetBlueprint'/Game/WB/GameOver.GameOver_C'"));
+	FStringClassReference MyWidgetClassRef(TEXT("/Game/WB/GameOver.GameOver_C"));
 	if (UClass* MyWidgetClass = MyWidgetClassRef.TryLoadClass<UUserWidget>())
 	{
 		

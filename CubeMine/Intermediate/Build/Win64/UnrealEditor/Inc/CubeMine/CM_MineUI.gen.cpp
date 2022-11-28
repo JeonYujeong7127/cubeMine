@@ -2724,6 +2724,262 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_FF_77_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_FF_77;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_00_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_00;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_01_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_01;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_02_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_02;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_03_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_03;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_04_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_04;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_05_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_05;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_06_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_06;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_07_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_07;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_10_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_10;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_11_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_11;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_12_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_12;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_13_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_13;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_14_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_14;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_15_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_15;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_16_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_16;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_17_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_17;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_20_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_20;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_21_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_21;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_22_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_22;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_23_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_23;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_24_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_24;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_25_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_25;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_26_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_26;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_27_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_27;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_30_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_30;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_31_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_31;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_32_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_32;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_33_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_33;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_34_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_34;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_35_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_35;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_36_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_36;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_37_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_37;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_40_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_40;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_41_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_41;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_42_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_42;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_43_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_43;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_44_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_44;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_45_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_45;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_46_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_46;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_47_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_47;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_50_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_50;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_51_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_51;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_52_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_52;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_53_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_53;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_54_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_54;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_55_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_55;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_56_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_56;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_57_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_57;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_60_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_60;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_61_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_61;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_62_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_62;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_63_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_63;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_64_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_64;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_65_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_65;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_66_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_66;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_67_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_67;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_70_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_70;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_71_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_71;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_72_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_72;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_73_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_73;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_74_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_74;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_75_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_75;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_76_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_76;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MM_77_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MM_77;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -4532,6 +4788,582 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_77 = { "FF_77", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, FF_77), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_77_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_77_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_00_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_00 = { "MM_00", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_00), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_00_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_00_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_01_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_01 = { "MM_01", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_01), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_01_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_01_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_02_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_02 = { "MM_02", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_02), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_02_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_02_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_03_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_03 = { "MM_03", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_03), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_03_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_03_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_04_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_04 = { "MM_04", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_04), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_04_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_04_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_05_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_05 = { "MM_05", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_05), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_05_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_05_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_06_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_06 = { "MM_06", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_06), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_06_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_06_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_07_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_07 = { "MM_07", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_07), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_07_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_07_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_10_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_10 = { "MM_10", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_10), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_10_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_10_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_11_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_11 = { "MM_11", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_11), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_11_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_11_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_12_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_12 = { "MM_12", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_12), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_12_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_12_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_13_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_13 = { "MM_13", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_13), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_13_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_13_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_14_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_14 = { "MM_14", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_14), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_14_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_14_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_15_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_15 = { "MM_15", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_15), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_15_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_15_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_16_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_16 = { "MM_16", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_16), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_16_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_16_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_17_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_17 = { "MM_17", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_17), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_17_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_17_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_20_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_20 = { "MM_20", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_20), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_20_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_20_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_21_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_21 = { "MM_21", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_21), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_21_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_21_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_22_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_22 = { "MM_22", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_22), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_22_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_22_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_23_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_23 = { "MM_23", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_23), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_23_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_23_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_24_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_24 = { "MM_24", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_24), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_24_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_24_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_25_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_25 = { "MM_25", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_25), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_25_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_25_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_26_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_26 = { "MM_26", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_26), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_26_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_26_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_27_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_27 = { "MM_27", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_27), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_27_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_27_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_30_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_30 = { "MM_30", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_30), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_30_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_30_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_31_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_31 = { "MM_31", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_31), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_31_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_31_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_32_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_32 = { "MM_32", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_32), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_32_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_32_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_33_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_33 = { "MM_33", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_33), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_33_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_33_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_34_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_34 = { "MM_34", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_34), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_34_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_34_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_35_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_35 = { "MM_35", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_35), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_35_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_35_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_36_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_36 = { "MM_36", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_36), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_36_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_36_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_37_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_37 = { "MM_37", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_37), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_37_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_37_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_40_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_40 = { "MM_40", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_40), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_40_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_40_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_41_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_41 = { "MM_41", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_41), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_41_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_41_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_42_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_42 = { "MM_42", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_42), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_42_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_42_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_43_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_43 = { "MM_43", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_43), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_43_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_43_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_44_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_44 = { "MM_44", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_44), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_44_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_44_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_45_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_45 = { "MM_45", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_45), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_45_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_45_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_46_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_46 = { "MM_46", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_46), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_46_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_46_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_47_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_47 = { "MM_47", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_47), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_47_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_47_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_50_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_50 = { "MM_50", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_50), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_50_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_50_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_51_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_51 = { "MM_51", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_51), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_51_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_51_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_52_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_52 = { "MM_52", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_52), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_52_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_52_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_53_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_53 = { "MM_53", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_53), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_53_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_53_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_54_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_54 = { "MM_54", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_54), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_54_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_54_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_55_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_55 = { "MM_55", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_55), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_55_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_55_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_56_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_56 = { "MM_56", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_56), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_56_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_56_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_57_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_57 = { "MM_57", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_57), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_57_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_57_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_60_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_60 = { "MM_60", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_60), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_60_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_60_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_61_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_61 = { "MM_61", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_61), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_61_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_61_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_62_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_62 = { "MM_62", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_62), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_62_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_62_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_63_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_63 = { "MM_63", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_63), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_63_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_63_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_64_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_64 = { "MM_64", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_64), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_64_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_64_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_65_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_65 = { "MM_65", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_65), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_65_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_65_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_66_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_66 = { "MM_66", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_66), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_66_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_66_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_67_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_67 = { "MM_67", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_67), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_67_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_67_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_70_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_70 = { "MM_70", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_70), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_70_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_70_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_71_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_71 = { "MM_71", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_71), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_71_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_71_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_72_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_72 = { "MM_72", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_72), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_72_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_72_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_73_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_73 = { "MM_73", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_73), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_73_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_73_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_74_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_74 = { "MM_74", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_74), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_74_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_74_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_75_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_75 = { "MM_75", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_75), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_75_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_75_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_76_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_76 = { "MM_76", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_76), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_76_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_76_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_77_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CM_MineUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CM_MineUI.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_77 = { "MM_77", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_MineUI, MM_77), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_77_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_77_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCM_MineUI_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_BT_00,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_BT_01,
@@ -4725,6 +5557,70 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_75,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_76,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_FF_77,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_00,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_01,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_02,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_03,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_04,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_05,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_06,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_07,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_10,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_11,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_12,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_13,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_14,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_15,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_16,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_17,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_20,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_21,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_22,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_23,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_24,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_25,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_26,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_27,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_30,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_31,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_32,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_33,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_34,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_35,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_36,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_37,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_40,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_41,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_42,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_43,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_44,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_45,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_46,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_47,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_50,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_51,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_52,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_53,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_54,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_55,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_56,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_57,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_60,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_61,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_62,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_63,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_64,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_65,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_66,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_67,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_70,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_71,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_72,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_73,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_74,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_75,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_76,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_MineUI_Statics::NewProp_MM_77,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCM_MineUI_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCM_MineUI>::IsAbstract,
@@ -4762,9 +5658,9 @@ void EmptyLinkFunctionForGeneratedCodeCM_MineUI() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UCM_MineUI, UCM_MineUI::StaticClass, TEXT("UCM_MineUI"), &Z_Registration_Info_UClass_UCM_MineUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCM_MineUI), 3618431274U) },
+		{ Z_Construct_UClass_UCM_MineUI, UCM_MineUI::StaticClass, TEXT("UCM_MineUI"), &Z_Registration_Info_UClass_UCM_MineUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCM_MineUI), 2518729653U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_3948143805(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_516159367(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_CM_MineUI_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

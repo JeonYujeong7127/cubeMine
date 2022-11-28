@@ -18,6 +18,7 @@ void UCM_MineUI::NativeConstruct()
 	BTArr.Init(TArray<UButton*>(), size);
 	TTArr.Init(TArray<UTextBlock*>(), size);
 	FFArr.Init(TArray<UImage*>(), size);
+	MMArr.Init(TArray<UImage*>(), size);
 	InitArr();
 	SetMine();
 	SetMineNum();
@@ -413,6 +414,136 @@ void UCM_MineUI::NativeConstruct()
 	FFArr[7].Add(FF_75);
 	FFArr[7].Add(FF_76);
 	FFArr[7].Add(FF_77);
+
+	MM_00 = Cast<UImage>(GetWidgetFromName(TEXT("M_00")));
+	MM_01 = Cast<UImage>(GetWidgetFromName(TEXT("M_01")));
+	MM_02 = Cast<UImage>(GetWidgetFromName(TEXT("M_02")));
+	MM_03 = Cast<UImage>(GetWidgetFromName(TEXT("M_03")));
+	MM_04 = Cast<UImage>(GetWidgetFromName(TEXT("M_04")));
+	MM_05 = Cast<UImage>(GetWidgetFromName(TEXT("M_05")));
+	MM_06 = Cast<UImage>(GetWidgetFromName(TEXT("M_06")));
+	MM_07 = Cast<UImage>(GetWidgetFromName(TEXT("M_07")));
+	MM_10 = Cast<UImage>(GetWidgetFromName(TEXT("M_10")));
+	MM_11 = Cast<UImage>(GetWidgetFromName(TEXT("M_11")));
+	MM_12 = Cast<UImage>(GetWidgetFromName(TEXT("M_12")));
+	MM_13 = Cast<UImage>(GetWidgetFromName(TEXT("M_13")));
+	MM_14 = Cast<UImage>(GetWidgetFromName(TEXT("M_14")));
+	MM_15 = Cast<UImage>(GetWidgetFromName(TEXT("M_15")));
+	MM_16 = Cast<UImage>(GetWidgetFromName(TEXT("M_16")));
+	MM_17 = Cast<UImage>(GetWidgetFromName(TEXT("M_17")));
+	MM_20 = Cast<UImage>(GetWidgetFromName(TEXT("M_20")));
+	MM_21 = Cast<UImage>(GetWidgetFromName(TEXT("M_21")));
+	MM_22 = Cast<UImage>(GetWidgetFromName(TEXT("M_22")));
+	MM_23 = Cast<UImage>(GetWidgetFromName(TEXT("M_23")));
+	MM_24 = Cast<UImage>(GetWidgetFromName(TEXT("M_24")));
+	MM_25 = Cast<UImage>(GetWidgetFromName(TEXT("M_25")));
+	MM_26 = Cast<UImage>(GetWidgetFromName(TEXT("M_26")));
+	MM_27 = Cast<UImage>(GetWidgetFromName(TEXT("M_27")));
+	MM_30 = Cast<UImage>(GetWidgetFromName(TEXT("M_30")));
+	MM_31 = Cast<UImage>(GetWidgetFromName(TEXT("M_31")));
+	MM_32 = Cast<UImage>(GetWidgetFromName(TEXT("M_32")));
+	MM_33 = Cast<UImage>(GetWidgetFromName(TEXT("M_33")));
+	MM_34 = Cast<UImage>(GetWidgetFromName(TEXT("M_34")));
+	MM_35 = Cast<UImage>(GetWidgetFromName(TEXT("M_35")));
+	MM_36 = Cast<UImage>(GetWidgetFromName(TEXT("M_36")));
+	MM_37 = Cast<UImage>(GetWidgetFromName(TEXT("M_37")));
+	MM_40 = Cast<UImage>(GetWidgetFromName(TEXT("M_40")));
+	MM_41 = Cast<UImage>(GetWidgetFromName(TEXT("M_41")));
+	MM_42 = Cast<UImage>(GetWidgetFromName(TEXT("M_42")));
+	MM_43 = Cast<UImage>(GetWidgetFromName(TEXT("M_43")));
+	MM_44 = Cast<UImage>(GetWidgetFromName(TEXT("M_44")));
+	MM_45 = Cast<UImage>(GetWidgetFromName(TEXT("M_45")));
+	MM_46 = Cast<UImage>(GetWidgetFromName(TEXT("M_46")));
+	MM_47 = Cast<UImage>(GetWidgetFromName(TEXT("M_47")));
+	MM_50 = Cast<UImage>(GetWidgetFromName(TEXT("M_50")));
+	MM_51 = Cast<UImage>(GetWidgetFromName(TEXT("M_51")));
+	MM_52 = Cast<UImage>(GetWidgetFromName(TEXT("M_52")));
+	MM_53 = Cast<UImage>(GetWidgetFromName(TEXT("M_53")));
+	MM_54 = Cast<UImage>(GetWidgetFromName(TEXT("M_54")));
+	MM_55 = Cast<UImage>(GetWidgetFromName(TEXT("M_55")));
+	MM_56 = Cast<UImage>(GetWidgetFromName(TEXT("M_56")));
+	MM_57 = Cast<UImage>(GetWidgetFromName(TEXT("M_57")));
+	MM_60 = Cast<UImage>(GetWidgetFromName(TEXT("M_60")));
+	MM_61 = Cast<UImage>(GetWidgetFromName(TEXT("M_61")));
+	MM_62 = Cast<UImage>(GetWidgetFromName(TEXT("M_62")));
+	MM_63 = Cast<UImage>(GetWidgetFromName(TEXT("M_63")));
+	MM_64 = Cast<UImage>(GetWidgetFromName(TEXT("M_64")));
+	MM_65 = Cast<UImage>(GetWidgetFromName(TEXT("M_65")));
+	MM_66 = Cast<UImage>(GetWidgetFromName(TEXT("M_66")));
+	MM_67 = Cast<UImage>(GetWidgetFromName(TEXT("M_67")));
+	MM_70 = Cast<UImage>(GetWidgetFromName(TEXT("M_70")));
+	MM_71 = Cast<UImage>(GetWidgetFromName(TEXT("M_71")));
+	MM_72 = Cast<UImage>(GetWidgetFromName(TEXT("M_72")));
+	MM_73 = Cast<UImage>(GetWidgetFromName(TEXT("M_73")));
+	MM_74 = Cast<UImage>(GetWidgetFromName(TEXT("M_74")));
+	MM_75 = Cast<UImage>(GetWidgetFromName(TEXT("M_75")));
+	MM_76 = Cast<UImage>(GetWidgetFromName(TEXT("M_76")));
+	MM_77 = Cast<UImage>(GetWidgetFromName(TEXT("M_77")));
+
+	MMArr[0].Add(MM_00);
+	MMArr[0].Add(MM_01);
+	MMArr[0].Add(MM_02);
+	MMArr[0].Add(MM_03);
+	MMArr[0].Add(MM_04);
+	MMArr[0].Add(MM_05);
+	MMArr[0].Add(MM_06);
+	MMArr[0].Add(MM_07);
+	MMArr[1].Add(MM_10);
+	MMArr[1].Add(MM_11);
+	MMArr[1].Add(MM_12);
+	MMArr[1].Add(MM_13);
+	MMArr[1].Add(MM_14);
+	MMArr[1].Add(MM_15);
+	MMArr[1].Add(MM_16);
+	MMArr[1].Add(MM_17);
+	MMArr[2].Add(MM_20);
+	MMArr[2].Add(MM_21);
+	MMArr[2].Add(MM_22);
+	MMArr[2].Add(MM_23);
+	MMArr[2].Add(MM_24);
+	MMArr[2].Add(MM_25);
+	MMArr[2].Add(MM_26);
+	MMArr[2].Add(MM_27);
+	MMArr[3].Add(MM_30);
+	MMArr[3].Add(MM_31);
+	MMArr[3].Add(MM_32);
+	MMArr[3].Add(MM_33);
+	MMArr[3].Add(MM_34);
+	MMArr[3].Add(MM_35);
+	MMArr[3].Add(MM_36);
+	MMArr[3].Add(MM_37);
+	MMArr[4].Add(MM_40);
+	MMArr[4].Add(MM_41);
+	MMArr[4].Add(MM_42);
+	MMArr[4].Add(MM_43);
+	MMArr[4].Add(MM_44);
+	MMArr[4].Add(MM_45);
+	MMArr[4].Add(MM_46);
+	MMArr[4].Add(MM_47);
+	MMArr[5].Add(MM_50);
+	MMArr[5].Add(MM_51);
+	MMArr[5].Add(MM_52);
+	MMArr[5].Add(MM_53);
+	MMArr[5].Add(MM_54);
+	MMArr[5].Add(MM_55);
+	MMArr[5].Add(MM_56);
+	MMArr[5].Add(MM_57);
+	MMArr[6].Add(MM_60);
+	MMArr[6].Add(MM_61);
+	MMArr[6].Add(MM_62);
+	MMArr[6].Add(MM_63);
+	MMArr[6].Add(MM_64);
+	MMArr[6].Add(MM_65);
+	MMArr[6].Add(MM_66);
+	MMArr[6].Add(MM_67);
+	MMArr[7].Add(MM_70);
+	MMArr[7].Add(MM_71);
+	MMArr[7].Add(MM_72);
+	MMArr[7].Add(MM_73);
+	MMArr[7].Add(MM_74);
+	MMArr[7].Add(MM_75);
+	MMArr[7].Add(MM_76);
+	MMArr[7].Add(MM_77);
 
 	BT_00->OnClicked.AddDynamic(this, &UCM_MineUI::Button00Callback);
 	BT_01->OnClicked.AddDynamic(this, &UCM_MineUI::Button01Callback);
@@ -1163,13 +1294,23 @@ void UCM_MineUI::OpenMine()
 		{
 			if (CheckOpen[i][j] == 1)
 			{
-				BTArr[i][j]->SetVisibility(ESlateVisibility::HitTestInvisible);
-				BTArr[i][j]->SetBackgroundColor(FLinearColor(0.76, 0.76, 0.76, 1.0));
-				FString Text;
-				Text = FString::Printf(TEXT("%d"), Mine2D[i][j]);
-				TTArr[i][j]->SetText(FText::FromString(Text));
-				TTArr[i][j]->SetVisibility(ESlateVisibility::Visible);
-				FFArr[i][j]->SetVisibility(ESlateVisibility::Hidden);
+				if (Mine2D[i][j] < 0)
+				{
+					BTArr[i][j]->SetVisibility(ESlateVisibility::HitTestInvisible);
+					BTArr[i][j]->SetBackgroundColor(FLinearColor(0.76, 0.76, 0.76, 1.0));
+					MMArr[i][j]->SetVisibility(ESlateVisibility::HitTestInvisible);
+				}
+				else 
+				{
+					BTArr[i][j]->SetVisibility(ESlateVisibility::HitTestInvisible);
+					BTArr[i][j]->SetBackgroundColor(FLinearColor(0.76, 0.76, 0.76, 1.0));
+					FString Text;
+					Text = FString::Printf(TEXT("%d"), Mine2D[i][j]);
+					TTArr[i][j]->SetText(FText::FromString(Text));
+					TTArr[i][j]->SetVisibility(ESlateVisibility::Visible);
+					FFArr[i][j]->SetVisibility(ESlateVisibility::Hidden);
+				}
+				
 			}
 		}
 

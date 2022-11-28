@@ -1,13 +1,13 @@
 {
-    "Version": "1.2",
+    "Version": "1.1",
     "Data": {
-        "Source": "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\item.cpp",
+        "Source": "c:\\cubemine\\cubemine\\source\\cubemine\\item.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\cubemineeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
-            "c:\\unreal project\\cubemine\\cubemine\\source\\cubemine\\item.h",
-            "c:\\unreal project\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\item.generated.h",
+            "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\development\\cubemine\\definitions.cubemine.h",
+            "c:\\cubemine\\cubemine\\source\\cubemine\\item.h",
+            "c:\\cubemine\\cubemine\\intermediate\\build\\win64\\unrealeditor\\inc\\cubemine\\item.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
