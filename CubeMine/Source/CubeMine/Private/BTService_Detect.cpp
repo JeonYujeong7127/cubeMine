@@ -37,9 +37,11 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 			if (OverlapResult.GetActor() == GetWorld()->GetFirstPlayerController()->GetPawn()) {
 				OwnerComp.GetBlackboardComponent()->SetValueAsObject(AAAIController::TargetKey, OverlapResult.GetActor());
 				//반경을 보여준다
+				/*
 				DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Green, false, 0.2f);
 				DrawDebugPoint(World, OverlapResult.GetActor()->GetActorLocation(), 10.0f, FColor::Blue, false, 0.2f);
 				DrawDebugLine(World, ControllingPawn->GetActorLocation(), OverlapResult.GetActor()->GetActorLocation(), FColor::Blue, false, 0.2f);
+				*/
 				return;
 			}
 		}
@@ -50,5 +52,5 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 		OwnerComp.GetBlackboardComponent()->SetValueAsObject(AAAIController::TargetKey, nullptr);
 	}
 
-	DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Red, false, 0.2f);
+	//DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Red, false, 0.2f);
 }

@@ -16,6 +16,19 @@ class CUBEMINE_API UCM_MineUI : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	UFUNCTION(BlueprintCallable)
+		void UpdatePing();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Minimap", meta = (AllowPrivateAccess = "true"))
+		class UImage* PingIcon;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Minimap", meta = (AllowPrivateAccess = "true"))
+		class AMainCharacter* Player;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Minimap", meta = (AllowPrivateAccess = "true"))
+		float ratio = 60.0f / 1150.0f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Minimap", meta = (AllowPrivateAccess = "true"))
+		FVector FisrtPosition;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Minimap", meta = (AllowPrivateAccess = "true"))
+		FRotator FisrtRotation;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 		class UButton* BT_00;

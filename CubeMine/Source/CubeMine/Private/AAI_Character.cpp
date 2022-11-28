@@ -85,7 +85,7 @@ void AAAI_Character::CheckAttackDamage()
 			//생성후 삭제되기까지의 시간
 			float DebugLifeTime = 5.0f;
 
-			DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
+			//DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
 			//UE_LOG(LogTemp, Warning, TEXT("Actor Name : %s"), *HitResult.GetActor()->GetName());
 			if (OtherActor!=nullptr) {
 				OtherActor->SetCombatTarget(this);

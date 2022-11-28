@@ -6,7 +6,7 @@
 #include "Components/TextBlock.h"
 #include "Components/Image.h"
 #include "GameFramework/Controller.h"
-
+#include "MainCharacter.h"
 
 void UCM_MineUI::NativeConstruct()
 {
@@ -23,8 +23,14 @@ void UCM_MineUI::NativeConstruct()
 	SetMine();
 	SetMineNum();
 	SetSpawnMap();
-	
 
+	PingIcon = Cast<UImage>(GetWidgetFromName(TEXT("pingImg")));
+	PingIcon->SetRenderTranslation(FVector2D(0.f, 0.f));
+	Player = Cast<AMainCharacter>(GetWorld()->GetFirstPlayerController()->GetPawn());
+	FisrtPosition = Player->GetActorLocation();
+	FisrtRotation = Player->GetActorRotation();
+
+	#pragma region Infinite map init part
 	BT_00 = Cast<UButton>(GetWidgetFromName(TEXT("0_0")));
 	BT_01 = Cast<UButton>(GetWidgetFromName(TEXT("0_1")));
 	BT_02 = Cast<UButton>(GetWidgetFromName(TEXT("0_2")));
@@ -609,9 +615,15 @@ void UCM_MineUI::NativeConstruct()
 	BT_75->OnClicked.AddDynamic(this, &UCM_MineUI::Button75Callback);
 	BT_76->OnClicked.AddDynamic(this, &UCM_MineUI::Button76Callback);
 	BT_77->OnClicked.AddDynamic(this, &UCM_MineUI::Button77Callback);
+#pragma endregion
 
 }
 
+void UCM_MineUI::UpdatePing()
+{
+	PingIcon->SetRenderTranslation(FVector2D((Player->GetActorLocation().X - FisrtPosition.X) * ratio, (Player->GetActorLocation().Y - FisrtPosition.Y) * ratio));
+	PingIcon->SetRenderTransformAngle(Player->GetActorRotation().Yaw - FisrtRotation.Yaw + 180);
+}
 
 void UCM_MineUI::Button00Callback()
 {

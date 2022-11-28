@@ -71,7 +71,7 @@ AMainCharacter::AMainCharacter()
 	Health = 65.f;
 	MaxStamina = 150.f;
 	Stamina = 120.f;
-	Keys = 2;
+	Keys = 0;
 
 	RunningSpeed = 400.f;
 	SprintingSpeed = 650.f;
@@ -99,11 +99,17 @@ AMainCharacter::AMainCharacter()
 
 void AMainCharacter::MakeWidget()
 {
-	MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
+	if (MineWidget == nullptr) {
+		MineWidget = Cast<UCM_MineUI>(CreateWidget(GetWorld(), MineWidgetClass));
+	}
+	return;
 }
 
 UCM_MineUI* AMainCharacter::getMineWidget()
 {
+	if (MineWidget == nullptr) {
+		MakeWidget();
+	}
 	return MineWidget;
 }
 
@@ -138,8 +144,8 @@ void AMainCharacter::BeginPlay()
 					UE_LOG(LogTemp, Log, TEXT("(%d, %d) : %d"), i, j, MineMap[i][j]);
 					if (MineMap[i][j] < 0) {
 						UE_LOG(LogTemp, Log, TEXT("Mine is here (%d, %d)"), i, j);
-						mineNum = (i * 8) + j + 1;
-						for (int k = 0; k <= 63; k++) {
+						mineNum = (i * 10) + j ;
+						for (int k = 0; k <= ArrayofTarget.Num(); k++) {
 							if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
 								Location = ArrayofTarget[k]->GetActorLocation();
 								FName path = TEXT("Blueprint'/Game/ThirdPerson/Player/Explosive_BP.Explosive_BP_C'");
@@ -154,8 +160,8 @@ void AMainCharacter::BeginPlay()
 						if (SpawnMap[i][j] == 1) { // 아이템 3개
 							UE_LOG(LogTemp, Log, TEXT("SpawnMap[%d][%d] = %d"), i, j, SpawnMap[i][j]);
 							UE_LOG(LogTemp, Log, TEXT("Item is here (%d, %d)"), i, j);
-							mineNum = (i * 8) + j + 1;
-							for (int k = 0; k <= 63; k++) {
+							mineNum = (i * 10) + j;
+							for (int k = 0; k <= ArrayofTarget.Num(); k++) {
 								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
 									Location = ArrayofTarget[k]->GetActorLocation();
 									FName path = TEXT("Blueprint'/Game/ThirdPerson/Player/Weapon_BP.Weapon_BP_C'");
@@ -168,8 +174,8 @@ void AMainCharacter::BeginPlay()
 						}
 						else if (SpawnMap[i][j] == 2) { // 키 3개
 							UE_LOG(LogTemp, Log, TEXT("Key is here (%d, %d)"), i, j);
-							mineNum = (i * 8) + j + 1;
-							for (int k = 0; k <= 63; k++) {
+							mineNum = (i * 10) + j;
+							for (int k = 0; k <= ArrayofTarget.Num(); k++) {
 								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
 									Location = ArrayofTarget[k]->GetActorLocation();
 									FName path = TEXT("Blueprint'/Game/ThirdPerson/Player/PickUp_BP.PickUp_BP_C'");
@@ -182,8 +188,8 @@ void AMainCharacter::BeginPlay()
 						}
 						else if (SpawnMap[i][j] == 3) { // 몬스터 10개
 							UE_LOG(LogTemp, Log, TEXT("Monster is here (%d, %d)"), i, j);
-							mineNum = (i * 8) + j + 1;
-							for (int k = 0; k <= 63; k++) {
+							mineNum = (i * 10) + j;
+							for (int k = 0; k <= ArrayofTarget.Num(); k++) {
 								if (*ArrayofTarget[k]->GetActorLabel() == FString::FromInt(mineNum)) {
 									Location = ArrayofTarget[k]->GetActorLocation();
 									FName path = TEXT("Blueprint'/Game/BluePrints/BP_AAI_Character.BP_AAI_Character_C'");

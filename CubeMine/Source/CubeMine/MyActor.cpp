@@ -41,9 +41,10 @@ void AMyActor::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* 
 		FString label = this->GetActorLabel();
 		TArray<FString> Array = {};
 		label.ParseIntoArray(Array, TEXT("l"));
-		int num1 = (FCString::Atoi(*Array[1]) - 1) / 8;
-		int num2 = (FCString::Atoi(*Array[1]) - 1) % 8;
-		num = FString::FromInt(num1).Append(FString::FromInt(num2));
+		//int num1 = (FCString::Atoi(*Array[1]) - 1) / 8;
+		//int num2 = (FCString::Atoi(*Array[1]) - 1) % 8;
+		//num = FString::FromInt(num1).Append(FString::FromInt(num2));
+		num = *Array[1];
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *num);
 
 		if (num == "00") {
@@ -288,7 +289,7 @@ void AMyActor::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* 
 		}
 		else if (num == "60") {
 			UE_LOG(LogTemp, Warning, TEXT("callback complete"));
-			MineWidget->Button01Callback();
+			MineWidget->Button60Callback();
 			MineWidget->BT_60->SetColorAndOpacity(FLinearColor::Red);
 		}
 		else if (num == "61") {
