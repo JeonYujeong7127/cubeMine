@@ -461,11 +461,34 @@ void AMainCharacter::DecrementHealth(float Amount)
 void AMainCharacter::IncrementKeys(int32 Amount)
 {
 	Keys += Amount;
+	if (Keys == 3) {
+		FStringClassReference MyWidgetClassRef(TEXT("WidgetBlueprint'/Game/WB/Escape.Escape_C'"));
+		if (UClass* MyWidgetClass = MyWidgetClassRef.TryLoadClass<UUserWidget>())
+		{
+			UUserWidget* MyWidget = CreateWidget<UUserWidget>(GetWorld(), MyWidgetClass);
+
+			MyWidget->SetVisibility(ESlateVisibility::Visible);
+			MyWidget->AddToViewport();
+
+			APlayerController* PC = Cast<AMainPlayerController>(GetController());
+			PC->bShowMouseCursor = true;
+		}
+	}
 }
 
 void AMainCharacter::Die()
 {
+	FStringClassReference MyWidgetClassRef(TEXT("WidgetBlueprint'/Game/WB/GameOver.GameOver_C'"));
+	if (UClass* MyWidgetClass = MyWidgetClassRef.TryLoadClass<UUserWidget>())
+	{
+		UUserWidget* MyWidget = CreateWidget<UUserWidget>(GetWorld(), MyWidgetClass);
 
+		MyWidget->SetVisibility(ESlateVisibility::Visible);
+		MyWidget->AddToViewport();
+
+		APlayerController* PC = Cast<AMainPlayerController>(GetController());
+		PC->bShowMouseCursor = true;
+	}
 }
 
 void AMainCharacter::showCursor()

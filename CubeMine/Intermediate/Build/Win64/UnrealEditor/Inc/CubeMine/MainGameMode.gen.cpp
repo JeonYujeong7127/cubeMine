@@ -11,7 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeMainGameMode() {}
 // Cross Module References
 	CUBEMINE_API UClass* Z_Construct_UClass_AMainGameMode_NoRegister();
 	CUBEMINE_API UClass* Z_Construct_UClass_AMainGameMode();
-	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API UClass* Z_Construct_UClass_AGameMode();
 	UPackage* Z_Construct_UPackage__Script_CubeMine();
 // End Cross Module References
 	void AMainGameMode::StaticRegisterNativesAMainGameMode()
@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeMainGameMode() {}
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AMainGameMode_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
+		(UObject* (*)())Z_Construct_UClass_AGameMode,
 		(UObject* (*)())Z_Construct_UPackage__Script_CubeMine,
 	};
 #if WITH_METADATA
@@ -80,9 +80,9 @@ void EmptyLinkFunctionForGeneratedCodeMainGameMode() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMainGameMode, AMainGameMode::StaticClass, TEXT("AMainGameMode"), &Z_Registration_Info_UClass_AMainGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainGameMode), 2407457642U) },
+		{ Z_Construct_UClass_AMainGameMode, AMainGameMode::StaticClass, TEXT("AMainGameMode"), &Z_Registration_Info_UClass_AMainGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainGameMode), 300602442U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainGameMode_h_1537703955(TEXT("/Script/CubeMine"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainGameMode_h_2975937334(TEXT("/Script/CubeMine"),
 		Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CubeMine_Source_CubeMine_MainGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

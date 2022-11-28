@@ -3,14 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
+//#include "GameFramework/GameModeBase.h"
+#include "GameFramework/GameMode.h"
 #include "MainGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CUBEMINE_API AMainGameMode : public AGameModeBase
+class CUBEMINE_API AMainGameMode : public AGameMode
 {
 	GENERATED_BODY()
 public:
