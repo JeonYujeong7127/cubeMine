@@ -10,6 +10,7 @@
 #include "PickUp.h"
 #include "Weapon.h"
 #include "Kismet/GameplayStatics.h"
+#include "Engine/EngineTypes.h"
 #include "MainCharacter.generated.h"
 
 UENUM(BlueprintType)
@@ -59,6 +60,7 @@ public:
 	float InterpSpeed;
 	bool bInterpToEnemy;
 	void SetInterpToEnemy(bool Interp);
+	FHitResult HitResult;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	class AAAI_Character* CombatTarget;

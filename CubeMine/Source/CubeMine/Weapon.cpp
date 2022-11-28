@@ -22,7 +22,7 @@ AWeapon::AWeapon()
 	
 	WeaponState = EWeaponState::EWS_Pickup;
 
-	Damage = 25.f;
+	Damage = 40.f;
 
 }
 
@@ -111,6 +111,8 @@ void  AWeapon::CombatOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 				{
 					FVector SocketLocation = WeaponSocket->GetSocketLocation(SkeletalMesh);
 					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Enemy->HitParticles, GetActorLocation(), FRotator(0.f), false);
+					Enemy->AI_DecrementHealth(Damage);
+					
 				}
 
 			}
