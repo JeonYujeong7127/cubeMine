@@ -71,7 +71,7 @@ AMainCharacter::AMainCharacter()
 	Health = 65.f;
 	MaxStamina = 150.f;
 	Stamina = 120.f;
-	Keys = 0;
+	Keys = 2;
 
 	RunningSpeed = 400.f;
 	SprintingSpeed = 650.f;
@@ -481,6 +481,7 @@ void AMainCharacter::Die()
 	FStringClassReference MyWidgetClassRef(TEXT("WidgetBlueprint'/Game/WB/GameOver.GameOver_C'"));
 	if (UClass* MyWidgetClass = MyWidgetClassRef.TryLoadClass<UUserWidget>())
 	{
+		
 		UUserWidget* MyWidget = CreateWidget<UUserWidget>(GetWorld(), MyWidgetClass);
 
 		MyWidget->SetVisibility(ESlateVisibility::Visible);
