@@ -2,10 +2,12 @@
 
 
 #include "PickUp.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "MainCharacter.h"
 
 APickUp::APickUp()
 {
+	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	KeyCount = 1;
 }
 
@@ -21,7 +23,11 @@ void APickUp::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* O
 		if (Main)
 		{
 			Main->IncrementKeys(KeyCount);
+			
+			SkeletalMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
+			SkeletalMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 
+			SkeletalMesh->SetSimulatePhysics(true);
 			Destroy();
 		}
 	}

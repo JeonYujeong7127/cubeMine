@@ -122,9 +122,9 @@ void AAAI_Character::AI_DecrementHealth(float Amount)
 	CE_AdaptToHelatBarWidget(AIHealth);
 }
 
-void AAAI_Character::CE_AdaptToHelatBarWidget_Implementation(float newHealth)
-{
-}
+//void AAAI_Character::CE_AdaptToHelatBarWidget_Implementation(float newHealth)
+//{
+//}
 
 // Called every frame
 void AAAI_Character::Tick(float DeltaTime)
