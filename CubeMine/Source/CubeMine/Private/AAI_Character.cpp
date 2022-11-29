@@ -87,11 +87,8 @@ void AAAI_Character::CheckAttackDamage()
 			//DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
 			//UE_LOG(LogTemp, Warning, TEXT("Actor Name : %s"), *HitResult.GetActor()->GetName());
 			if (OtherActor!=nullptr) {
-				if (OtherActor->CombatTarget == this)
-				{
-					OtherActor->SetCombatTarget(nullptr);
-				}
 				
+				OtherActor->SetCombatTarget(this);
 				OtherActor->DecrementHealth(10);
 			}
 		}
