@@ -39,8 +39,9 @@ void AAAI_Character::BeginPlay()
 void AAAI_Character::Attack()
 {
 	IsAttack = true;
-	IsWaiting = true;
+	//IsWaiting = true;
 
+	/*
 	GetWorld()->GetTimerManager().SetTimer(AttackHandle, FTimerDelegate::CreateLambda([&]()
 		{
 			IsWaiting = false;
@@ -50,7 +51,7 @@ void AAAI_Character::Attack()
 				GetWorld()->GetTimerManager().ClearTimer(AttackHandle);
 			}
 		}), 1.5f, true);
-
+		*/
 }
 
 void AAAI_Character::CheckAttackDamage()
@@ -66,8 +67,6 @@ void AAAI_Character::CheckAttackDamage()
 		ECollisionChannel::ECC_GameTraceChannel1,
 		FCollisionShape::MakeSphere(50.0f),
 		Params);
-
-	
 
 	if (bResult)
 	{
@@ -99,9 +98,16 @@ void AAAI_Character::CheckAttackDamage()
 		else {
 			OtherActor->SetCombatTarget(nullptr);
 		}
-	
 	}
+	
+}
 
+void AAAI_Character::EndAttack()
+{
+	if (!IsInside) {
+		IsAttack = false;
+		OnAttackEnd.Broadcast();
+	}
 }
 
 void AAAI_Character::AI_DecrementHealth(float Amount)
@@ -109,11 +115,15 @@ void AAAI_Character::AI_DecrementHealth(float Amount)
 	AIHealth = AIHealth - Amount;
 
 	UE_LOG(LogTemp, Error, TEXT(" Decreament Health!!!"));
-
 	if (AIHealth <= 0.f) {
 		AIHealth = 0.f;
 		DieAI();
 	}
+	CE_AdaptToHelatBarWidget(AIHealth);
+}
+
+void AAAI_Character::CE_AdaptToHelatBarWidget_Implementation(float newHealth)
+{
 }
 
 // Called every frame

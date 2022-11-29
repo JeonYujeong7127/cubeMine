@@ -43,9 +43,15 @@ public:
 		void Attack();
 	UFUNCTION(BlueprintCallable)
 		void CheckAttackDamage();
+	UFUNCTION(BlueprintCallable)
+		void EndAttack();
+
 
 	UFUNCTION()
 		void AI_DecrementHealth(float Amount);
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void CE_AdaptToHelatBarWidget(float newHealth);
 
 	//FOnAttackHitCheckDelegate	OnAttackHitCheck;
 	FOnAttackEndDelegate OnAttackEnd;
